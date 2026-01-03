@@ -1,0 +1,226 @@
+{
+  "seo": {
+    "title": "About InsightExus - Enterprise Software & Digital Transformation",
+    "description": "Learn about InsightExus: our mission, values, team, and commitment to delivering enterprise-grade software solutions and digital transformation.",
+    "keywords": [
+      "about insightexus",
+      "company mission",
+      "team expertise",
+      "enterprise software company",
+      "digital transformation company"
+    ],
+    "canonicalUrl": "https://insightexus.com/about",
+    "openGraph": {
+      "title": "About InsightExus - Enterprise Software Solutions",
+      "description": "Discover our mission, values, and the team behind enterprise-grade solutions.",
+      "image": "/og-images/about/og-about.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "About InsightExus",
+      "description": "Learn about our mission, values, and team.",
+      "image": "/og-images/about/og-about.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "About InsightExus",
+    "subheadline": "Transforming businesses through enterprise software and digital innovation"
+  },
+  "mission": {
+    "visibility": true,
+    "headline": "Our Mission",
+    "description": "We empower enterprises to achieve digital transformation through innovative, scalable, and secure software solutions that drive business value and competitive advantage.",
+    "icon": "🚀"
+  },
+  "vision": {
+    "visibility": true,
+    "headline": "Our Vision",
+    "description": "To be the trusted partner for enterprise digital transformation, known for delivering cutting-edge solutions that solve complex business challenges and create lasting impact.",
+    "icon": "🌟"
+  },
+  "values": {
+    "visibility": true,
+    "headline": "Our Core Values",
+    "items": [
+      {
+        "visibility": true,
+        "title": "Excellence",
+        "description": "We pursue the highest standards in everything we do—from code quality to customer service.",
+        "icon": "⭐"
+      },
+      {
+        "visibility": true,
+        "title": "Innovation",
+        "description": "We stay at the forefront of technology, continuously learning and adopting best practices.",
+        "icon": "💡"
+      },
+      {
+        "visibility": true,
+        "title": "Integrity",
+        "description": "We are transparent, honest, and committed to long-term client relationships built on trust.",
+        "icon": "🤝"
+      },
+      {
+        "visibility": true,
+        "title": "Collaboration",
+        "description": "We work closely with our clients, treating their success as our own.",
+        "icon": "👥"
+      },
+      {
+        "visibility": true,
+        "title": "Scalability",
+        "description": "We build solutions that grow with our clients, adaptable to changing needs.",
+        "icon": "📈"
+      },
+      {
+        "visibility": true,
+        "title": "Security",
+        "description": "We prioritize data protection and enterprise-grade security in every solution.",
+        "icon": "🔒"
+      }
+    ]
+  },
+  "history": {
+    "visibility": true,
+    "headline": "Our Journey",
+    "description": "Founded in 2009, InsightExus has grown from a small team of passionate engineers to a 200+ member organization delivering enterprise solutions globally.",
+    "milestones": [
+      {
+        "visibility": true,
+        "year": "2009",
+        "title": "Founded",
+        "description": "Started with a vision to transform enterprise software development"
+      },
+      {
+        "visibility": true,
+        "year": "2012",
+        "title": "First 50 Clients",
+        "description": "Expanded across fintech, e-commerce, and healthcare sectors"
+      },
+      {
+        "visibility": true,
+        "year": "2016",
+        "title": "SOC 2 Certified",
+        "description": "Achieved enterprise security and compliance certifications"
+      },
+      {
+        "visibility": true,
+        "year": "2019",
+        "title": "100 Team Members",
+        "description": "Scaled to 100+ engineers across multiple offices"
+      },
+      {
+        "visibility": true,
+        "year": "2023",
+        "title": "50+ Projects",
+        "description": "Delivered 50+ transformational projects generating $500M+ in client value"
+      },
+      {
+        "visibility": true,
+        "year": "2024",
+        "title": "Global Leader",
+        "description": "Recognized as thought leader in enterprise digital transformation"
+      }
+    ]
+  },
+  "team": {
+    "visibility": true,
+    "headline": "Meet Our Team",
+    "description": "200+ talented professionals united by passion for building exceptional software.",
+    "stats": [
+      {
+        "number": "200+",
+        "label": "Team Members",
+        "description": "Engineers, architects, designers, and strategists"
+      },
+      {
+        "number": "50+",
+        "label": "Projects",
+        "description": "Successful transformations across industries"
+      },
+      {
+        "number": "15+",
+        "label": "Years",
+        "description": "Of combined enterprise experience"
+      },
+      {
+        "number": "98%",
+        "label": "Retention",
+        "description": "Industry-leading team retention rate"
+      }
+    ],
+    "highlights": [
+      {
+        "visibility": true,
+        "title": "Diverse Expertise",
+        "description": "Full-stack engineers, cloud architects, security specialists, and UX designers"
+      },
+      {
+        "visibility": true,
+        "title": "Continuous Learning",
+        "description": "$5K/year learning budget per employee, conferences, and certifications"
+      },
+      {
+        "visibility": true,
+        "title": "Remote Flexibility",
+        "description": "Remote-first culture with offices in key tech hubs worldwide"
+      },
+      {
+        "visibility": true,
+        "title": "Inclusive Culture",
+        "description": "Diverse team from 25+ countries, committed to equity and inclusion"
+      }
+    ]
+  },
+  "expertise": {
+    "visibility": true,
+    "headline": "Our Expertise by the Numbers",
+    "areas": [
+      {
+        "title": "Frontend Development",
+        "count": "50+",
+        "unit": "React/Next.js projects"
+      },
+      {
+        "title": "Backend Systems",
+        "count": "40+",
+        "unit": "Node.js/Python microservices"
+      },
+      {
+        "title": "Cloud Infrastructure",
+        "count": "35+",
+        "unit": "AWS/GCP deployments"
+      },
+      {
+        "title": "Mobile Development",
+        "count": "25+",
+        "unit": "React Native/native apps"
+      },
+      {
+        "title": "Security & Compliance",
+        "count": "30+",
+        "unit": "Secure implementations"
+      },
+      {
+        "title": "DevOps & CI/CD",
+        "count": "45+",
+        "unit": "Production deployments"
+      }
+    ]
+  },
+  "cta": {
+    "visibility": true,
+    "headline": "Ready to Work With Us?",
+    "description": "Let's discuss how we can help transform your business.",
+    "primaryCta": {
+      "text": "Schedule a Consultation",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "text": "View Our Work",
+      "href": "/projects"
+    }
+  }
+}

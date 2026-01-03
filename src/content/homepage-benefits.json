@@ -1,0 +1,87 @@
+{
+  "whyChooseUs": {
+    "visibility": true,
+    "headline": "Why Choose InsightExus",
+    "subheadline": "Proven expertise, proven results, proven partnership"
+  },
+  "stats": [
+    {
+      "visibility": true,
+      "value": "10+",
+      "label": "Years Experience",
+      "description": "Building enterprise solutions since 2014",
+      "icon": "Zap"
+    },
+    {
+      "visibility": true,
+      "value": "500+",
+      "label": "Projects Delivered",
+      "description": "Successful implementations across industries",
+      "icon": "Layers"
+    },
+    {
+      "visibility": true,
+      "value": "98%",
+      "label": "Client Satisfaction",
+      "description": "Committed to exceeding expectations",
+      "icon": "Shield"
+    },
+    {
+      "visibility": true,
+      "value": "25+",
+      "label": "Expert Engineers",
+      "description": "Full-stack architects and developers",
+      "icon": "Code"
+    }
+  ],
+  "benefits": [
+    {
+      "visibility": true,
+      "title": "Enterprise-Grade Quality",
+      "description": "We don't cut corners. Every line of code is architected for scale, security, and performance. Our solutions are built to last.",
+      "icon": "Cpu",
+      "highlights": [
+        "Zero-downtime deployments",
+        "99.98%+ uptime SLA",
+        "Enterprise-grade security",
+        "ISO 27001 compliant"
+      ]
+    },
+    {
+      "visibility": true,
+      "title": "Technology Leadership",
+      "description": "Stay ahead with cutting-edge tech. We leverage the latest frameworks and cloud platforms while maintaining backward compatibility.",
+      "icon": "Zap",
+      "highlights": [
+        "Modern tech stack",
+        "AI/ML integration ready",
+        "Cloud-native architecture",
+        "Real-time capabilities"
+      ]
+    },
+    {
+      "visibility": true,
+      "title": "Strategic Partnership",
+      "description": "We're invested in your success. Our transparent collaboration, regular communication, and ownership mentality ensure alignment at every milestone.",
+      "icon": "Layers",
+      "highlights": [
+        "Transparent communication",
+        "Regular strategy reviews",
+        "Proactive problem-solving",
+        "Long-term partnership focus"
+      ]
+    },
+    {
+      "visibility": true,
+      "title": "Rapid Time-to-Market",
+      "description": "Move fast without sacrificing quality. Our agile methodology and proven processes accelerate delivery while maintaining excellence.",
+      "icon": "ArrowRight",
+      "highlights": [
+        "2-week sprint cycles",
+        "CI/CD pipeline ready",
+        "Automated testing",
+        "Demo-driven development"
+      ]
+    }
+  ]
+}

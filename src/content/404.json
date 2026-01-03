@@ -1,0 +1,40 @@
+{
+  "seo": {
+    "title": "Page Not Found - InsightExus",
+    "description": "The page you’re looking for doesn’t exist or has moved.",
+    "canonicalUrl": "https://insightexus.com/404",
+    "openGraph": {
+      "title": "Page Not Found - InsightExus",
+      "description": "The page you’re looking for doesn’t exist or has moved.",
+      "image": "/og-images/system/404.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Page Not Found - InsightExus",
+      "description": "The page you’re looking for doesn’t exist or has moved.",
+      "image": "/twitter-images/system/404.png"
+    }
+  },
+  "hero": {
+    "headline": "Oops, page not found.",
+    "subheadline": "The page you’re looking for doesn’t exist or has been moved.",
+    "ctaPrimary": { "text": "Go Home", "href": "/" },
+    "ctaSecondary": { "text": "Contact Support", "href": "/contact" }
+  },
+  "suggestions": {
+    "title": "Quick Links",
+    "links": [
+      { "text": "Home", "href": "/" },
+      { "text": "Services", "href": "/services" },
+      { "text": "Projects", "href": "/projects" },
+      { "text": "Contact", "href": "/contact" },
+      { "text": "FAQ", "href": "/faq" }
+    ]
+  },
+  "support": {
+    "title": "Need help?",
+    "description": "If you think this is an error, let us know and we’ll assist you.",
+    "email": "admin@insightexus.com"
+  }
+}

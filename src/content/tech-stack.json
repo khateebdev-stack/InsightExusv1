@@ -1,0 +1,93 @@
+{
+  "techStack": {
+    "visibility": true,
+    "headline": "Our Technology Stack",
+    "subheadline": "Modern, proven, and production-ready technologies"
+  },
+  "categories": [
+    {
+      "visibility": true,
+      "category": "Frontend",
+      "icon": "Code",
+      "description": "Modern UI frameworks for exceptional user experiences",
+      "technologies": [
+        { "name": "React", "icon": "⚛️" },
+        { "name": "Next.js", "icon": "▲" },
+        { "name": "TypeScript", "icon": "Ts" },
+        { "name": "Tailwind CSS", "icon": "🎨" },
+        { "name": "Framer Motion", "icon": "✨" },
+        { "name": "Redux", "icon": "⚙️" }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Backend & API",
+      "icon": "Layers",
+      "description": "Scalable server-side solutions and APIs",
+      "technologies": [
+        { "name": "Node.js", "icon": "⚡" },
+        { "name": "Express.js", "icon": "📦" },
+        { "name": "NestJS", "icon": "🏗️" },
+        { "name": "GraphQL", "icon": "📡" },
+        { "name": "REST API", "icon": "🔌" },
+        { "name": "Python", "icon": "🐍" }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Databases & Cache",
+      "icon": "Shield",
+      "description": "Data persistence and performance optimization",
+      "technologies": [
+        { "name": "PostgreSQL", "icon": "🗄️" },
+        { "name": "MongoDB", "icon": "🍃" },
+        { "name": "Redis", "icon": "🚀" },
+        { "name": "DynamoDB", "icon": "☁️" },
+        { "name": "Firebase", "icon": "🔥" },
+        { "name": "Elasticsearch", "icon": "🔍" }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Cloud & DevOps",
+      "icon": "Cpu",
+      "description": "Infrastructure, deployment, and CI/CD pipelines",
+      "technologies": [
+        { "name": "AWS", "icon": "☁️" },
+        { "name": "Google Cloud", "icon": "🌐" },
+        { "name": "Docker", "icon": "🐳" },
+        { "name": "Kubernetes", "icon": "⛵" },
+        { "name": "GitHub Actions", "icon": "⚙️" },
+        { "name": "Terraform", "icon": "🏗️" }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "AI & ML",
+      "icon": "Zap",
+      "description": "Machine learning and AI-powered solutions",
+      "technologies": [
+        { "name": "TensorFlow", "icon": "🧠" },
+        { "name": "Python ML", "icon": "📊" },
+        { "name": "OpenAI API", "icon": "🤖" },
+        { "name": "LangChain", "icon": "🔗" },
+        { "name": "Scikit-learn", "icon": "📈" },
+        { "name": "PyTorch", "icon": "🔥" }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Testing & QA",
+      "icon": "Shield",
+      "description": "Quality assurance and automated testing",
+      "technologies": [
+        { "name": "Jest", "icon": "✅" },
+        { "name": "Cypress", "icon": "🌳" },
+        { "name": "Playwright", "icon": "🎭" },
+        { "name": "Vitest", "icon": "⚡" },
+        { "name": "SonarQube", "icon": "🔍" },
+        { "name": "Sentry", "icon": "🚨" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "visible": true,
+    "badge": {
+      "visible": true,
+      "text": "Enterprise-Grade Engineering"
+    },
+    "typewriterStatements": {
+      "visible": true,
+      "statements": [
+        "Engineering Scalable Digital Systems",
+        "From Idea to Enterprise-Grade Execution",
+        "Architecting Web, Mobile, Cloud & AI Solutions"
+      ],
+      "intervalMs": 5000
+    },
+    "description": {
+      "visible": true,
+      "text": "A professional technology partner for startups and enterprises. We build high-performance systems that scale with your ambition."
+    },
+    "buttons": {
+      "visible": true,
+      "primary": {
+        "visible": true,
+        "label": "Start a Project",
+        "link": "/contact",
+        "icon": "ArrowRight"
+      },
+      "secondary": {
+        "visible": true,
+        "label": "Explore Services",
+        "link": "/services"
+      }
+    },
+    "trustSignals": {
+      "visible": true,
+      "items": [
+        {
+          "visible": true,
+          "icon": "Shield",
+          "iconColor": "text-cyan-500",
+          "text": "Enterprise Security"
+        },
+        {
+          "visible": true,
+          "icon": "Zap",
+          "iconColor": "text-purple-500",
+          "text": "High Performance"
+        },
+        {
+          "visible": true,
+          "icon": "Layers",
+          "iconColor": "text-blue-500",
+          "text": "Scalable Architecture"
+        }
+      ]
+    },
+    "floatingCards": {
+      "visible": true,
+      "card1": {
+        "visible": true,
+        "icon": "Code",
+        "iconColor": "text-cyan-400",
+        "iconBg": "bg-cyan-500/20",
+        "content": {
+          "visible": true,
+          "title": "Rapid Prototyping",
+          "subtitle": "Idea → MVP",
+          "bullets": [
+            { "visible": true, "text": "Clickable mockups in days" },
+            { "visible": true, "text": "User feedback loop" },
+            { "visible": true, "text": "Tech validation" }
+          ],
+          "cta": {
+            "visible": true,
+            "label": "Prototype with us",
+            "link": "/contact?service=web-development&message=prototype"
+          }
+        }
+      },
+      "card2": {
+        "visible": true,
+        "icon": "Cpu",
+        "iconColor": "text-purple-400",
+        "iconBg": "bg-purple-500/20",
+        "content": {
+          "visible": true,
+          "title": "Performance Boost",
+          "subtitle": "From 2.3s → 0.9s",
+          "metrics": [
+            { "visible": true, "label": "TTFB", "value": "120ms" },
+            { "visible": true, "label": "CLS", "value": "0.02" },
+            { "visible": true, "label": "LCP", "value": "1.1s" }
+          ],
+          "cta": {
+            "visible": true,
+            "label": "Optimize my app",
+            "link": "/contact?service=web-development&message=optimize"
+          }
+        }
+      }
+    }
+  }
+}

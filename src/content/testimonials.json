@@ -1,0 +1,161 @@
+{
+  "seo": {
+    "title": "Client Testimonials & Success Stories - InsightExus",
+    "description": "Hear from our clients about their experience working with InsightExus. See the impact of our enterprise software solutions.",
+    "keywords": [
+      "client testimonials",
+      "success stories",
+      "client reviews",
+      "customer feedback",
+      "case studies"
+    ],
+    "canonicalUrl": "https://insightexus.com/testimonials",
+    "openGraph": {
+      "title": "Client Testimonials - InsightExus",
+      "description": "Success stories from our satisfied clients across industries.",
+      "image": "/og-images/testimonials/og-testimonials.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Client Testimonials - InsightExus",
+      "description": "Success stories from our satisfied clients.",
+      "image": "/twitter-images/testimonials/og-testimonials.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "What Our Clients Say",
+    "subheadline": "Trusted by industry leaders and innovative startups worldwide"
+  },
+  "stats": {
+    "visibility": true,
+    "items": [
+      {
+        "number": "4.9",
+        "unit": "/ 5.0",
+        "label": "Average Rating"
+      },
+      {
+        "number": "500+",
+        "label": "Happy Clients"
+      },
+      {
+        "number": "50+",
+        "label": "Projects Delivered"
+      },
+      {
+        "number": "98%",
+        "label": "Satisfaction Rate"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "visibility": true,
+      "slug": "payflow-cto",
+      "quote": "InsightExus transformed our aging monolith into a modern, scalable platform. We went from 1 deployment per month to 10+ per week. Their team was surgical and effective—delivered on time, under budget, with exceptional quality.",
+      "author": "Sarah Chen",
+      "role": "Chief Technology Officer",
+      "company": "PayFlow",
+      "industry": "FinTech",
+      "image": "/images/testimonials/sarah-chen.jpg",
+      "rating": 5,
+      "result": "10+ weekly deployments, 80% faster load times, 4.7★ rating",
+      "featured": true
+    },
+    {
+      "visibility": true,
+      "slug": "techstartup-founder",
+      "quote": "We needed to scale from 10K to 1M users while maintaining 99.9% uptime. InsightExus designed an event-driven architecture that handled the growth seamlessly. We exceeded our performance goals and saved 60% on infrastructure costs.",
+      "author": "Michael Rodriguez",
+      "role": "Founder & CEO",
+      "company": "TechStartup Inc",
+      "industry": "SaaS",
+      "image": "/images/testimonials/michael-rodriguez.jpg",
+      "rating": 5,
+      "result": "1M+ users, 99.98% uptime, 60% cost savings",
+      "featured": true
+    },
+    {
+      "visibility": true,
+      "slug": "healthtech-director",
+      "quote": "Building a HIPAA-compliant telehealth platform is complex. InsightExus understood the regulatory landscape and delivered a solution that's secure, user-friendly, and production-ready. Outstanding team and support.",
+      "author": "Dr. Jennifer Kumar",
+      "role": "Director of Product",
+      "company": "HealthTech Solutions",
+      "industry": "Healthcare",
+      "image": "/images/testimonials/jennifer-kumar.jpg",
+      "rating": 5,
+      "result": "HIPAA-compliant platform, sub-100ms latency, 50K+ daily users",
+      "featured": true
+    },
+    {
+      "visibility": true,
+      "slug": "ecommerce-vp",
+      "quote": "Our conversion rate increased by 45% after the redesign. InsightExus combined stunning design with performance optimization. The checkout flow is now buttery smooth, and our customers notice.",
+      "author": "David Thompson",
+      "role": "VP of E-Commerce",
+      "company": "RetailHub",
+      "industry": "E-Commerce",
+      "image": "/images/testimonials/david-thompson.jpg",
+      "rating": 5,
+      "result": "45% conversion increase, 50% fewer cart abandons, $2M+ incremental revenue",
+      "featured": false
+    },
+    {
+      "visibility": true,
+      "slug": "logistics-ceo",
+      "quote": "Real-time logistics tracking was a game-changer for our operations. InsightExus built us a custom platform that integrates with our fleet, customers, and accounting systems. ROI in under 6 months.",
+      "author": "James Wilson",
+      "role": "CEO",
+      "company": "LogisticsPro",
+      "industry": "Logistics",
+      "image": "/images/testimonials/james-wilson.jpg",
+      "rating": 4.8,
+      "result": "Real-time tracking, 30% efficiency gain, 6-month ROI",
+      "featured": false
+    },
+    {
+      "visibility": true,
+      "slug": "fintech-product",
+      "quote": "InsightExus teams were instrumental in our Series B fundraise. They rebuilt our infrastructure to impress enterprise customers—now we're trusted by 50+ institutional clients.",
+      "author": "Priya Patel",
+      "role": "VP of Product",
+      "company": "InvestmentHub",
+      "industry": "FinTech",
+      "image": "/images/testimonials/priya-patel.jpg",
+      "rating": 5,
+      "result": "50+ institutional clients, $20M+ AUM, Series B success",
+      "featured": false
+    }
+  ],
+  "videoTestimonials": {
+    "visibility": false,
+    "headline": "Video Success Stories",
+    "description": "Hear directly from our clients",
+    "items": []
+  },
+  "caseLinkSection": {
+    "visibility": true,
+    "headline": "In-Depth Case Studies",
+    "description": "Explore detailed breakdowns of how we solved specific challenges",
+    "cta": {
+      "text": "View All Case Studies",
+      "href": "/projects"
+    }
+  },
+  "cta": {
+    "visibility": true,
+    "headline": "Ready to Be Our Next Success Story?",
+    "description": "Let's discuss how we can help transform your business.",
+    "primaryCta": {
+      "text": "Schedule a Consultation",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "text": "View Our Work",
+      "href": "/projects"
+    }
+  }
+}

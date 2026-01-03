@@ -1,0 +1,94 @@
+{
+  "navbar": [
+    {
+      "name": "Services",
+      "path": "/services",
+      "visible": true
+    },
+    {
+      "name": "Solutions",
+      "path": "/solutions",
+      "visible": true
+    },
+    {
+      "name": "Architecture",
+      "path": "/architecture",
+      "visible": true
+    },
+    {
+      "name": "Work",
+      "path": "/portfolio",
+      "visible": true
+    },
+    {
+      "name": "Company",
+      "path": "/about",
+      "visible": true
+    }
+  ],
+  "header": {
+    "themeToggle": true,
+    "contactButton": {
+      "visible": false,
+      "label": "Contact Us",
+      "path": "/contact",
+      "variant": "glass"
+    },
+    "hireButton": {
+      "visible": false,
+      "label": "Hire Us",
+      "path": "/recruiters",
+      "variant": "primary"
+    }
+  },
+  "footer": {
+    "Company": [
+      {
+        "name": "About Us",
+        "path": "/about",
+        "visible": true
+      },
+      {
+        "name": "Portfolio",
+        "path": "/portfolio",
+        "visible": true
+      },
+      {
+        "name": "Case Studies",
+        "path": "/case-studies",
+        "visible": true
+      },
+      {
+        "name": "Blog",
+        "path": "/blog",
+        "visible": true
+      },
+      {
+        "name": "Contact",
+        "path": "/contact",
+        "visible": true
+      }
+    ],
+    "Connect": [
+      {
+        "name": "For Recruiters",
+        "path": "/recruiters",
+        "visible": false
+      },
+      {
+        "name": "Partnership",
+        "path": "/contact",
+        "visible": true
+      },
+      {
+        "name": "Investors",
+        "path": "/contact",
+        "visible": false
+      }
+    ]
+  },
+  "logo": {
+    "path": "/logo2.png",
+    "alt": "Insightexus Logo"
+  }
+}

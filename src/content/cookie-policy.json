@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "title": "Cookie Policy - InsightExus",
+    "description": "Understand how InsightExus uses cookies and how you can manage your preferences.",
+    "canonicalUrl": "https://insightexus.com/cookie-policy",
+    "openGraph": {
+      "title": "Cookie Policy - InsightExus",
+      "description": "How we use cookies and how you can control them.",
+      "image": "/og-images/legal/cookies.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Cookie Policy - InsightExus",
+      "description": "How we use cookies and how you can control them.",
+      "image": "/twitter-images/legal/cookies.png"
+    }
+  },
+  "hero": {
+    "headline": "Cookie Policy",
+    "subheadline": "How we use cookies and how you can control your preferences.",
+    "updatedOn": "2026-01-03"
+  },
+  "sections": [
+    {
+      "title": "What Are Cookies?",
+      "body": "Cookies are small text files stored on your device to help websites function, improve performance, and personalize experiences."
+    },
+    {
+      "title": "Types of Cookies We Use",
+      "items": [
+        "Essential: Required for core functionality and security",
+        "Performance/Analytics: Understand usage to improve the site",
+        "Functional: Remember preferences and settings",
+        "Marketing: Measure campaign effectiveness (only with consent)"
+      ]
+    },
+    {
+      "title": "How We Use Cookies",
+      "items": [
+        "Maintain secure sessions",
+        "Analyze traffic and performance",
+        "Remember preferences (language, theme)",
+        "Support marketing and remarketing (with consent)"
+      ]
+    },
+    {
+      "title": "Your Choices",
+      "items": [
+        "Manage preferences via the cookie banner",
+        "Disable cookies in browser settings (may affect functionality)",
+        "Opt out of analytics/marketing where offered"
+      ]
+    },
+    {
+      "title": "Third-Party Cookies",
+      "body": "Some cookies are set by third parties (e.g., analytics, embedded content). Their policies apply to their cookies."
+    },
+    {
+      "title": "Retention",
+      "body": "Cookie lifetimes vary by type and purpose. Session cookies expire when you close the browser; persistent cookies last longer."
+    },
+    {
+      "title": "Updates",
+      "body": "We may update this Cookie Policy. The 'Updated On' date reflects the latest version."
+    },
+    {
+      "title": "Contact",
+      "body": "Questions about cookies? Email privacy@insightexus.com."
+    }
+  ]
+}

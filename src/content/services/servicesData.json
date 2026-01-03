@@ -1,0 +1,1485 @@
+{
+  "services": [
+    { "visiblity": true,
+      "slug": "web-development",
+      "title": "Web Development",
+      "subtitle": "Modern, scalable web applications that drive results",
+      "icon": "Code",
+      "iconColor": "text-cyan-400",
+      "description": "We build high-performance, responsive web applications using the latest technologies and best practices. From concept to deployment, we ensure your product is built for scale, speed, and user experience.",
+      "shortDescription": "Modern, responsive, and performant web applications using React, Next.js, and TypeScript.",
+      "features": [
+        "Single Page Applications",
+        "Progressive Web Apps",
+        "Enterprise Dashboards",
+        "E-commerce Platforms"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "sections": {
+        "hero": {
+          "visible": true,
+          "title": "Web Development",
+          "subtitle": "Modern, scalable web applications that drive results",
+          "primaryCTA": {
+            "text": "Schedule Consultation",
+            "link": "/contact"
+          },
+          "secondaryCTA": {
+            "text": "Get a Quote",
+            "link": "/contact"
+          }
+        },
+        "highlights": {
+          "visible": true,
+          "title": "Why Choose Our Web Development?",
+          "items": [
+            {
+              "title": "Performance Optimized",
+              "description": "Lighthouse scores >90, optimized bundle sizes, fast TTFB",
+              "icon": "Zap"
+            },
+            {
+              "title": "SEO Ready",
+              "description": "Server-side rendering, structured data, canonical tags",
+              "icon": "TrendingUp"
+            },
+            {
+              "title": "Accessibility First",
+              "description": "WCAG 2.1 AA compliant, inclusive design practices",
+              "icon": "Eye"
+            },
+            {
+              "title": "Scalable Architecture",
+              "description": "Microservices-ready, event-driven, cloud-native",
+              "icon": "Layers"
+            }
+          ]
+        },
+        "techStack": {
+          "visible": true,
+          "title": "Technology Stack"
+        },
+        "process": {
+          "visible": true,
+          "title": "Our Development Process",
+          "steps": [
+            {
+              "icon": "📋",
+              "title": "Discover",
+              "description": "Understand your vision, goals, and audience."
+            },
+            {
+              "icon": "🎨",
+              "title": "Design",
+              "description": "Create beautiful, functional user experiences."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Build",
+              "description": "Develop with clean, maintainable code."
+            },
+            {
+              "icon": "✅",
+              "title": "Test",
+              "description": "Rigorous QA and performance testing."
+            },
+            {
+              "icon": "🚀",
+              "title": "Deploy",
+              "description": "Seamless launch with monitoring in place."
+            },
+            {
+              "icon": "📈",
+              "title": "Optimize",
+              "description": "Continuous improvement based on metrics."
+            }
+          ]
+        },
+        "pricing": {
+          "visible": true,
+          "title": "Transparent Pricing",
+          "tiers": [
+            {
+              "name": "MVP / Prototype",
+              "price": "$25K - $50K",
+              "timeline": "6-8 weeks",
+              "highlighted": false,
+              "features": [
+                "Up to 5 core features",
+                "Single platform (web)",
+                "Basic authentication",
+                "Responsive design",
+                "Cloud hosting",
+                "Email support"
+              ]
+            },
+            {
+              "name": "Growth Product",
+              "price": "$50K - $150K",
+              "timeline": "10-16 weeks",
+              "highlighted": true,
+              "badge": "Most Popular",
+              "features": [
+                "10-20 features",
+                "Web + mobile ready",
+                "Advanced authentication",
+                "Analytics integration",
+                "API development",
+                "Database design",
+                "Priority support"
+              ]
+            },
+            {
+              "name": "Enterprise Solution",
+              "price": "$150K+",
+              "timeline": "16+ weeks",
+              "highlighted": false,
+              "features": [
+                "Unlimited features",
+                "Multi-platform",
+                "SSO/OAuth integration",
+                "Advanced security",
+                "Performance optimization",
+                "Dedicated DevOps",
+                "SLA & support"
+              ]
+            }
+          ]
+        },
+        "timeline": {
+          "visible": true,
+          "title": "Project Timeline",
+          "phases": [
+            {
+              "name": "Discovery & Planning",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "Requirements gathering",
+                "Architecture planning",
+                "Design system definition"
+              ]
+            },
+            {
+              "name": "Design & Prototyping",
+              "duration": "2-3 weeks",
+              "tasks": [
+                "UI/UX design",
+                "Interactive prototypes",
+                "User testing"
+              ]
+            },
+            {
+              "name": "Development",
+              "duration": "4-8 weeks",
+              "tasks": [
+                "Component development",
+                "API integration",
+                "Testing & QA"
+              ]
+            },
+            {
+              "name": "Launch & Optimization",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "Deployment",
+                "Monitoring setup",
+                "Performance tuning"
+              ]
+            }
+          ]
+        },
+        "testimonial": {
+          "visible": true,
+          "quote": "Their team transformed our legacy system into a modern, performant application. Delivered on time, under budget, with exceptional quality.",
+          "author": "Sarah Chen",
+          "role": "CTO",
+          "company": "PayFlow",
+          "rating": 5
+        },
+        "faq": {
+          "visible": true,
+          "title": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "How long does a typical project take?",
+              "answer": "Most projects range from 6-16 weeks depending on scope. We provide detailed timelines after discovery."
+            },
+            {
+              "question": "Do you handle ongoing maintenance?",
+              "answer": "Yes, we offer flexible support packages including updates, bug fixes, and feature enhancements."
+            },
+            {
+              "question": "Can you integrate with our existing systems?",
+              "answer": "Absolutely. We specialize in integrating with legacy systems, databases, and third-party APIs."
+            },
+            {
+              "question": "What if requirements change mid-project?",
+              "answer": "We use agile methodology, allowing flexible scope adjustments with transparent communication."
+            },
+            {
+              "question": "Do you provide source code?",
+              "answer": "Yes, you receive full source code, documentation, and IP ownership upon project completion."
+            }
+          ]
+        },
+        "cta": {
+          "visible": true,
+          "title": "Ready to Start Your Project?",
+          "description": "Let's discuss how this service can accelerate your business goals.",
+          "primaryButton": {
+            "text": "Schedule Call",
+            "link": "/contact"
+          },
+          "secondaryButton": {
+            "text": "View Portfolio",
+            "link": "/portfolio"
+          }
+        }
+      }
+    },
+    {
+ "visiblity": true,
+      "slug": "mobile-app-development",
+      "title": "Mobile App Development",
+      "subtitle": "Native and cross-platform mobile solutions",
+      "icon": "Smartphone",
+      "iconColor": "text-purple-400",
+      "description": "Build powerful, user-friendly mobile applications that work seamlessly across iOS and Android. We deliver native performance with cross-platform efficiency using React Native and modern mobile development practices.",
+      "shortDescription": "Native and cross-platform mobile solutions that deliver exceptional user experiences.",
+      "features": [
+        "React Native",
+        "iOS & Android",
+        "App Store Optimization",
+        "Offline-first Architecture"
+      ],
+      "technologies": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Redux",
+        "Firebase",
+        "GraphQL",
+        "Jest",
+        "Fastlane"
+      ],
+      "sections": {
+        "hero": {
+          "visible": true,
+          "title": "Mobile App Development",
+          "subtitle": "Native and cross-platform mobile solutions",
+          "primaryCTA": {
+            "text": "Schedule Consultation",
+            "link": "/contact"
+          },
+          "secondaryCTA": {
+            "text": "Get a Quote",
+            "link": "/contact"
+          }
+        },
+        "highlights": {
+          "visible": true,
+          "title": "Why Choose Our Mobile Development?",
+          "items": [
+            {
+              "title": "Cross-Platform Excellence",
+              "description": "Single codebase for iOS and Android with native performance",
+              "icon": "Smartphone"
+            },
+            {
+              "title": "Offline-First Design",
+              "description": "Apps that work seamlessly without internet connectivity",
+              "icon": "Wifi"
+            },
+            {
+              "title": "Push Notifications",
+              "description": "Engage users with timely, personalized notifications",
+              "icon": "Bell"
+            },
+            {
+              "title": "App Store Ready",
+              "description": "Complete deployment support for Apple and Google stores",
+              "icon": "Package"
+            }
+          ]
+        },
+        "techStack": {
+          "visible": true,
+          "title": "Technology Stack"
+        },
+        "process": {
+          "visible": true,
+          "title": "Our Development Process",
+          "steps": [
+            {
+              "icon": "📱",
+              "title": "Strategy",
+              "description": "Define target platforms and user experience goals."
+            },
+            {
+              "icon": "🎨",
+              "title": "Design",
+              "description": "Create intuitive mobile-first interfaces."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Develop",
+              "description": "Build with React Native for maximum efficiency."
+            },
+            {
+              "icon": "🧪",
+              "title": "Test",
+              "description": "Rigorous testing on real devices."
+            },
+            {
+              "icon": "🚀",
+              "title": "Launch",
+              "description": "Submit to App Store and Google Play."
+            },
+            {
+              "icon": "📊",
+              "title": "Monitor",
+              "description": "Track performance and user engagement."
+            }
+          ]
+        },
+        "pricing": {
+          "visible": true,
+          "title": "Transparent Pricing",
+          "tiers": [
+            {
+              "name": "Simple App",
+              "price": "$30K - $60K",
+              "timeline": "8-12 weeks",
+              "highlighted": false,
+              "features": [
+                "Up to 8 screens",
+                "iOS & Android",
+                "Basic API integration",
+                "Push notifications",
+                "App store submission",
+                "3 months support"
+              ]
+            },
+            {
+              "name": "Feature-Rich App",
+              "price": "$60K - $150K",
+              "timeline": "12-20 weeks",
+              "highlighted": true,
+              "badge": "Most Popular",
+              "features": [
+                "15+ screens",
+                "Real-time features",
+                "Payment integration",
+                "Offline mode",
+                "Advanced analytics",
+                "Backend development",
+                "6 months support"
+              ]
+            },
+            {
+              "name": "Enterprise App",
+              "price": "$150K+",
+              "timeline": "20+ weeks",
+              "highlighted": false,
+              "features": [
+                "Unlimited screens",
+                "Complex integrations",
+                "Custom backend",
+                "Multi-language support",
+                "Enterprise security",
+                "DevOps setup",
+                "12 months support"
+              ]
+            }
+          ]
+        },
+        "timeline": {
+          "visible": true,
+          "title": "Project Timeline",
+          "phases": [
+            {
+              "name": "Planning & Design",
+              "duration": "2-3 weeks",
+              "tasks": [
+                "Platform selection",
+                "UX/UI design",
+                "Technical architecture"
+              ]
+            },
+            {
+              "name": "Core Development",
+              "duration": "6-12 weeks",
+              "tasks": [
+                "Feature implementation",
+                "API integration",
+                "Testing on devices"
+              ]
+            },
+            {
+              "name": "Testing & QA",
+              "duration": "2-3 weeks",
+              "tasks": [
+                "Device testing",
+                "Performance optimization",
+                "Bug fixes"
+              ]
+            },
+            {
+              "name": "Deployment",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "App store submission",
+                "Review process",
+                "Launch coordination"
+              ]
+            }
+          ]
+        },
+        "testimonial": {
+          "visible": true,
+          "quote": "They built our app in record time with outstanding quality. The React Native approach saved us months of development time.",
+          "author": "Michael Rodriguez",
+          "role": "Product Manager",
+          "company": "HealthTech Innovations",
+          "rating": 5
+        },
+        "faq": {
+          "visible": true,
+          "title": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "Should I build native or cross-platform?",
+              "answer": "For most businesses, React Native offers the best balance of performance, cost, and time-to-market. We recommend native only for apps requiring specialized device features."
+            },
+            {
+              "question": "How long does app store approval take?",
+              "answer": "Apple typically reviews apps within 24-48 hours. Google Play is usually faster (a few hours). We handle the entire submission process."
+            },
+            {
+              "question": "Do you provide app maintenance?",
+              "answer": "Yes, we offer ongoing support packages including OS updates, bug fixes, and feature additions."
+            },
+            {
+              "question": "Can you update an existing app?",
+              "answer": "Absolutely. We can take over existing codebases, refactor legacy apps, or add new features."
+            },
+            {
+              "question": "What about app analytics?",
+              "answer": "We integrate comprehensive analytics (Firebase, Amplitude, or custom solutions) to track user behavior and engagement."
+            }
+          ]
+        },
+        "cta": {
+          "visible": true,
+          "title": "Ready to Build Your Mobile App?",
+          "description": "Let's turn your mobile app idea into reality.",
+          "primaryButton": {
+            "text": "Schedule Call",
+            "link": "/contact"
+          },
+          "secondaryButton": {
+            "text": "View Portfolio",
+            "link": "/portfolio"
+          }
+        }
+      }
+    },
+    {
+         "visiblity": true,
+      "slug": "devops-cloud",
+      "title": "DevOps & Cloud",
+      "subtitle": "Scalable infrastructure and automated deployment",
+      "icon": "Cloud",
+      "iconColor": "text-blue-400",
+      "description": "Build reliable, scalable cloud infrastructure with automated CI/CD pipelines. We help you achieve faster deployments, better monitoring, and reduced operational costs through modern DevOps practices.",
+      "shortDescription": "Scalable infrastructure and automated deployment pipelines for reliability and speed.",
+      "features": [
+        "AWS / Azure / GCP",
+        "CI/CD Pipelines",
+        "Docker & Kubernetes",
+        "Infrastructure as Code"
+      ],
+      "technologies": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
+        "Jenkins"
+      ],
+      "sections": {
+        "hero": {
+          "visible": true,
+          "title": "DevOps & Cloud",
+          "subtitle": "Scalable infrastructure and automated deployment",
+          "primaryCTA": {
+            "text": "Schedule Consultation",
+            "link": "/contact"
+          },
+          "secondaryCTA": {
+            "text": "Get a Quote",
+            "link": "/contact"
+          }
+        },
+        "highlights": {
+          "visible": true,
+          "title": "Why Choose Our DevOps Services?",
+          "items": [
+            {
+              "title": "Automated Deployments",
+              "description": "CI/CD pipelines that deploy code safely and automatically",
+              "icon": "GitBranch"
+            },
+            {
+              "title": "Cost Optimization",
+              "description": "Reduce cloud costs through efficient resource management",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "High Availability",
+              "description": "99.9% uptime with auto-scaling and load balancing",
+              "icon": "Activity"
+            },
+            {
+              "title": "Security First",
+              "description": "Infrastructure hardening and compliance best practices",
+              "icon": "Shield"
+            }
+          ]
+        },
+        "techStack": {
+          "visible": true,
+          "title": "Technology Stack"
+        },
+        "process": {
+          "visible": true,
+          "title": "Our DevOps Process",
+          "steps": [
+            {
+              "icon": "🔍",
+              "title": "Audit",
+              "description": "Assess current infrastructure and pain points."
+            },
+            {
+              "icon": "📐",
+              "title": "Design",
+              "description": "Plan cloud architecture and migration strategy."
+            },
+            {
+              "icon": "🔧",
+              "title": "Implement",
+              "description": "Set up infrastructure and CI/CD pipelines."
+            },
+            {
+              "icon": "🚀",
+              "title": "Migrate",
+              "description": "Move workloads with zero downtime."
+            },
+            {
+              "icon": "📊",
+              "title": "Monitor",
+              "description": "24/7 monitoring and alerting."
+            },
+            {
+              "icon": "⚡",
+              "title": "Optimize",
+              "description": "Continuous cost and performance tuning."
+            }
+          ]
+        },
+        "pricing": {
+          "visible": true,
+          "title": "Transparent Pricing",
+          "tiers": [
+            {
+              "name": "Startup Setup",
+              "price": "$15K - $35K",
+              "timeline": "3-5 weeks",
+              "highlighted": false,
+              "features": [
+                "Single cloud provider",
+                "Basic CI/CD pipeline",
+                "Docker deployment",
+                "Monitoring setup",
+                "Documentation",
+                "1 month support"
+              ]
+            },
+            {
+              "name": "Growth Infrastructure",
+              "price": "$35K - $80K",
+              "timeline": "6-10 weeks",
+              "highlighted": true,
+              "badge": "Most Popular",
+              "features": [
+                "Multi-environment setup",
+                "Kubernetes cluster",
+                "Auto-scaling",
+                "Advanced monitoring",
+                "Infrastructure as Code",
+                "Disaster recovery",
+                "3 months support"
+              ]
+            },
+            {
+              "name": "Enterprise Cloud",
+              "price": "$80K+",
+              "timeline": "10+ weeks",
+              "highlighted": false,
+              "features": [
+                "Multi-cloud strategy",
+                "Zero-downtime deployments",
+                "Security compliance",
+                "Cost optimization",
+                "24/7 support",
+                "Dedicated DevOps engineer",
+                "12 months support"
+              ]
+            }
+          ]
+        },
+        "timeline": {
+          "visible": true,
+          "title": "Project Timeline",
+          "phases": [
+            {
+              "name": "Infrastructure Audit",
+              "duration": "1 week",
+              "tasks": [
+                "Current state assessment",
+                "Cost analysis",
+                "Security review"
+              ]
+            },
+            {
+              "name": "Architecture Design",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "Cloud architecture planning",
+                "CI/CD pipeline design",
+                "Disaster recovery planning"
+              ]
+            },
+            {
+              "name": "Implementation",
+              "duration": "4-8 weeks",
+              "tasks": [
+                "Infrastructure provisioning",
+                "Pipeline setup",
+                "Monitoring configuration"
+              ]
+            },
+            {
+              "name": "Migration & Optimization",
+              "duration": "2-4 weeks",
+              "tasks": [
+                "Workload migration",
+                "Performance tuning",
+                "Team training"
+              ]
+            }
+          ]
+        },
+        "testimonial": {
+          "visible": true,
+          "quote": "They reduced our deployment time from hours to minutes and cut our AWS costs by 40%. Game changer for our engineering team.",
+          "author": "David Park",
+          "role": "VP Engineering",
+          "company": "DataStream Analytics",
+          "rating": 5
+        },
+        "faq": {
+          "visible": true,
+          "title": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "Which cloud provider should I choose?",
+              "answer": "AWS is the most feature-rich, Azure integrates well with Microsoft tools, and GCP offers competitive pricing. We help you choose based on your specific needs."
+            },
+            {
+              "question": "How much will cloud hosting cost?",
+              "answer": "Costs vary based on traffic and resources. We provide detailed cost estimates and implement optimization strategies to minimize expenses."
+            },
+            {
+              "question": "Can you migrate our existing infrastructure?",
+              "answer": "Yes, we specialize in cloud migrations with zero downtime. We handle everything from planning to execution."
+            },
+            {
+              "question": "Do you provide ongoing DevOps support?",
+              "answer": "Absolutely. We offer managed DevOps services including monitoring, maintenance, and on-call support."
+            },
+            {
+              "question": "What about security and compliance?",
+              "answer": "We implement security best practices including encryption, access controls, and compliance with standards like SOC 2, HIPAA, and GDPR."
+            }
+          ]
+        },
+        "cta": {
+          "visible": true,
+          "title": "Ready to Modernize Your Infrastructure?",
+          "description": "Let's build reliable, scalable cloud infrastructure for your business.",
+          "primaryButton": {
+            "text": "Schedule Call",
+            "link": "/contact"
+          },
+          "secondaryButton": {
+            "text": "View Case Studies",
+            "link": "/case-studies"
+          }
+        }
+      }
+    },
+    {
+         "visiblity": true,
+      "slug": "ai-automation",
+      "title": "AI & Automation",
+      "subtitle": "Intelligent solutions powered by machine learning",
+      "icon": "Cpu",
+      "iconColor": "text-pink-400",
+      "description": "Leverage artificial intelligence and machine learning to automate workflows, gain insights from data, and build intelligent applications. From chatbots to predictive analytics, we make AI accessible and practical.",
+      "shortDescription": "Intelligent solutions that automate workflows and provide data-driven insights.",
+      "features": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Process Automation",
+        "Data Analytics"
+      ],
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "OpenAI",
+        "LangChain",
+        "Scikit-learn",
+        "Pandas",
+        "Apache Spark"
+      ],
+      "sections": {
+        "hero": {
+          "visible": true,
+          "title": "AI & Automation",
+          "subtitle": "Intelligent solutions powered by machine learning",
+          "primaryCTA": {
+            "text": "Schedule Consultation",
+            "link": "/contact"
+          },
+          "secondaryCTA": {
+            "text": "Get a Quote",
+            "link": "/contact"
+          }
+        },
+        "highlights": {
+          "visible": true,
+          "title": "Why Choose Our AI Services?",
+          "items": [
+            {
+              "title": "Custom ML Models",
+              "description": "Tailored machine learning models trained on your data",
+              "icon": "Brain"
+            },
+            {
+              "title": "Process Automation",
+              "description": "Automate repetitive tasks and save thousands of hours",
+              "icon": "Zap"
+            },
+            {
+              "title": "NLP & Chatbots",
+              "description": "Intelligent conversational AI for customer support",
+              "icon": "MessageSquare"
+            },
+            {
+              "title": "Predictive Analytics",
+              "description": "Data-driven insights to inform business decisions",
+              "icon": "TrendingUp"
+            }
+          ]
+        },
+        "techStack": {
+          "visible": true,
+          "title": "Technology Stack"
+        },
+        "process": {
+          "visible": true,
+          "title": "Our AI Development Process",
+          "steps": [
+            {
+              "icon": "🎯",
+              "title": "Define",
+              "description": "Identify use cases and success metrics."
+            },
+            {
+              "icon": "📊",
+              "title": "Data",
+              "description": "Collect, clean, and prepare training data."
+            },
+            {
+              "icon": "🧠",
+              "title": "Model",
+              "description": "Train and validate machine learning models."
+            },
+            {
+              "icon": "🔧",
+              "title": "Integrate",
+              "description": "Deploy models into production systems."
+            },
+            {
+              "icon": "📈",
+              "title": "Monitor",
+              "description": "Track model performance and accuracy."
+            },
+            {
+              "icon": "🔄",
+              "title": "Improve",
+              "description": "Continuously retrain with new data."
+            }
+          ]
+        },
+        "pricing": {
+          "visible": true,
+          "title": "Transparent Pricing",
+          "tiers": [
+            {
+              "name": "Proof of Concept",
+              "price": "$20K - $50K",
+              "timeline": "4-8 weeks",
+              "highlighted": false,
+              "features": [
+                "Single use case",
+                "Model training",
+                "Accuracy validation",
+                "API deployment",
+                "Documentation",
+                "2 months support"
+              ]
+            },
+            {
+              "name": "Production AI",
+              "price": "$50K - $120K",
+              "timeline": "10-16 weeks",
+              "highlighted": true,
+              "badge": "Most Popular",
+              "features": [
+                "Multiple use cases",
+                "Data pipeline setup",
+                "Model optimization",
+                "UI integration",
+                "Monitoring dashboard",
+                "Model retraining",
+                "6 months support"
+              ]
+            },
+            {
+              "name": "Enterprise AI",
+              "price": "$120K+",
+              "timeline": "16+ weeks",
+              "highlighted": false,
+              "features": [
+                "Complex AI systems",
+                "Custom architectures",
+                "Multi-model ensemble",
+                "Real-time inference",
+                "MLOps setup",
+                "Dedicated ML engineer",
+                "12 months support"
+              ]
+            }
+          ]
+        },
+        "timeline": {
+          "visible": true,
+          "title": "Project Timeline",
+          "phases": [
+            {
+              "name": "Discovery & Data Analysis",
+              "duration": "2-3 weeks",
+              "tasks": [
+                "Use case definition",
+                "Data assessment",
+                "Feasibility study"
+              ]
+            },
+            {
+              "name": "Model Development",
+              "duration": "4-8 weeks",
+              "tasks": [
+                "Data preprocessing",
+                "Model training",
+                "Hyperparameter tuning"
+              ]
+            },
+            {
+              "name": "Integration & Testing",
+              "duration": "2-4 weeks",
+              "tasks": [
+                "API development",
+                "System integration",
+                "Performance testing"
+              ]
+            },
+            {
+              "name": "Deployment & Monitoring",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "Production deployment",
+                "Monitoring setup",
+                "Team training"
+              ]
+            }
+          ]
+        },
+        "testimonial": {
+          "visible": true,
+          "quote": "Their AI solution automated 70% of our customer support tickets. ROI was achieved in just 3 months.",
+          "author": "Jennifer Wu",
+          "role": "Director of Operations",
+          "company": "CustomerFirst Tech",
+          "rating": 5
+        },
+        "faq": {
+          "visible": true,
+          "title": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "Do I need a lot of data for AI?",
+              "answer": "It depends on the use case. Some models work well with limited data, while others require thousands of examples. We assess your data during discovery."
+            },
+            {
+              "question": "How accurate will the AI be?",
+              "answer": "Accuracy varies by use case and data quality. We set realistic expectations upfront and continuously improve models over time."
+            },
+            {
+              "question": "Can you use ChatGPT/OpenAI APIs?",
+              "answer": "Yes, we integrate GPT-4, Claude, and other LLMs, or build custom models when needed for privacy or cost reasons."
+            },
+            {
+              "question": "What about data privacy?",
+              "answer": "We follow strict data handling protocols and can deploy models on-premise or in private clouds for sensitive data."
+            },
+            {
+              "question": "Do you provide AI consulting only?",
+              "answer": "We offer both consulting and full implementation. Many clients start with a discovery phase before committing to development."
+            }
+          ]
+        },
+        "cta": {
+          "visible": true,
+          "title": "Ready to Leverage AI?",
+          "description": "Let's explore how AI can transform your business operations.",
+          "primaryButton": {
+            "text": "Schedule Call",
+            "link": "/contact"
+          },
+          "secondaryButton": {
+            "text": "View AI Projects",
+            "link": "/portfolio"
+          }
+        }
+      }
+    },
+    {
+         "visiblity": true,
+      "slug": "system-architecture",
+      "title": "System Architecture",
+      "subtitle": "Scalable, resilient system design",
+      "icon": "Database",
+      "iconColor": "text-green-400",
+      "description": "Design robust, scalable system architectures that handle millions of users. We plan microservices, event-driven systems, and database schemas for high-traffic applications requiring 99.99% uptime.",
+      "shortDescription": "Robust architectural planning for complex systems requiring high availability.",
+      "features": [
+        "Microservices",
+        "Event-driven Design",
+        "Database Design",
+        "Legacy Modernization"
+      ],
+      "technologies": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Kafka",
+        "RabbitMQ",
+        "GraphQL",
+        "gRPC",
+        "Elasticsearch"
+      ],
+      "sections": {
+        "hero": {
+          "visible": true,
+          "title": "System Architecture",
+          "subtitle": "Scalable, resilient system design",
+          "primaryCTA": {
+            "text": "Schedule Consultation",
+            "link": "/contact"
+          },
+          "secondaryCTA": {
+            "text": "Get a Quote",
+            "link": "/contact"
+          }
+        },
+        "highlights": {
+          "visible": true,
+          "title": "Why Choose Our Architecture Services?",
+          "items": [
+            {
+              "title": "Microservices Design",
+              "description": "Loosely coupled services that scale independently",
+              "icon": "Boxes"
+            },
+            {
+              "title": "Event-Driven Systems",
+              "description": "Asynchronous, fault-tolerant architectures",
+              "icon": "Workflow"
+            },
+            {
+              "title": "Database Optimization",
+              "description": "Schema design, indexing, and query optimization",
+              "icon": "Database"
+            },
+            {
+              "title": "Legacy Modernization",
+              "description": "Migrate monoliths to modern architectures",
+              "icon": "RefreshCw"
+            }
+          ]
+        },
+        "techStack": {
+          "visible": true,
+          "title": "Technology Stack"
+        },
+        "process": {
+          "visible": true,
+          "title": "Our Architecture Process",
+          "steps": [
+            {
+              "icon": "🔍",
+              "title": "Analyze",
+              "description": "Assess current system and bottlenecks."
+            },
+            {
+              "icon": "📐",
+              "title": "Design",
+              "description": "Create architecture diagrams and specs."
+            },
+            {
+              "icon": "🧪",
+              "title": "Prototype",
+              "description": "Build proof-of-concept for validation."
+            },
+            {
+              "icon": "🔧",
+              "title": "Implement",
+              "description": "Build the new architecture incrementally."
+            },
+            {
+              "icon": "📊",
+              "title": "Test",
+              "description": "Load testing and performance validation."
+            },
+            {
+              "icon": "🚀",
+              "title": "Migrate",
+              "description": "Phased migration with rollback plans."
+            }
+          ]
+        },
+        "pricing": {
+          "visible": true,
+          "title": "Transparent Pricing",
+          "tiers": [
+            {
+              "name": "Architecture Review",
+              "price": "$10K - $25K",
+              "timeline": "2-4 weeks",
+              "highlighted": false,
+              "features": [
+                "System audit",
+                "Architecture diagrams",
+                "Recommendations report",
+                "Tech stack analysis",
+                "Scalability roadmap",
+                "2 follow-up sessions"
+              ]
+            },
+            {
+              "name": "Full Redesign",
+              "price": "$40K - $100K",
+              "timeline": "8-14 weeks",
+              "highlighted": true,
+              "badge": "Most Popular",
+              "features": [
+                "Complete architecture",
+                "Database design",
+                "API specifications",
+                "Migration strategy",
+                "Implementation support",
+                "Load testing",
+                "6 months support"
+              ]
+            },
+            {
+              "name": "Enterprise Transformation",
+              "price": "$100K+",
+              "timeline": "14+ weeks",
+              "highlighted": false,
+              "features": [
+                "Multi-system architecture",
+                "Microservices migration",
+                "Data pipeline design",
+                "Security architecture",
+                "Full implementation",
+                "Staff training",
+                "12 months support"
+              ]
+            }
+          ]
+        },
+        "timeline": {
+          "visible": true,
+          "title": "Project Timeline",
+          "phases": [
+            {
+              "name": "Discovery & Analysis",
+              "duration": "2-3 weeks",
+              "tasks": [
+                "System documentation",
+                "Bottleneck identification",
+                "Requirement gathering"
+              ]
+            },
+            {
+              "name": "Architecture Design",
+              "duration": "3-5 weeks",
+              "tasks": [
+                "System design",
+                "Database schema",
+                "API contracts"
+              ]
+            },
+            {
+              "name": "Validation & Prototyping",
+              "duration": "2-4 weeks",
+              "tasks": [
+                "POC development",
+                "Load testing",
+                "Performance validation"
+              ]
+            },
+            {
+              "name": "Migration & Deployment",
+              "duration": "4-8 weeks",
+              "tasks": [
+                "Incremental migration",
+                "Data migration",
+                "Monitoring setup"
+              ]
+            }
+          ]
+        },
+        "testimonial": {
+          "visible": true,
+          "quote": "They redesigned our entire backend to handle 10x traffic. Zero downtime during the migration. Exceptional work.",
+          "author": "Alex Thompson",
+          "role": "CTO",
+          "company": "ScaleUp Systems",
+          "rating": 5
+        },
+        "faq": {
+          "visible": true,
+          "title": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "When should I consider a redesign?",
+              "answer": "Common triggers include scaling issues, frequent outages, slow feature delivery, or technical debt that's impacting business growth."
+            },
+            {
+              "question": "Will there be downtime during migration?",
+              "answer": "We use phased migration strategies to ensure zero or minimal downtime. Critical systems are migrated incrementally."
+            },
+            {
+              "question": "Do you only provide consulting?",
+              "answer": "We offer both architecture consulting and full implementation. Many clients start with a review before moving to redesign."
+            },
+            {
+              "question": "How do you handle legacy systems?",
+              "answer": "We create migration paths that allow gradual modernization, often using strangler fig pattern to minimize risk."
+            },
+            {
+              "question": "What if we have a tight deadline?",
+              "answer": "We prioritize critical components and create a phased roadmap that delivers value quickly while planning for long-term goals."
+            }
+          ]
+        },
+        "cta": {
+          "visible": true,
+          "title": "Ready to Scale Your System?",
+          "description": "Let's design an architecture that grows with your business.",
+          "primaryButton": {
+            "text": "Schedule Call",
+            "link": "/contact"
+          },
+          "secondaryButton": {
+            "text": "View Architecture Work",
+            "link": "/case-studies"
+          }
+        }
+      }
+    },
+    {
+         "visiblity": true,
+      "slug": "blockchain-web3",
+      "title": "Blockchain / Web3",
+      "subtitle": "Decentralized applications and smart contracts",
+      "icon": "Lock",
+      "iconColor": "text-orange-400",
+      "description": "Build the future of the internet with blockchain technology. We develop smart contracts, decentralized applications (DApps), and Web3 integrations for Ethereum, Polygon, and other EVM-compatible chains.",
+      "shortDescription": "Decentralized applications and smart contract development for the future web.",
+      "features": [
+        "Smart Contracts",
+        "DApps",
+        "Token Integration",
+        "Web3 Authentication"
+      ],
+      "technologies": [
+        "Solidity",
+        "Ethereum",
+        "Polygon",
+        "Hardhat",
+        "Web3.js",
+        "Ethers.js",
+        "IPFS",
+        "The Graph"
+      ],
+      "sections": {
+        "hero": {
+          "visible": true,
+          "title": "Blockchain / Web3",
+          "subtitle": "Decentralized applications and smart contracts",
+          "primaryCTA": {
+            "text": "Schedule Consultation",
+            "link": "/contact"
+          },
+          "secondaryCTA": {
+            "text": "Get a Quote",
+            "link": "/contact"
+          }
+        },
+        "highlights": {
+          "visible": true,
+          "title": "Why Choose Our Web3 Services?",
+          "items": [
+            {
+              "title": "Smart Contract Security",
+              "description": "Audited, gas-optimized contracts with comprehensive testing",
+              "icon": "ShieldCheck"
+            },
+            {
+              "title": "Multi-Chain Support",
+              "description": "Deploy on Ethereum, Polygon, BSC, and other EVM chains",
+              "icon": "Link"
+            },
+            {
+              "title": "Web3 Integration",
+              "description": "Connect wallets, sign transactions, read blockchain data",
+              "icon": "Wallet"
+            },
+            {
+              "title": "NFT Marketplaces",
+              "description": "Build custom NFT platforms with minting and trading",
+              "icon": "Image"
+            }
+          ]
+        },
+        "techStack": {
+          "visible": true,
+          "title": "Technology Stack"
+        },
+        "process": {
+          "visible": true,
+          "title": "Our Web3 Development Process",
+          "steps": [
+            {
+              "icon": "💡",
+              "title": "Ideate",
+              "description": "Define tokenomics and smart contract logic."
+            },
+            {
+              "icon": "📝",
+              "title": "Design",
+              "description": "Architecture and contract specifications."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Develop",
+              "description": "Write and test smart contracts in Solidity."
+            },
+            {
+              "icon": "🔒",
+              "title": "Audit",
+              "description": "Security audit and gas optimization."
+            },
+            {
+              "icon": "🚀",
+              "title": "Deploy",
+              "description": "Deploy to testnet, then mainnet."
+            },
+            {
+              "icon": "🌐",
+              "title": "Integrate",
+              "description": "Build frontend with Web3 wallet connection."
+            }
+          ]
+        },
+        "pricing": {
+          "visible": true,
+          "title": "Transparent Pricing",
+          "tiers": [
+            {
+              "name": "Simple Smart Contract",
+              "price": "$15K - $40K",
+              "timeline": "4-6 weeks",
+              "highlighted": false,
+              "features": [
+                "Basic smart contract",
+                "Testnet deployment",
+                "Unit tests",
+                "Gas optimization",
+                "Deployment scripts",
+                "3 months support"
+              ]
+            },
+            {
+              "name": "DApp Development",
+              "price": "$40K - $100K",
+              "timeline": "8-14 weeks",
+              "highlighted": true,
+              "badge": "Most Popular",
+              "features": [
+                "Complex contracts",
+                "Web3 frontend",
+                "Wallet integration",
+                "Multi-chain support",
+                "IPFS storage",
+                "Security audit",
+                "6 months support"
+              ]
+            },
+            {
+              "name": "Enterprise Web3",
+              "price": "$100K+",
+              "timeline": "14+ weeks",
+              "highlighted": false,
+              "features": [
+                "Full DApp platform",
+                "Custom tokenomics",
+                "DAO governance",
+                "NFT marketplace",
+                "Advanced security",
+                "Mainnet deployment",
+                "12 months support"
+              ]
+            }
+          ]
+        },
+        "timeline": {
+          "visible": true,
+          "title": "Project Timeline",
+          "phases": [
+            {
+              "name": "Smart Contract Design",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "Contract architecture",
+                "Tokenomics planning",
+                "Security requirements"
+              ]
+            },
+            {
+              "name": "Development & Testing",
+              "duration": "3-6 weeks",
+              "tasks": [
+                "Solidity development",
+                "Unit testing",
+                "Integration testing"
+              ]
+            },
+            {
+              "name": "Security Audit",
+              "duration": "1-2 weeks",
+              "tasks": [
+                "Code review",
+                "Vulnerability testing",
+                "Gas optimization"
+              ]
+            },
+            {
+              "name": "Deployment & Integration",
+              "duration": "2-4 weeks",
+              "tasks": [
+                "Mainnet deployment",
+                "Frontend integration",
+                "User documentation"
+              ]
+            }
+          ]
+        },
+        "testimonial": {
+          "visible": true,
+          "quote": "They built our NFT marketplace from scratch. The smart contracts passed security audit with flying colors. Highly recommend.",
+          "author": "Marcus Chen",
+          "role": "Founder",
+          "company": "ArtChain Studios",
+          "rating": 5
+        },
+        "faq": {
+          "visible": true,
+          "title": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "Which blockchain should I use?",
+              "answer": "Ethereum is the most established, but gas fees are high. Polygon and BSC offer cheaper transactions. We help you choose based on your needs."
+            },
+            {
+              "question": "How much does deployment cost?",
+              "answer": "Gas fees vary by network. Ethereum can cost $500-$5K to deploy contracts, while Polygon is often under $10. We factor this into project planning."
+            },
+            {
+              "question": "Can you audit existing contracts?",
+              "answer": "Yes, we offer security audits for existing smart contracts, identifying vulnerabilities and recommending fixes."
+            },
+            {
+              "question": "Do you build NFT platforms?",
+              "answer": "Absolutely. We've built multiple NFT marketplaces with minting, trading, and royalty features."
+            },
+            {
+              "question": "What about regulatory compliance?",
+              "answer": "We stay current on Web3 regulations and help structure projects to minimize legal risks, though we recommend consulting legal experts."
+            }
+          ]
+        },
+        "cta": {
+          "visible": true,
+          "title": "Ready to Build on Web3?",
+          "description": "Let's bring your blockchain vision to life.",
+          "primaryButton": {
+            "text": "Schedule Call",
+            "link": "/contact"
+          },
+          "secondaryButton": {
+            "text": "View Web3 Projects",
+            "link": "/portfolio"
+          }
+        }
+      }
+    }
+  ]
+}

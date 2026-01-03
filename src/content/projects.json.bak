@@ -1,0 +1,4295 @@
+{
+  "projects": [
+    {
+      "slug": "payflow-legacy-modernization",
+      "visibility": true,
+      "title": "PayFlow – Legacy Modernization",
+      "industry": "FinTech",
+      "services": [
+        "web-development",
+        "system-architecture",
+        "devops-cloud"
+      ],
+      "description": "Migration from legacy monolith to a modern, scalable web platform with microservices and CI/CD.",
+      "challenge": "10-year-old monolith causing outages and slow release cycles.",
+      "solution": "React/Next.js frontend, Node microservices, PostgreSQL + Redis, GitHub Actions CI/CD on AWS.",
+      "results": {
+        "deploymentFrequency": "1/mo → 10+/week",
+        "pageLoadTime": "4.2s → 0.8s",
+        "userSatisfaction": "2.8★ → 4.7★",
+        "uptime": "99.98%"
+      },
+      "timeline": "16 weeks",
+      "budget": "$120K",
+      "metrics": [
+        {
+          "label": "Lighthouse Performance",
+          "value": "94",
+          "unit": "/100",
+          "visibility": true
+        },
+        {
+          "label": "Release Frequency",
+          "value": "10+",
+          "unit": "/week",
+          "visibility": true
+        },
+        {
+          "label": "Uptime",
+          "value": "99.98%",
+          "unit": "SLA",
+          "visibility": true
+        },
+        {
+          "label": "Customer Rating",
+          "value": "4.7",
+          "unit": "/5.0",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS",
+        "GitHub Actions",
+        "Kubernetes"
+      ],
+      "deliverables": [
+        "Architecture blueprint",
+        "Component library",
+        "Microservices deployment",
+        "CI/CD pipelines",
+        "Monitoring & alerting"
+      ],
+      "team": "7 engineers (2 FE, 3 BE, 1 DevOps, 1 QA)",
+      "compliance": "SOC 2 readiness, OWASP ASVS controls",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Their modernization plan was surgical and effective. We ship faster and sleep better.",
+        "author": "Sarah Chen",
+        "role": "CTO",
+        "company": "PayFlow"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "React",
+          "Next.js",
+          "Node.js"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$120K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Lighthouse Performance",
+            "before": "Baseline",
+            "after": "94/100",
+            "improvement": "94"
+          },
+          {
+            "metric": "Release Frequency",
+            "before": "Baseline",
+            "after": "10+/week",
+            "improvement": "10+"
+          },
+          {
+            "metric": "Uptime",
+            "before": "Baseline",
+            "after": "99.98%SLA",
+            "improvement": "99.98%"
+          },
+          {
+            "metric": "Customer Rating",
+            "before": "Baseline",
+            "after": "4.7/5.0",
+            "improvement": "4.7"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in FinTech"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with PayFlow – Legacy Modernization\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "React",
+          "Next.js",
+          "Node.js",
+          "PostgreSQL",
+          "Redis"
+        ]
+      },
+      "features": {
+        "visibility": true,
+        "items": [
+          {
+            "title": "Modern Microservices Architecture",
+            "description": "Scalable backend with independent services for better maintainability",
+            "icon": "Boxes",
+            "visible": true
+          },
+          {
+            "title": "Real-time Monitoring",
+            "description": "24/7 system health monitoring with automated alerts",
+            "icon": "Activity",
+            "visible": true
+          },
+          {
+            "title": "Auto-scaling Infrastructure",
+            "description": "Dynamic resource allocation based on traffic patterns",
+            "icon": "TrendingUp",
+            "visible": true
+          },
+          {
+            "title": "Advanced Security",
+            "description": "SOC 2 compliant with multi-layer security protocols",
+            "icon": "Shield",
+            "visible": true
+          }
+        ]
+      },
+      "screenshots": {
+        "visibility": true,
+        "images": [
+          {
+            "url": "/projects/payflow/dashboard.png",
+            "title": "Modern Dashboard",
+            "description": "Redesigned analytics dashboard with real-time insights",
+            "visible": true
+          },
+          {
+            "url": "/projects/payflow/architecture.png",
+            "title": "System Architecture",
+            "description": "Microservices architecture diagram",
+            "visible": true
+          },
+          {
+            "url": "/projects/payflow/performance.png",
+            "title": "Performance Metrics",
+            "description": "Before and after performance comparison",
+            "visible": true
+          }
+        ]
+      },
+      "media": {
+        "visibility": true,
+        "demoVideo": {
+          "visible": true,
+          "url": "https://www.youtube.com/embed/demo-video-id",
+          "thumbnail": "/projects/payflow/video-thumb.jpg",
+          "title": "PayFlow Modernization Demo",
+          "duration": "3:45"
+        },
+        "caseStudyPdf": {
+          "visible": true,
+          "url": "/projects/payflow/case-study.pdf",
+          "title": "Download Full Case Study"
+        }
+      },
+      "seo": {
+        "title": "PayFlow Legacy Modernization Case Study | InsightExus",
+        "description": "How we helped PayFlow migrate from a 10-year-old monolith to a modern microservices architecture, improving deployment frequency by 10x and reducing page load time by 80%.",
+        "keywords": [
+          "legacy modernization",
+          "fintech development",
+          "microservices architecture",
+          "react development",
+          "nextjs migration",
+          "devops transformation",
+          "CI/CD implementation"
+        ],
+        "canonicalUrl": "https://insightexus.com/projects/payflow-legacy-modernization",
+        "robots": "index, follow",
+        "openGraph": {
+          "title": "PayFlow Legacy Modernization - 10x Faster Deployments",
+          "description": "Transformed a 10-year-old monolith into a modern, scalable platform. 94/100 Lighthouse score, 99.98% uptime.",
+          "image": "/og-images/projects/payflow.png",
+          "imageAlt": "PayFlow modernization case study results",
+          "type": "article",
+          "siteName": "InsightExus"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "PayFlow Legacy Modernization Case Study",
+          "description": "10x deployment frequency, 80% faster page loads, 99.98% uptime. See how we modernized PayFlow.",
+          "image": "/twitter-images/projects/payflow.png",
+          "creator": "@insightexus"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "CaseStudy",
+          "name": "PayFlow Legacy Modernization",
+          "description": "Migration from legacy monolith to modern microservices architecture",
+          "author": {
+            "@type": "Organization",
+            "name": "InsightExus"
+          },
+          "datePublished": "2024-01-15",
+          "about": "FinTech Platform Modernization"
+        }
+      },
+      "sharing": {
+        "enabled": true,
+        "buttons": {
+          "linkedin": {
+            "visible": true,
+            "text": "Share on LinkedIn"
+          },
+          "twitter": {
+            "visible": true,
+            "text": "Share on Twitter"
+          },
+          "facebook": {
+            "visible": true,
+            "text": "Share on Facebook"
+          },
+          "email": {
+            "visible": true,
+            "text": "Share via Email"
+          },
+          "copyLink": {
+            "visible": true,
+            "text": "Copy Link"
+          }
+        },
+        "customMessage": "Check out this amazing project transformation!"
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+      ,
+      "screenshots": {
+        "visibility": false,
+        "images": []
+      },
+      "media": {
+        "visibility": false,
+        "demoVideo": {
+          "visible": false,
+          "url": "",
+          "thumbnail": "",
+          "title": "",
+          "duration": ""
+        },
+        "caseStudyPdf": {
+          "visible": false,
+          "url": "",
+          "title": "Download Full Case Study"
+        }
+      },
+      "seo": {
+        "title": "DataFlow Cloud Cost Optimization Case Study | InsightExus",
+        "description": "Terraform IaC, autoscaling and observability that reduced cloud costs ~40% and improved deployment velocity for DataFlow.",
+        "keywords": [
+          "cloud cost optimization",
+          "terraform case study",
+          "eks autoscaling",
+          "observability",
+          "devops"
+        ],
+        "canonicalUrl": "https://insightexus.com/projects/dataflow-cost-optimization",
+        "robots": "index, follow",
+        "openGraph": {
+          "title": "DataFlow – 40% Cloud Cost Reduction",
+          "description": "IaC, autoscaling and observability delivering 40% cost reduction and faster deployments.",
+          "image": "/og-images/projects/dataflow-cost-optimization.png",
+          "imageAlt": "DataFlow cloud cost optimization results",
+          "type": "article",
+          "siteName": "InsightExus"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "DataFlow Cloud Cost Optimization",
+          "description": "40% cost reduction with Terraform + autoscaling and observability.",
+          "image": "/twitter-images/projects/dataflow-cost-optimization.png",
+          "creator": "@insightexus"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "CaseStudy",
+          "name": "DataFlow – Cloud Cost Optimization",
+          "description": "Terraform IaC and observability to reduce cloud spend and speed deployments.",
+          "author": {
+            "@type": "Organization",
+            "name": "InsightExus"
+          },
+          "datePublished": "2024-03-01",
+          "about": "Cloud Cost Optimization"
+        }
+      },
+      "sharing": {
+        "enabled": true,
+        "buttons": {
+          "linkedin": { "visible": true, "text": "Share on LinkedIn" },
+          "twitter": { "visible": true, "text": "Share on Twitter" },
+          "facebook": { "visible": true, "text": "Share on Facebook" },
+          "email": { "visible": true, "text": "Share via Email" },
+          "copyLink": { "visible": true, "text": "Copy Link" }
+        }
+      }
+    },
+    {
+      "slug": "fittrack-mobile-app",
+      "visibility": true,
+      "title": "FitTrack – Cross‑Platform Mobile App",
+      "industry": "Health & Wellness",
+      "services": [
+        "mobile-app-development",
+        "web-development"
+      ],
+      "description": "React Native app with offline-first sync and wearable integrations.",
+      "challenge": "Launch quickly with native-feel performance across iOS/Android.",
+      "solution": "React Native + Expo, SQLite offline cache, background sync, push notifications.",
+      "results": {
+        "downloads": "100K+",
+        "rating": "4.8★",
+        "retention30d": "45%",
+        "crashFree": "99.8%"
+      },
+      "timeline": "14 weeks",
+      "budget": "$85K",
+      "metrics": [
+        {
+          "label": "App Store Rating",
+          "value": "4.8",
+          "unit": "/5.0",
+          "visibility": true
+        },
+        {
+          "label": "Crash‑Free Sessions",
+          "value": "99.8%",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Day‑30 Retention",
+          "value": "45%",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Downloads",
+          "value": "100K+",
+          "unit": "total",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "SQLite",
+        "Firebase",
+        "Redux Toolkit",
+        "AppCenter"
+      ],
+      "deliverables": [
+        "iOS app",
+        "Android app",
+        "Offline sync engine",
+        "Push notification flows",
+        "App Store/Play submission"
+      ],
+      "team": "6 engineers (2 RN, 2 BE/API, 1 QA, 1 PM)",
+      "compliance": "GDPR data handling, app store privacy labels",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Craftsmanship shows in every interaction. Our users love the app.",
+        "author": "Michael Rodriguez",
+        "role": "Founder & CEO",
+        "company": "FitTrack"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "React Native",
+          "Expo",
+          "TypeScript"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$85K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "App Store Rating",
+            "before": "Baseline",
+            "after": "4.8/5.0",
+            "improvement": "4.8"
+          },
+          {
+            "metric": "Crash‑Free Sessions",
+            "before": "Baseline",
+            "after": "99.8%avg",
+            "improvement": "99.8%"
+          },
+          {
+            "metric": "Day‑30 Retention",
+            "before": "Baseline",
+            "after": "45%avg",
+            "improvement": "45%"
+          },
+          {
+            "metric": "Downloads",
+            "before": "Baseline",
+            "after": "100K+total",
+            "improvement": "100K+"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Health & Wellness"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with FitTrack – Cross‑Platform Mobile App\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "React Native",
+          "Expo",
+          "TypeScript",
+          "SQLite",
+          "Firebase"
+        ]
+      },
+      "seo": {
+        "title": "FitTrack Mobile App Case Study | InsightExus",
+        "description": "How we shipped a cross-platform React Native app with offline sync, wearable integrations, and 4.8★ rating across 100K+ downloads.",
+        "keywords": [
+          "mobile app development",
+          "react native case study",
+          "offline first app",
+          "wearable integration",
+          "fitness app",
+          "cross platform mobile",
+          "expo react native",
+          "app store optimization"
+        ],
+        "canonicalUrl": "https://insightexus.com/projects/fittrack-mobile-app",
+        "robots": "index, follow",
+        "openGraph": {
+          "title": "FitTrack – 4.8★ Cross-Platform Fitness App",
+          "description": "Offline-first sync, wearable integrations, 100K+ downloads, 99.8% crash-free sessions.",
+          "image": "/og-images/projects/fittrack-mobile-app.png",
+          "imageAlt": "FitTrack fitness app screens",
+          "type": "article",
+          "siteName": "InsightExus"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "FitTrack Cross-Platform App | Case Study",
+          "description": "React Native + Expo app with offline-first engine and wearable integrations. 4.8★ rating, 100K+ downloads.",
+          "image": "/twitter-images/projects/fittrack-mobile-app.png",
+          "creator": "@insightexus"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "CaseStudy",
+          "name": "FitTrack Cross-Platform Mobile App",
+          "description": "React Native fitness app with offline sync and wearable integrations",
+          "author": {
+            "@type": "Organization",
+            "name": "InsightExus"
+          },
+          "datePublished": "2024-02-20",
+          "about": "Cross-platform mobile fitness application"
+        }
+      },
+      "sharing": {
+        "enabled": true,
+        "buttons": {
+          "linkedin": {
+            "visible": true,
+            "text": "Share on LinkedIn"
+          },
+          "twitter": {
+            "visible": true,
+            "text": "Share on Twitter"
+          },
+          "facebook": {
+            "visible": true,
+            "text": "Share on Facebook"
+          },
+          "email": {
+            "visible": true,
+            "text": "Share via Email"
+          },
+          "copyLink": {
+            "visible": true,
+            "text": "Copy Link"
+          }
+        },
+        "customMessage": "See how we built the FitTrack cross-platform app with offline-first sync and wearable integrations."
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+      ,
+      "screenshots": {
+        "visibility": false,
+        "images": []
+      },
+      "media": {
+        "visibility": false,
+        "demoVideo": { "visible": false, "url": "", "thumbnail": "", "title": "", "duration": "" },
+        "caseStudyPdf": { "visible": false, "url": "", "title": "Download Full Case Study" }
+      },
+      "seo": {
+        "title": "ArtChain NFT Marketplace Case Study | InsightExus",
+        "description": "Built a gas‑optimized NFT marketplace with custom royalty engine and indexing, delivering $2.5M trading volume in 3 months.",
+        "keywords": ["nft marketplace","web3","solidity","hardhat","the graph","ipfs"],
+        "canonicalUrl": "https://insightexus.com/projects/artchain-nft-marketplace",
+        "robots": "index, follow",
+        "openGraph": { "title": "ArtChain – NFT Marketplace", "description": "Secure, gas-optimized marketplace with strong creator adoption.", "image": "/og-images/projects/artchain-nft-marketplace.png", "imageAlt": "ArtChain marketplace screenshot", "type": "article", "siteName": "InsightExus" },
+        "twitter": { "card": "summary_large_image", "title": "ArtChain NFT Marketplace | Case Study", "description": "$2.5M trading volume, 8k+ creators, security-first marketplace.", "image": "/twitter-images/projects/artchain-nft-marketplace.png", "creator": "@insightexus" },
+        "schema": { "@context": "https://schema.org", "@type": "CaseStudy", "name": "ArtChain – NFT Marketplace", "description": "ERC-721/1155 marketplace with custom royalty engine and indexing.", "author": { "@type": "Organization", "name": "InsightExus" }, "datePublished": "2024-04-01", "about": "NFT Marketplace" }
+      },
+      "sharing": { "enabled": true, "buttons": { "linkedin": { "visible": true, "text": "Share on LinkedIn" }, "twitter": { "visible": true, "text": "Share on Twitter" }, "facebook": { "visible": true, "text": "Share on Facebook" }, "email": { "visible": true, "text": "Share via Email" }, "copyLink": { "visible": true, "text": "Copy Link" } } }
+    },
+    {
+      "slug": "dataflow-cost-optimization",
+      "visibility": true,
+      "title": "DataFlow – Cloud Cost Optimization",
+      "industry": "Analytics",
+      "services": [
+        "devops-cloud",
+        "system-architecture"
+      ],
+      "description": "Terraform IaC with autoscaling, spot instances and observability.",
+      "challenge": "Unpredictable AWS bill and manual infrastructure changes.",
+      "solution": "Terraform modules, EKS, autoscaling, Prometheus/Grafana and cost monitors.",
+      "results": {
+        "costReduction": "-40%",
+        "deploymentTime": "4h → 15m",
+        "uptime": "99.95%",
+        "deploymentsPerDay": "20+"
+      },
+      "timeline": "8 weeks",
+      "budget": "$45K",
+      "metrics": [
+        {
+          "label": "Cost Reduction",
+          "value": "40%",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Uptime",
+          "value": "99.95%",
+          "unit": "SLA",
+          "visibility": true
+        },
+        {
+          "label": "Deployments/Day",
+          "value": "20+",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Mean Deploy Time",
+          "value": "15m",
+          "unit": "avg",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "AWS",
+        "Terraform",
+        "EKS",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "GitHub Actions",
+        "Argo Rollouts"
+      ],
+      "deliverables": [
+        "IaC modules",
+        "Autoscaling policies",
+        "Observability dashboards",
+        "Cost monitoring playbooks",
+        "Runbooks"
+      ],
+      "team": "5 engineers (1 Cloud Arch, 2 DevOps, 1 SRE, 1 QA)",
+      "compliance": "CIS benchmarks, SOC 2 aligned controls",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Infrastructure finally moves at product speed. Savings paid for the project in months.",
+        "author": "David Park",
+        "role": "Head of Engineering",
+        "company": "DataFlow"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "AWS",
+          "Terraform",
+          "EKS"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$45K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Cost Reduction",
+            "before": "Baseline",
+            "after": "40%avg",
+            "improvement": "40%"
+          },
+          {
+            "metric": "Uptime",
+            "before": "Baseline",
+            "after": "99.95%SLA",
+            "improvement": "99.95%"
+          },
+          {
+            "metric": "Deployments/Day",
+            "before": "Baseline",
+            "after": "20+avg",
+            "improvement": "20+"
+          },
+          {
+            "metric": "Mean Deploy Time",
+            "before": "Baseline",
+            "after": "15mavg",
+            "improvement": "15m"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Analytics"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with DataFlow – Cloud Cost Optimization\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "AWS",
+          "Terraform",
+          "EKS",
+          "Docker",
+          "Prometheus"
+        ]
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+      ,
+      "screenshots": { "visibility": false, "images": [] },
+      "media": { "visibility": false, "demoVideo": { "visible": false, "url": "", "thumbnail": "", "title": "", "duration": "" }, "caseStudyPdf": { "visible": false, "url": "", "title": "Download Full Case Study" } },
+      "seo": {
+        "title": "MediGrid Clinical Data Mesh Case Study | InsightExus",
+        "description": "Built a governed clinical data mesh with streaming pipelines and ML quality checks, improving dataset delivery and data quality across hospitals.",
+        "keywords": ["clinical data mesh","healthcare data","data governance","kafka","delta lake","hipaa"],
+        "canonicalUrl": "https://insightexus.com/projects/medigrid-clinical-data-mesh",
+        "robots": "index, follow",
+        "openGraph": { "title": "MediGrid – Clinical Data Mesh", "description": "Governed data mesh, faster dataset provisioning and higher data quality for clinical teams.", "image": "/og-images/projects/medigrid-clinical-data-mesh.png", "imageAlt": "MediGrid data mesh architecture", "type": "article", "siteName": "InsightExus" },
+        "twitter": { "card": "summary_large_image", "title": "MediGrid Clinical Data Mesh | Case Study", "description": "Governed data mesh delivering 2x analytics velocity and improved data quality.", "image": "/twitter-images/projects/medigrid-clinical-data-mesh.png", "creator": "@insightexus" },
+        "schema": { "@context": "https://schema.org", "@type": "CaseStudy", "name": "MediGrid – Clinical Data Mesh", "description": "Enterprise-grade data mesh for clinical data with governance and ML quality checks.", "author": { "@type": "Organization", "name": "InsightExus" }, "datePublished": "2024-05-01", "about": "Healthcare Data Mesh" }
+      },
+      "sharing": { "enabled": true, "buttons": { "linkedin": { "visible": true, "text": "Share on LinkedIn" }, "twitter": { "visible": true, "text": "Share on Twitter" }, "facebook": { "visible": true, "text": "Share on Facebook" }, "email": { "visible": true, "text": "Share via Email" }, "copyLink": { "visible": true, "text": "Copy Link" } } }
+    },
+    {
+      "slug": "supporthub-ai-automation",
+      "visibility": true,
+      "title": "SupportHub – AI Support Automation",
+      "industry": "Customer Support",
+      "services": [
+        "ai-automation",
+        "web-development"
+      ],
+      "description": "Custom GPT-based assistant trained on historical tickets integrated with Zendesk.",
+      "challenge": "High ticket volume and long response times.",
+      "solution": "RAG pipeline with vector store, guardrails, and human-in-the-loop escalation.",
+      "results": {
+        "automationRate": "70% auto‑resolved",
+        "responseTime": "8h → 5m",
+        "teamCost": "-40%",
+        "csat": "3.2 → 4.6/5"
+      },
+      "timeline": "10 weeks",
+      "budget": "$55K",
+      "metrics": [
+        {
+          "label": "Automation Rate",
+          "value": "70%",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Avg Response Time",
+          "value": "5m",
+          "unit": "after",
+          "visibility": true
+        },
+        {
+          "label": "CSAT",
+          "value": "4.6",
+          "unit": "/5.0",
+          "visibility": true
+        },
+        {
+          "label": "Team Cost",
+          "value": "-40%",
+          "unit": "savings",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "Python",
+        "LangChain",
+        "OpenAI GPT",
+        "Pinecone/Vector DB",
+        "FastAPI",
+        "PostgreSQL",
+        "React"
+      ],
+      "deliverables": [
+        "RAG pipeline",
+        "Safety guardrails",
+        "Admin console",
+        "Zendesk integration",
+        "Monitoring dashboards"
+      ],
+      "team": "6 engineers (2 ML, 2 BE, 1 FE, 1 QA)",
+      "compliance": "PII redaction, audit logging for support data",
+      "testimonial": {
+        "visibility": true,
+        "quote": "We scaled support without scaling headcount. Customers noticed the difference immediately.",
+        "author": "Emma Thompson",
+        "role": "VP Customer Success",
+        "company": "SupportHub"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "Python",
+          "LangChain",
+          "OpenAI GPT"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$55K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Automation Rate",
+            "before": "Baseline",
+            "after": "70%avg",
+            "improvement": "70%"
+          },
+          {
+            "metric": "Avg Response Time",
+            "before": "Baseline",
+            "after": "5mafter",
+            "improvement": "5m"
+          },
+          {
+            "metric": "CSAT",
+            "before": "Baseline",
+            "after": "4.6/5.0",
+            "improvement": "4.6"
+          },
+          {
+            "metric": "Team Cost",
+            "before": "Baseline",
+            "after": "-40%savings",
+            "improvement": "-40%"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Customer Support"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with SupportHub – AI Support Automation\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "Python",
+          "LangChain",
+          "OpenAI GPT",
+          "Pinecone/Vector DB",
+          "FastAPI"
+        ]
+      },
+      "seo": {
+        "title": "SupportHub AI Automation Case Study | InsightExus",
+        "description": "Built a custom GPT-based assistant with RAG, guardrails, and Zendesk integration that automated 70% of tickets and cut response time from 8h to 5m.",
+        "keywords": [
+          "ai support automation",
+          "gpt zendesk integration",
+          "rag customer support",
+          "zendesk integration",
+          "customer support ai",
+          "ticket automation",
+          "langchain case study",
+          "vector search ai"
+        ],
+        "canonicalUrl": "https://insightexus.com/projects/supporthub-ai-automation",
+        "robots": "index, follow",
+        "openGraph": {
+          "title": "SupportHub – 70% Ticket Auto-Resolution",
+          "description": "GPT + RAG with guardrails: 70% auto-resolved tickets, 5-minute responses, CSAT 4.6/5.",
+          "image": "/og-images/projects/supporthub-ai-automation.png",
+          "imageAlt": "SupportHub AI automation dashboard",
+          "type": "article",
+          "siteName": "InsightExus"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "SupportHub AI Automation | Case Study",
+          "description": "See how we built a GPT-powered assistant with RAG and guardrails to automate 70% of tickets.",
+          "image": "/twitter-images/projects/supporthub-ai-automation.png",
+          "creator": "@insightexus"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "CaseStudy",
+          "name": "SupportHub – AI Support Automation",
+          "description": "GPT-based assistant with RAG and guardrails for Zendesk",
+          "author": {
+            "@type": "Organization",
+            "name": "InsightExus"
+          },
+          "datePublished": "2024-02-05",
+          "about": "AI automation for customer support"
+        }
+      },
+      "sharing": {
+        "enabled": true,
+        "buttons": {
+          "linkedin": {
+            "visible": true,
+            "text": "Share on LinkedIn"
+          },
+          "twitter": {
+            "visible": true,
+            "text": "Share on Twitter"
+          },
+          "facebook": {
+            "visible": true,
+            "text": "Share on Facebook"
+          },
+          "email": {
+            "visible": true,
+            "text": "Share via Email"
+          },
+          "copyLink": {
+            "visible": true,
+            "text": "Copy Link"
+          }
+        },
+        "customMessage": "Learn how SupportHub automated 70% of tickets with GPT, RAG, and guardrails."
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+      ,
+      "screenshots": { "visibility": false, "images": [] },
+      "media": { "visibility": false, "demoVideo": { "visible": false, "url": "", "thumbnail": "", "title": "", "duration": "" }, "caseStudyPdf": { "visible": false, "url": "", "title": "Download Full Case Study" } },
+      "seo": {
+        "title": "VoltGrid EV Energy Orchestration Case Study | InsightExus",
+        "description": "Real-time EV charging orchestration that cut energy costs ~32% and improved on-time readiness for fleet operations.",
+        "keywords": ["ev fleet","energy orchestration","charging optimization","demand forecasting","ocpp"],
+        "canonicalUrl": "https://insightexus.com/projects/voltgrid-ev-energy-orchestration",
+        "robots": "index, follow",
+        "openGraph": { "title": "VoltGrid – EV Energy Orchestration", "description": "Demand forecasting and scheduling that reduced charging cost and peak draw.", "image": "/og-images/projects/voltgrid-ev-energy-orchestration.png", "imageAlt": "VoltGrid dashboards", "type": "article", "siteName": "InsightExus" },
+        "twitter": { "card": "summary_large_image", "title": "VoltGrid EV Orchestration | Case Study", "description": "-32% charging costs and 95% on-time readiness for fleets.", "image": "/twitter-images/projects/voltgrid-ev-energy-orchestration.png", "creator": "@insightexus" },
+        "schema": { "@context": "https://schema.org", "@type": "CaseStudy", "name": "VoltGrid – EV Energy Orchestration", "description": "Orchestrated EV fleet charging to reduce cost and grid impact.", "author": { "@type": "Organization", "name": "InsightExus" }, "datePublished": "2024-06-01", "about": "EV Energy Orchestration" }
+      },
+      "sharing": { "enabled": true, "buttons": { "linkedin": { "visible": true, "text": "Share on LinkedIn" }, "twitter": { "visible": true, "text": "Share on Twitter" }, "facebook": { "visible": true, "text": "Share on Facebook" }, "email": { "visible": true, "text": "Share via Email" }, "copyLink": { "visible": true, "text": "Copy Link" } } }
+    },
+    {
+      "slug": "cloudcommerce-microservices",
+      "visibility": true,
+      "title": "CloudCommerce – Microservices Architecture",
+      "industry": "E‑commerce",
+      "services": [
+        "system-architecture",
+        "devops-cloud"
+      ],
+      "description": "Event‑driven services for Orders, Inventory, Payments, and Users.",
+      "challenge": "Monolith bottlenecks and platform‑wide failures.",
+      "solution": "Kafka, Node services, PostgreSQL, Redis; CI/CD with canary deploys.",
+      "results": {
+        "deploymentFrequency": "1/mo → 15+/day",
+        "featureLeadTime": "3+ weeks → 3–4 days",
+        "availability": "99.97%",
+        "teamParallelism": "3 squads independently"
+      },
+      "timeline": "20 weeks",
+      "budget": "$160K",
+      "metrics": [
+        {
+          "label": "Availability",
+          "value": "99.97%",
+          "unit": "SLA",
+          "visibility": true
+        },
+        {
+          "label": "Lead Time",
+          "value": "3–4d",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Deploys/Day",
+          "value": "15+",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "Teams In Parallel",
+          "value": "3",
+          "unit": "squads",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "Kafka",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "gRPC",
+        "Kubernetes",
+        "Argo CD",
+        "Datadog"
+      ],
+      "deliverables": [
+        "Domain architecture",
+        "Service templates",
+        "Event schemas",
+        "Canary deployment setup",
+        "Runbooks"
+      ],
+      "team": "7 engineers (1 Architect, 3 BE, 1 DevOps, 1 SRE, 1 QA)",
+      "compliance": "PCI DSS-aligned patterns for payment domains",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Architecture that let our teams move fast without breaking things.",
+        "author": "Alex Martinez",
+        "role": "CTO",
+        "company": "CloudCommerce"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "Kafka",
+          "Node.js",
+          "PostgreSQL"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$160K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Availability",
+            "before": "Baseline",
+            "after": "99.97%SLA",
+            "improvement": "99.97%"
+          },
+          {
+            "metric": "Lead Time",
+            "before": "Baseline",
+            "after": "3–4davg",
+            "improvement": "3–4d"
+          },
+          {
+            "metric": "Deploys/Day",
+            "before": "Baseline",
+            "after": "15+avg",
+            "improvement": "15+"
+          },
+          {
+            "metric": "Teams In Parallel",
+            "before": "Baseline",
+            "after": "3squads",
+            "improvement": "3"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in E‑commerce"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with CloudCommerce – Microservices Architecture\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "Kafka",
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "gRPC"
+        ]
+      },
+      "seo": {
+        "title": "CloudCommerce Microservices Case Study | InsightExus",
+        "description": "Migrated an e-commerce monolith to event-driven microservices with Kafka and Node.js, achieving 99.97% availability and 15+ deploys per day.",
+        "keywords": [
+          "microservices case study",
+          "event driven architecture",
+          "kafka ecommerce",
+          "nodejs microservices",
+          "canary deployments",
+          "redis caching",
+          "grpc services",
+          "argo cd"
+        ],
+        "canonicalUrl": "https://insightexus.com/projects/cloudcommerce-microservices",
+        "robots": "index, follow",
+        "openGraph": {
+          "title": "CloudCommerce – Event-Driven Microservices",
+          "description": "99.97% availability, 15+ deploys/day after moving to Kafka + Node microservices with canary deploys.",
+          "image": "/og-images/projects/cloudcommerce-microservices.png",
+          "imageAlt": "CloudCommerce microservices architecture",
+          "type": "article",
+          "siteName": "InsightExus"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "CloudCommerce Microservices | Case Study",
+          "description": "Monolith to event-driven microservices. 99.97% availability and 15+ deploys/day.",
+          "image": "/twitter-images/projects/cloudcommerce-microservices.png",
+          "creator": "@insightexus"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "CaseStudy",
+          "name": "CloudCommerce – Microservices Architecture",
+          "description": "Event-driven microservices for e-commerce platform",
+          "author": {
+            "@type": "Organization",
+            "name": "InsightExus"
+          },
+          "datePublished": "2024-04-01",
+          "about": "E-commerce microservices transformation"
+        }
+      },
+      "sharing": {
+        "enabled": true,
+        "buttons": {
+          "linkedin": {
+            "visible": true,
+            "text": "Share on LinkedIn"
+          },
+          "twitter": {
+            "visible": true,
+            "text": "Share on Twitter"
+          },
+          "facebook": {
+            "visible": true,
+            "text": "Share on Facebook"
+          },
+          "email": {
+            "visible": true,
+            "text": "Share via Email"
+          },
+          "copyLink": {
+            "visible": true,
+            "text": "Copy Link"
+          }
+        },
+        "customMessage": "How we moved CloudCommerce to event-driven microservices with 99.97% availability."
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+      ,
+      "screenshots": { "visibility": false, "images": [] },
+      "media": { "visibility": false, "demoVideo": { "visible": false, "url": "", "thumbnail": "", "title": "", "duration": "" }, "caseStudyPdf": { "visible": false, "url": "", "title": "Download Full Case Study" } },
+      "seo": {
+        "title": "AeroOps Disruption Control Tower Case Study | InsightExus",
+        "description": "Decision support system for airline disruption management that reduced replanning time from hours to minutes and improved NPS.",
+        "keywords": ["airline ops","disruption management","constraint solver","real-time streaming","ads-b"],
+        "canonicalUrl": "https://insightexus.com/projects/aeroops-disruption-control",
+        "robots": "index, follow",
+        "openGraph": { "title": "AeroOps – Disruption Control Tower", "description": "Real-time disruption management reducing delays and improving passenger experience.", "image": "/og-images/projects/aeroops-disruption-control.png", "imageAlt": "AeroOps ops console", "type": "article", "siteName": "InsightExus" },
+        "twitter": { "card": "summary_large_image", "title": "AeroOps Disruption Control Tower | Case Study", "description": "Predicts delays and automates rebooking—reducing system delay minutes and boosting NPS.", "image": "/twitter-images/projects/aeroops-disruption-control.png", "creator": "@insightexus" },
+        "schema": { "@context": "https://schema.org", "@type": "CaseStudy", "name": "AeroOps – Disruption Control Tower", "description": "Real-time disruption management for airline operations.", "author": { "@type": "Organization", "name": "InsightExus" }, "datePublished": "2024-07-01", "about": "Airline Disruption Management" }
+      },
+      "sharing": { "enabled": true, "buttons": { "linkedin": { "visible": true, "text": "Share on LinkedIn" }, "twitter": { "visible": true, "text": "Share on Twitter" }, "facebook": { "visible": true, "text": "Share on Facebook" }, "email": { "visible": true, "text": "Share via Email" }, "copyLink": { "visible": true, "text": "Copy Link" } } }
+    },
+    {
+      "slug": "artchain-nft-marketplace",
+      "visibility": true,
+      "title": "ArtChain – NFT Marketplace",
+      "industry": "Digital Art",
+      "services": [
+        "blockchain-web3",
+        "web-development"
+      ],
+      "description": "ERC‑721/1155 marketplace with custom royalty engine and Web3 auth.",
+      "challenge": "Launch a secure marketplace for thousands of creators with low fees.",
+      "solution": "Gas‑optimized Solidity contracts, audit, React frontend, The Graph indexing.",
+      "results": {
+        "tradingVolume": "$2.5M in 3 months",
+        "activeCreators": "8,000+",
+        "auditFindings": "0 critical",
+        "gasSavings": "-35% vs baseline"
+      },
+      "timeline": "16 weeks",
+      "budget": "$95K",
+      "metrics": [
+        {
+          "label": "Audit Pass Rate",
+          "value": "100%",
+          "unit": "critical‑free",
+          "visibility": true
+        },
+        {
+          "label": "Gas Optimization",
+          "value": "35%",
+          "unit": "savings",
+          "visibility": true
+        },
+        {
+          "label": "Uptime",
+          "value": "99.99%",
+          "unit": "mainnet",
+          "visibility": true
+        },
+        {
+          "label": "Volume",
+          "value": "$2.5M",
+          "unit": "3 months",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "Ethers.js",
+        "React",
+        "The Graph",
+        "IPFS",
+        "Polygon/Ethereum"
+      ],
+      "deliverables": [
+        "Smart contracts",
+        "Security audit fixes",
+        "Marketplace frontend",
+        "Indexer",
+        "Ops playbooks"
+      ],
+      "team": "6 engineers (2 Solidity, 2 FE, 1 DevOps, 1 QA)",
+      "compliance": "Security audit zero critical issues, NFT royalty compliance",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Security and UX were both first‑class. Creators love the experience.",
+        "author": "Jordan Lee",
+        "role": "Co‑founder",
+        "company": "ArtChain"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "Solidity",
+          "Hardhat",
+          "Ethers.js"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$95K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Audit Pass Rate",
+            "before": "Baseline",
+            "after": "100%critical‑free",
+            "improvement": "100%"
+          },
+          {
+            "metric": "Gas Optimization",
+            "before": "Baseline",
+            "after": "35%savings",
+            "improvement": "35%"
+          },
+          {
+            "metric": "Uptime",
+            "before": "Baseline",
+            "after": "99.99%mainnet",
+            "improvement": "99.99%"
+          },
+          {
+            "metric": "Volume",
+            "before": "Baseline",
+            "after": "$2.5M3 months",
+            "improvement": "$2.5M"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Digital Art"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with ArtChain – NFT Marketplace\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "Solidity",
+          "Hardhat",
+          "Ethers.js",
+          "React",
+          "The Graph"
+        ]
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+    },
+    {
+      "slug": "medigrid-clinical-data-mesh",
+      "visibility": true,
+      "title": "MediGrid – Clinical Data Mesh Platform",
+      "industry": "Healthcare",
+      "services": [
+        "system-architecture",
+        "devops-cloud",
+        "ai-automation",
+        "web-development"
+      ],
+      "description": "Enterprise-grade data mesh for clinical data across hospitals with governed access, real-time pipelines, and AI-driven quality checks.",
+      "challenge": "Six hospitals had siloed EHR systems, inconsistent data quality, and no governed way to share datasets with analytics teams.",
+      "solution": "Designed a domain-driven data mesh with event streaming (Kafka), lakehouse (Delta Lake), federated governance, automated PII detection, and ML-based anomaly checks; built clinician-facing portal for governed dataset requests.",
+      "results": {
+        "timeToDataset": "3 weeks → 3 days",
+        "dataQuality": "+28% validated fields",
+        "governanceSLA": "99.5% compliant access",
+        "analyticsVelocity": "2x faster model rollouts"
+      },
+      "timeline": "24 weeks",
+      "budget": "$320K",
+      "metrics": [
+        {
+          "label": "Time to Provision Data",
+          "value": "3 days",
+          "unit": "down from 3 weeks",
+          "visibility": true
+        },
+        {
+          "label": "Data Quality Lift",
+          "value": "28%",
+          "unit": "validated fields",
+          "visibility": true
+        },
+        {
+          "label": "Governance Compliance",
+          "value": "99.5%",
+          "unit": "access SLA",
+          "visibility": true
+        },
+        {
+          "label": "Model Deployment Speed",
+          "value": "2x",
+          "unit": "velocity",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "Kafka",
+        "Delta Lake",
+        "Databricks/Spark",
+        "Airflow",
+        "Great Expectations",
+        "OpenAI",
+        "React",
+        "Keycloak"
+      ],
+      "deliverables": [
+        "Data mesh architecture",
+        "Governed portal",
+        "Streaming pipelines",
+        "PII detection",
+        "Quality dashboards"
+      ],
+      "team": "9 engineers (2 Data Eng, 2 Platform, 2 BE, 1 FE, 1 ML, 1 QA)",
+      "compliance": "HIPAA-aligned controls, audit logging, RBAC/ABAC",
+      "testimonial": {
+        "visibility": true,
+        "quote": "We finally have governed, high-quality clinical data on tap. Our analytics and AI teams move twice as fast without risking compliance.",
+        "author": "Dr. Ayesha Rahman",
+        "role": "Chief Data Officer",
+        "company": "MediGrid Consortium"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "Kafka",
+          "Delta Lake",
+          "Databricks/Spark"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$320K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Time to Provision Data",
+            "before": "Baseline",
+            "after": "3 daysdown from 3 weeks",
+            "improvement": "3 days"
+          },
+          {
+            "metric": "Data Quality Lift",
+            "before": "Baseline",
+            "after": "28%validated fields",
+            "improvement": "28%"
+          },
+          {
+            "metric": "Governance Compliance",
+            "before": "Baseline",
+            "after": "99.5%access SLA",
+            "improvement": "99.5%"
+          },
+          {
+            "metric": "Model Deployment Speed",
+            "before": "Baseline",
+            "after": "2xvelocity",
+            "improvement": "2x"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Healthcare"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with MediGrid – Clinical Data Mesh Platform\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "Kafka",
+          "Delta Lake",
+          "Databricks/Spark",
+          "Airflow",
+          "Great Expectations"
+        ]
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+    },
+    {
+      "slug": "voltgrid-ev-energy-orchestration",
+      "visibility": true,
+      "title": "VoltGrid – EV Fleet Energy Orchestration",
+      "industry": "Energy & Mobility",
+      "services": [
+        "devops-cloud",
+        "ai-automation",
+        "system-architecture",
+        "web-development"
+      ],
+      "description": "Orchestrates charging for 5,000 EV fleet vehicles across depots and public chargers, optimizing cost and grid impact in real time.",
+      "challenge": "Charging windows collided with peak tariffs; vehicles often left depots under-charged; grid constraints triggered penalties.",
+      "solution": "Built demand-forecasting models, constraint-based scheduler, and real-time control plane over OCPP chargers; multi-tenant dashboards for fleet ops.",
+      "results": {
+        "energyCost": "-32% charging cost",
+        "onTimeReady": "95% vehicles ready by 6am",
+        "peakShaving": "-40% peak draw",
+        "co2Savings": "-1.2k tons/year"
+      },
+      "timeline": "20 weeks",
+      "budget": "$280K",
+      "metrics": [
+        {
+          "label": "Charging Cost Reduction",
+          "value": "32%",
+          "unit": "avg",
+          "visibility": true
+        },
+        {
+          "label": "On-Time Readiness",
+          "value": "95%",
+          "unit": "by SLA",
+          "visibility": true
+        },
+        {
+          "label": "Peak Load Reduction",
+          "value": "40%",
+          "unit": "peak shaving",
+          "visibility": true
+        },
+        {
+          "label": "CO₂ Savings",
+          "value": "1.2k",
+          "unit": "tons/year",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OptaPlanner",
+        "Kafka",
+        "Kubernetes",
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "OCPP APIs"
+      ],
+      "deliverables": [
+        "Forecasting models",
+        "Charging scheduler",
+        "Control plane APIs",
+        "Fleet dashboards",
+        "Alerting & SLOs"
+      ],
+      "team": "8 engineers (2 ML, 2 BE, 1 Platform, 1 FE, 1 DevOps, 1 QA)",
+      "compliance": "ISO 27001-aligned controls, OT network segmentation",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Energy spend dropped immediately and vehicles are always ready. Operations finally trust the charging plan.",
+        "author": "Lena Vogt",
+        "role": "Head of Fleet Ops",
+        "company": "VoltGrid Logistics"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "Python",
+          "PyTorch",
+          "OptaPlanner"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$280K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Charging Cost Reduction",
+            "before": "Baseline",
+            "after": "32%avg",
+            "improvement": "32%"
+          },
+          {
+            "metric": "On-Time Readiness",
+            "before": "Baseline",
+            "after": "95%by SLA",
+            "improvement": "95%"
+          },
+          {
+            "metric": "Peak Load Reduction",
+            "before": "Baseline",
+            "after": "40%peak shaving",
+            "improvement": "40%"
+          },
+          {
+            "metric": "CO₂ Savings",
+            "before": "Baseline",
+            "after": "1.2ktons/year",
+            "improvement": "1.2k"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Energy & Mobility"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with VoltGrid – EV Fleet Energy Orchestration\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "Python",
+          "PyTorch",
+          "OptaPlanner",
+          "Kafka",
+          "Kubernetes"
+        ]
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+    },
+    {
+      "slug": "aeroops-disruption-control",
+      "visibility": true,
+      "title": "AeroOps – Airline Disruption Control Tower",
+      "industry": "Aviation",
+      "services": [
+        "system-architecture",
+        "ai-automation",
+        "devops-cloud",
+        "web-development"
+      ],
+      "description": "Real-time disruption management for airline ops: predicts delays, reassigns crews/aircraft, and automates passenger rebooking.",
+      "challenge": "Weather and crew disruptions caused cascading delays; manual replanning took hours; passenger experience suffered.",
+      "solution": "Built a decision support system with streaming data (ADS-B, weather, crew), ML delay predictions, constraint solver for crew/aircraft swaps, and self-serve rebooking portal.",
+      "results": {
+        "delayMinutes": "-22% system delay minutes",
+        "replanTime": "2h → 10m",
+        "crewCompliance": "98% duty compliance",
+        "npsLift": "+12 NPS"
+      },
+      "timeline": "26 weeks",
+      "budget": "$360K",
+      "metrics": [
+        {
+          "label": "Delay Minutes Reduction",
+          "value": "22%",
+          "unit": "systemwide",
+          "visibility": true
+        },
+        {
+          "label": "Replan Time",
+          "value": "10m",
+          "unit": "down from 2h",
+          "visibility": true
+        },
+        {
+          "label": "Crew Compliance",
+          "value": "98%",
+          "unit": "duty rules",
+          "visibility": true
+        },
+        {
+          "label": "NPS Lift",
+          "value": "12",
+          "unit": "points",
+          "visibility": true
+        }
+      ],
+      "stack": [
+        "Kafka",
+        "Flink",
+        "Python",
+        "XGBoost",
+        "OR-Tools",
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "Next.js"
+      ],
+      "deliverables": [
+        "Streaming data plane",
+        "Delay prediction service",
+        "Crew/aircraft optimizer",
+        "Ops dashboards",
+        "Passenger rebooking portal"
+      ],
+      "team": "10 engineers (2 Data Eng, 2 ML, 3 BE, 1 FE, 1 DevOps, 1 QA)",
+      "compliance": "SOC 2 controls, PII handling for passenger data",
+      "testimonial": {
+        "visibility": true,
+        "quote": "Our ops center can replan in minutes, not hours. We prevented cascading delays and passengers felt the difference.",
+        "author": "Mark Ellison",
+        "role": "Director of Operations",
+        "company": "AeroWays"
+      },
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise",
+        "revenue": "Contact for details",
+        "locations": "Multiple locations",
+        "existingSystems": [
+          "Legacy systems"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "Global",
+        "usersImpacted": "Thousands of users",
+        "systemsIntegrated": [
+          "Kafka",
+          "Flink",
+          "Python"
+        ],
+        "dataVolume": "High volume data processing"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery",
+            "duration": "2-3 weeks",
+            "deliverables": [
+              "Requirements",
+              "Architecture design"
+            ],
+            "milestones": [
+              "Kickoff",
+              "Design approval"
+            ]
+          },
+          {
+            "name": "Development",
+            "duration": "60% of timeline",
+            "deliverables": [
+              "Core features",
+              "Testing"
+            ],
+            "milestones": [
+              "MVP",
+              "QA pass"
+            ]
+          },
+          {
+            "name": "Deployment",
+            "duration": "2 weeks",
+            "deliverables": [
+              "Production release",
+              "Documentation"
+            ],
+            "milestones": [
+              "Go-live",
+              "Handover"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints",
+        "riskMitigation": [
+          "Regular stakeholder reviews",
+          "Comprehensive testing",
+          "Rollback procedures"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "Comprehensive training program",
+        "materials": [
+          "Documentation",
+          "Video tutorials",
+          "Hands-on workshops"
+        ],
+        "certification": "Team certification on new system"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API documentation",
+          "Deployment guides"
+        ],
+        "business": [
+          "ROI reports",
+          "Performance metrics",
+          "Executive summaries"
+        ],
+        "endUser": [
+          "User guides",
+          "FAQs",
+          "Support documentation"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-90 day warranty",
+        "maintenance": "Optional maintenance packages available",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover and training"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "6-12 months",
+        "yearOneValue": "Significant cost savings and efficiency gains",
+        "threeYearProjection": "3-5x ROI over 3 years",
+        "costBreakdown": {
+          "software": "$360K",
+          "infrastructure": "$10-20K/year",
+          "support": "$20-30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Delay Minutes Reduction",
+            "before": "Baseline",
+            "after": "22%systemwide",
+            "improvement": "22%"
+          },
+          {
+            "metric": "Replan Time",
+            "before": "Baseline",
+            "after": "10mdown from 2h",
+            "improvement": "10m"
+          },
+          {
+            "metric": "Crew Compliance",
+            "before": "Baseline",
+            "after": "98%duty rules",
+            "improvement": "98%"
+          },
+          {
+            "metric": "NPS Lift",
+            "before": "Baseline",
+            "after": "12points",
+            "improvement": "12"
+          }
+        ],
+        "benchmarks": "Industry-leading performance in Aviation"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "High adoption rate",
+        "satisfactionScore": "4.5+/5.0",
+        "quotes": [
+          "\"Excellent results achieved with AeroOps – Airline Disruption Control Tower\"",
+          "\"The team delivered beyond expectations\""
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strong technical expertise",
+          "Clear communication with stakeholders",
+          "Agile methodology enabling flexibility",
+          "Comprehensive testing and quality assurance"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Technical architecture decisions that paid off",
+          "Technology choices that improved efficiency",
+          "Performance optimizations discovered during development"
+        ],
+        "operational": [
+          "Project management approaches that worked well",
+          "Stakeholder communication strategies",
+          "Team collaboration insights"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Feature enhancements based on user feedback",
+          "Scalability improvements",
+          "Integration with additional systems",
+          "Advanced analytics and reporting"
+        ],
+        "scalability": "Architecture designed for future growth"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "Kafka",
+          "Flink",
+          "Python",
+          "XGBoost",
+          "OR-Tools"
+        ]
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+    },
+    {
+      "slug": "neurofleet-warehouse-orchestrator",
+      "visibility": true,
+      "title": "NeuroFleet – Autonomous Warehouse Orchestrator",
+      "industry": "Logistics & Robotics",
+      "services": [
+        "ai-automation",
+        "system-architecture",
+        "devops-cloud",
+        "web-development"
+      ],
+      "description": "Coordinates 1,200+ AMRs, conveyors, and pick stations with real-time optimization for throughput and safety in high-volume DCs.",
+      "challenge": "Robots and human pickers were colliding in priorities; idle time and congestion caused missed SLA cutoffs; no global optimizer.",
+      "solution": "Built a digital twin with live telemetry (LIDAR, PLC, WMS), reinforcement-learning policies for task allocation, and a constraint solver for aisle traffic; provided ops console with heatmaps and what-if simulation.",
+      "results": {
+        "throughput": "+34% units/hour",
+        "slaHitRate": "97% on-time cutoffs",
+        "congestion": "-41% aisle congestion",
+        "safetyIncidents": "-60% near-misses"
+      },
+      "timeline": "22 weeks",
+      "budget": "$310K",
+      "metrics": [
+        {
+          "visibility": true,
+          "label": "Throughput Increase",
+          "value": "34%",
+          "unit": "units/hour"
+        },
+        {
+          "visibility": true,
+          "label": "On-Time SLA",
+          "value": "97%",
+          "unit": "orders"
+        },
+        {
+          "visibility": true,
+          "label": "Congestion Reduction",
+          "value": "41%",
+          "unit": "aisle dwell"
+        },
+        {
+          "visibility": true,
+          "label": "Safety Near-Misses",
+          "value": "-60%",
+          "unit": "incidents"
+        }
+      ],
+      "stack": [
+        "Python",
+        "PyTorch RL",
+        "OR-Tools",
+        "Kafka",
+        "PostgreSQL",
+        "Redis",
+        "Kubernetes",
+        "gRPC",
+        "React"
+      ],
+      "deliverables": [
+        "Digital twin",
+        "Task allocation RL service",
+        "Aisle constraint solver",
+        "Ops command center",
+        "Simulation sandbox"
+      ],
+      "team": "9 engineers (2 RL/ML, 3 BE, 1 Platform, 1 FE, 1 QA, 1 PM)",
+      "compliance": "ISO 27001-aligned controls, safety telemetry retention policies",
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Enterprise (5,000+ employees)",
+        "revenue": "$1.2B annual",
+        "locations": "12 distribution centers (North America)",
+        "existingSystems": [
+          "SAP WMS",
+          "AutoStore",
+          "Zebra RFID",
+          "Legacy TMS"
+        ]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "12 facilities across US & Canada",
+        "usersImpacted": "1,800+ warehouse associates, 45 ops managers",
+        "systemsIntegrated": [
+          "SAP WMS",
+          "AutoStore Grid Control",
+          "Zebra IoT Platform",
+          "Slack"
+        ],
+        "dataVolume": "2.5M telemetry events/minute, 450GB/day historical"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery & Design",
+            "duration": "4 weeks",
+            "deliverables": [
+              "Digital twin architecture",
+              "RL model design",
+              "Integration specs"
+            ],
+            "milestones": [
+              "Architecture review approved",
+              "Simulation prototype validated"
+            ]
+          },
+          {
+            "name": "MVP Development",
+            "duration": "8 weeks",
+            "deliverables": [
+              "Core RL service",
+              "Basic control console",
+              "WMS integration"
+            ],
+            "milestones": [
+              "First robot task assigned by RL",
+              "Ops dashboard live"
+            ]
+          },
+          {
+            "name": "Pilot Deployment",
+            "duration": "6 weeks",
+            "deliverables": [
+              "2-facility pilot",
+              "Safety validation",
+              "Performance tuning"
+            ],
+            "milestones": [
+              "Zero safety incidents in pilot",
+              "SLA improvement validated"
+            ]
+          },
+          {
+            "name": "Full Rollout & Optimization",
+            "duration": "4 weeks",
+            "deliverables": [
+              "12-facility deployment",
+              "Ops training",
+              "Runbooks & documentation"
+            ],
+            "milestones": [
+              "All facilities live",
+              "34% throughput gain achieved"
+            ]
+          }
+        ],
+        "methodology": "Agile with 2-week sprints; safety-first deployment with staged rollouts",
+        "riskMitigation": [
+          "Fallback to manual dispatch if RL fails",
+          "A/B testing in low-volume shifts",
+          "24/7 on-call during initial 4 weeks",
+          "Comprehensive safety simulation before go-live"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "8 hours ops manager training, 4 hours associate familiarization",
+        "materials": [
+          "Video tutorials",
+          "Interactive simulation sandbox",
+          "Quick-reference cards",
+          "Troubleshooting playbooks"
+        ],
+        "certification": "Ops managers certified on control tower usage"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": [
+          "Architecture diagrams",
+          "API reference",
+          "RL model explainability docs",
+          "Deployment runbooks"
+        ],
+        "business": [
+          "ROI calculator",
+          "KPI dashboards guide",
+          "Executive summary reports"
+        ],
+        "endUser": [
+          "Ops console user guide",
+          "Safety protocols",
+          "Incident response procedures"
+        ]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "90-day warranty on all deliverables",
+        "maintenance": "Optional 12-month support package (L2/L3 on-call, monthly optimization reviews)",
+        "sla": "P1: 2-hour response, P2: 8-hour response, P3: next business day",
+        "knowledgeTransfer": "Full source code, architecture walkthroughs, 3 months embedded support"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "8 months",
+        "yearOneValue": "$1.8M (labor efficiency + SLA penalty avoidance)",
+        "threeYearProjection": "$6.2M cumulative",
+        "costBreakdown": {
+          "software": "$310K initial build",
+          "infrastructure": "$45K/year (compute + storage)",
+          "support": "$80K/year (optional maintenance)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Throughput",
+            "before": "8,200 units/hour",
+            "after": "10,980 units/hour",
+            "improvement": "+34%"
+          },
+          {
+            "metric": "SLA Hit Rate",
+            "before": "84% on-time",
+            "after": "97% on-time",
+            "improvement": "+13pp"
+          },
+          {
+            "metric": "Aisle Congestion",
+            "before": "22 min avg dwell",
+            "after": "13 min avg dwell",
+            "improvement": "-41%"
+          },
+          {
+            "metric": "Safety Incidents",
+            "before": "15 near-misses/month",
+            "after": "6 near-misses/month",
+            "improvement": "-60%"
+          }
+        ],
+        "benchmarks": "Top 5% in industry for DC throughput efficiency (per Gartner 2024)"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "98% ops manager usage within 30 days",
+        "satisfactionScore": "4.6/5.0 (internal survey, n=45)",
+        "quotes": [
+          "\"No more guessing which robot to send where—system just works.\" – Ops Manager, Dallas DC",
+          "\"We finally have visibility into bottlenecks in real time.\" – VP Operations"
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Early buy-in from warehouse associates through pilot feedback loops",
+          "Staged rollout minimized disruption during peak season",
+          "Digital twin allowed safe testing before production changes",
+          "Close integration with existing WMS avoided workflow disruption"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "RL convergence was faster with simulated pre-training before real-world data",
+          "gRPC outperformed REST for high-frequency robot telemetry",
+          "PostgreSQL needed careful indexing for spatial queries at scale"
+        ],
+        "operational": [
+          "Change management training was critical—ops teams were initially skeptical",
+          "Pilot facilities became internal champions for wider rollout",
+          "24/7 on-call for first month caught edge cases in production"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Expand to 8 additional facilities by Q3 2026",
+          "Add predictive maintenance for AMRs using anomaly detection",
+          "Integrate with yard management system for dock scheduling",
+          "Multi-DC coordination for inventory balancing"
+        ],
+        "scalability": "Architecture supports 10,000+ robots per facility with horizontal scaling"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "AutoStore (AMR hardware)",
+          "Zebra Technologies (RFID/IoT)",
+          "AWS (cloud infrastructure)",
+          "Datadog (monitoring & observability)",
+          "SAP (WMS integration)"
+        ]
+      },
+      "testimonial": {
+        "visibility": true,
+        "quote": "We hit our peak season SLAs without adding headcount. The control tower shows exactly where to intervene, and robots stay out of each other's way.",
+        "author": "Priya Kapoor",
+        "role": "VP Fulfillment Operations",
+        "company": "HyperLogix"
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          {
+            "id": "hero",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "overview",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "challenge",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "solution",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "performance",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "roi",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "implementation",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "techStack",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "clientProfile",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "projectScope",
+            "visible": true,
+            "order": 10
+          },
+          {
+            "id": "team",
+            "visible": true,
+            "order": 11
+          },
+          {
+            "id": "userFeedback",
+            "visible": true,
+            "order": 12
+          },
+          {
+            "id": "keySuccessFactors",
+            "visible": true,
+            "order": 13
+          },
+          {
+            "id": "lessonsLearned",
+            "visible": false,
+            "order": 14
+          },
+          {
+            "id": "futureRoadmap",
+            "visible": true,
+            "order": 15
+          },
+          {
+            "id": "training",
+            "visible": true,
+            "order": 16
+          },
+          {
+            "id": "documentation",
+            "visible": true,
+            "order": 17
+          },
+          {
+            "id": "support",
+            "visible": true,
+            "order": 18
+          },
+          {
+            "id": "thirdPartyTools",
+            "visible": true,
+            "order": 19
+          },
+          {
+            "id": "testimonial",
+            "visible": true,
+            "order": 20
+          },
+          {
+            "id": "cta",
+            "visible": true,
+            "order": 21
+          }
+        ]
+      }
+      ,
+      "screenshots": { "visibility": false, "images": [] },
+      "media": { "visibility": false, "demoVideo": { "visible": false, "url": "", "thumbnail": "", "title": "", "duration": "" }, "caseStudyPdf": { "visible": false, "url": "", "title": "Download Full Case Study" } },
+      "seo": {
+        "title": "NeuroFleet Warehouse Orchestrator Case Study | InsightExus",
+        "description": "Digital twin and RL-driven orchestration that increased throughput by 34% and reduced congestion and safety incidents in large DCs.",
+        "keywords": ["warehouse orchestration","robotics","digital twin","reinforcement learning","logistics"],
+        "canonicalUrl": "https://insightexus.com/projects/neurofleet-warehouse-orchestrator",
+        "robots": "index, follow",
+        "openGraph": { "title": "NeuroFleet – Warehouse Orchestrator", "description": "RL policies and a digital twin to optimize AMR fleets and increase throughput.", "image": "/og-images/projects/neurofleet-warehouse-orchestrator.png", "imageAlt": "NeuroFleet control center", "type": "article", "siteName": "InsightExus" },
+        "twitter": { "card": "summary_large_image", "title": "NeuroFleet Warehouse Orchestrator | Case Study", "description": "34% throughput gain, 97% SLA hit rate, and significant safety improvements.", "image": "/twitter-images/projects/neurofleet-warehouse-orchestrator.png", "creator": "@insightexus" },
+        "schema": { "@context": "https://schema.org", "@type": "CaseStudy", "name": "NeuroFleet – Warehouse Orchestrator", "description": "Coordinated AMRs and conveyors with RL-driven task allocation and a digital twin.", "author": { "@type": "Organization", "name": "InsightExus" }, "datePublished": "2024-08-01", "about": "Warehouse Automation" }
+      },
+      "sharing": { "enabled": true, "buttons": { "linkedin": { "visible": true, "text": "Share on LinkedIn" }, "twitter": { "visible": true, "text": "Share on Twitter" }, "facebook": { "visible": true, "text": "Share on Facebook" }, "email": { "visible": true, "text": "Share via Email" }, "copyLink": { "visible": true, "text": "Copy Link" } } }
+    }
+  ]
+}

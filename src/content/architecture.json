@@ -1,0 +1,77 @@
+{
+    "hero": {
+        "titlePrefix": "System",
+        "titleHighlight": "Architecture",
+        "description": "We don't just write code; we engineer resilient ecosystems. Our architectural philosophy prioritizes scalability, security, and maintainability."
+    },
+    "layers": [
+        {
+            "name": "Presentation Layer",
+            "color": "cyan",
+            "components": [
+                {
+                    "title": "Client Applications",
+                    "icon": "Globe",
+                    "description": "React, Next.js, React Native. Optimized for performance and accessibility."
+                },
+                {
+                    "title": "Edge Caching",
+                    "icon": "Zap",
+                    "description": "Global CDN distribution, static asset optimization."
+                }
+            ]
+        },
+        {
+            "name": "Service Layer",
+            "color": "purple",
+            "components": [
+                {
+                    "title": "API Gateway",
+                    "icon": "Layers",
+                    "description": "Request routing, rate limiting, authentication handling."
+                },
+                {
+                    "title": "Microservices",
+                    "icon": "Lock",
+                    "description": "Node.js, Go, Python services isolated by domain context."
+                }
+            ]
+        },
+        {
+            "name": "Data Layer",
+            "color": "blue",
+            "components": [
+                {
+                    "title": "Primary Store",
+                    "icon": "Database",
+                    "description": "PostgreSQL / MongoDB with read replicas and sharding."
+                },
+                {
+                    "title": "Cache & Queue",
+                    "icon": "Shield",
+                    "description": "Redis for caching, RabbitMQ/Kafka for event streaming."
+                }
+            ]
+        }
+    ],
+    "principles": {
+        "title": "Key Principles",
+        "items": [
+            "Domain-driven design and bounded contexts",
+            "Event sourcing for audit trails",
+            "Horizontal scaling over vertical",
+            "Fail-fast with circuit breakers",
+            "Zero-downtime deployments"
+        ]
+    },
+    "strategy": {
+        "title": "Deployment Strategy",
+        "items": [
+            "Blue-green deployments for zero downtime",
+            "Automated rollback on failure",
+            "Infrastructure as Code (Terraform)",
+            "Container orchestration (Kubernetes)",
+            "Multi-region for disaster recovery"
+        ]
+    }
+}

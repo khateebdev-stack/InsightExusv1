@@ -1,0 +1,222 @@
+{
+  "projects": [
+    {
+      "slug": "payflow-legacy-modernization",
+      "visibility": true,
+      "title": "PayFlow – Legacy Modernization",
+      "industry": "FinTech",
+      "services": ["web-development", "system-architecture", "devops-cloud"],
+      "description": "Migration from legacy monolith to a modern, scalable web platform with microservices and CI/CD.",
+      "challenge": "10-year-old monolith causing outages and slow release cycles.",
+      "solution": "React/Next.js frontend, Node microservices, PostgreSQL + Redis, GitHub Actions CI/CD on AWS.",
+      "results": {
+        "deploymentFrequency": "1/mo → 10+/week",
+        "pageLoadTime": "4.2s → 0.8s",
+        "userSatisfaction": "2.8★ → 4.7★",
+        "uptime": "99.98%"
+      },
+      "timeline": "16 weeks",
+      "budget": "$120K",
+      "metrics": [
+        { "visibility": true, "label": "Lighthouse Performance", "value": "94", "unit": "/100" },
+        { "visibility": true, "label": "Release Frequency", "value": "10+", "unit": "/week" },
+        { "visibility": true, "label": "Uptime", "value": "99.98%", "unit": "SLA" },
+        { "visibility": true, "label": "Customer Rating", "value": "4.7", "unit": "/5.0" }
+      ],
+      "stack": ["React", "Next.js", "Node.js", "PostgreSQL", "Redis", "AWS", "GitHub Actions", "Kubernetes"],
+      "deliverables": ["Architecture blueprint", "Component library", "Microservices deployment", "CI/CD pipelines", "Monitoring & alerting"],
+      "team": "7 engineers (2 FE, 3 BE, 1 DevOps, 1 QA)",
+      "compliance": "SOC 2 readiness, OWASP ASVS controls",
+      "clientProfile": {
+        "visibility": true,
+        "companySize": "Mid-Market (500 employees)",
+        "revenue": "$85M annual",
+        "locations": "HQ in San Francisco, remote development team",
+        "existingSystems": ["Struts 1.x monolith", "Oracle DB", "Jenkins CI"]
+      },
+      "projectScope": {
+        "visibility": true,
+        "geographicScope": "US & Canada",
+        "usersImpacted": "12,000+ end customers, 80 internal staff",
+        "systemsIntegrated": ["Stripe", "Plaid", "SendGrid", "Segment", "Datadog"],
+        "dataVolume": "500K transactions/day, 2TB historical data migration"
+      },
+      "implementation": {
+        "visibility": true,
+        "phases": [
+          {
+            "name": "Discovery & Planning",
+            "duration": "3 weeks",
+            "deliverables": ["Migration strategy", "Architecture design", "Risk assessment"],
+            "milestones": ["Stakeholder alignment", "Tech stack approval"]
+          },
+          {
+            "name": "Frontend Rebuild",
+            "duration": "5 weeks",
+            "deliverables": ["React component library", "Next.js app", "Responsive design"],
+            "milestones": ["Component library v1", "Critical flows migrated"]
+          },
+          {
+            "name": "Backend Microservices",
+            "duration": "6 weeks",
+            "deliverables": ["Auth service", "Payment service", "Account service", "API gateway"],
+            "milestones": ["APIs live in staging", "Load testing passed"]
+          },
+          {
+            "name": "Go-Live & Optimization",
+            "duration": "2 weeks",
+            "deliverables": ["Production deployment", "Monitoring", "Documentation"],
+            "milestones": ["Zero downtime cutover", "Performance SLA met"]
+          }
+        ],
+        "methodology": "Agile/Scrum with 2-week sprints; strangler fig pattern for gradual migration",
+        "riskMitigation": [
+          "Feature flags for gradual rollout",
+          "Dual-run legacy + new system for 2 weeks",
+          "Comprehensive regression testing",
+          "Rollback plan with traffic switching"
+        ]
+      },
+      "training": {
+        "visibility": true,
+        "sessions": "4 hours dev team onboarding, 2 hours ops team training",
+        "materials": ["Architecture docs", "API reference", "Deployment playbooks", "Video walkthroughs"],
+        "certification": "Internal dev certification on new stack"
+      },
+      "documentation": {
+        "visibility": true,
+        "technical": ["Architecture diagrams", "API specs (OpenAPI)", "Database schemas", "CI/CD workflows"],
+        "business": ["ROI report", "Performance dashboards", "Executive summary"],
+        "endUser": ["User guide updates", "FAQ", "Support articles"]
+      },
+      "support": {
+        "visibility": true,
+        "warranty": "60-day warranty on all deliverables",
+        "maintenance": "Optional 6-month support package (L2 support, optimization reviews)",
+        "sla": "P1: 4-hour response, P2: next business day",
+        "knowledgeTransfer": "Full codebase handover, 6 weeks embedded support"
+      },
+      "roi": {
+        "visibility": true,
+        "paybackPeriod": "7 months",
+        "yearOneValue": "$420K (downtime prevention + dev velocity)",
+        "threeYearProjection": "$1.6M cumulative",
+        "costBreakdown": {
+          "software": "$120K initial build",
+          "infrastructure": "$18K/year (AWS costs)",
+          "support": "$30K/year (optional)"
+        }
+      },
+      "performance": {
+        "visibility": true,
+        "beforeAfter": [
+          {
+            "metric": "Deployment Frequency",
+            "before": "1/month",
+            "after": "10+/week",
+            "improvement": "40x faster"
+          },
+          {
+            "metric": "Page Load Time",
+            "before": "4.2s",
+            "after": "0.8s",
+            "improvement": "-81%"
+          },
+          {
+            "metric": "Uptime",
+            "before": "97.2%",
+            "after": "99.98%",
+            "improvement": "+2.8pp"
+          },
+          {
+            "metric": "Customer Satisfaction",
+            "before": "2.8/5.0",
+            "after": "4.7/5.0",
+            "improvement": "+68%"
+          }
+        ],
+        "benchmarks": "Page speed in top 10% for FinTech apps (per Google CrUX)"
+      },
+      "userFeedback": {
+        "visibility": true,
+        "adoptionRate": "100% migration completed on schedule",
+        "satisfactionScore": "4.7/5.0 (customer NPS survey, n=1,200)",
+        "quotes": [
+          "\"The app is so much faster. I can finally get work done.\" – Customer feedback",
+          "\"Deployment anxiety is gone. We ship with confidence.\" – Dev Team Lead"
+        ]
+      },
+      "keySuccessFactors": {
+        "visibility": true,
+        "factors": [
+          "Strangler fig pattern minimized risk of big-bang rewrite",
+          "Feature flags allowed gradual rollout and quick rollbacks",
+          "Strong dev/ops collaboration on CI/CD automation",
+          "Executive buy-in on technical debt paydown"
+        ]
+      },
+      "lessonsLearned": {
+        "visibility": false,
+        "technical": [
+          "Next.js ISR was better than full SSR for dynamic content",
+          "Redis caching cut database load by 60%",
+          "Kubernetes was overkill for initial scale—ECS would've been faster"
+        ],
+        "operational": [
+          "Weekly stakeholder demos kept alignment tight",
+          "Dual-run phase caught edge cases before full cutover",
+          "Documentation sprint at end paid off for handover"
+        ]
+      },
+      "futureRoadmap": {
+        "visibility": true,
+        "planned": [
+          "Add real-time payment notifications with WebSockets",
+          "Implement fraud detection ML model",
+          "Expand to mobile app using React Native",
+          "Add multi-region failover for compliance"
+        ],
+        "scalability": "Architecture supports 10x growth with horizontal pod autoscaling"
+      },
+      "thirdPartyTools": {
+        "visibility": true,
+        "vendors": [
+          "AWS (cloud infrastructure)",
+          "Stripe (payments)",
+          "Plaid (bank connections)",
+          "Datadog (monitoring)",
+          "GitHub (CI/CD)"
+        ]
+      },
+      "testimonial": {
+        "visibility": true,
+        "quote": "Their modernization plan was surgical and effective. We ship faster and sleep better.",
+        "author": "Sarah Chen",
+        "role": "CTO",
+        "company": "PayFlow"
+      },
+      "displayLayout": {
+        "enabled": true,
+        "sections": [
+          { "id": "hero", "visible": true, "order": 1 },
+          { "id": "overview", "visible": true, "order": 2 },
+          { "id": "challenge", "visible": true, "order": 3 },
+          { "id": "solution", "visible": true, "order": 4 },
+          { "id": "performance", "visible": true, "order": 5 },
+          { "id": "roi", "visible": true, "order": 6 },
+          { "id": "implementation", "visible": true, "order": 7 },
+          { "id": "techStack", "visible": true, "order": 8 },
+          { "id": "clientProfile", "visible": true, "order": 9 },
+          { "id": "team", "visible": true, "order": 10 },
+          { "id": "userFeedback", "visible": true, "order": 11 },
+          { "id": "keySuccessFactors", "visible": true, "order": 12 },
+          { "id": "lessonsLearned", "visible": false, "order": 13 },
+          { "id": "futureRoadmap", "visible": true, "order": 14 },
+          { "id": "support", "visible": true, "order": 15 },
+          { "id": "testimonial", "visible": true, "order": 16 },
+          { "id": "cta", "visible": true, "order": 17 }
+        ]
+      }
+    }
+  ]
+}

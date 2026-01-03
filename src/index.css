@@ -1,0 +1,223 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  /* color palette stored as RGB tuples for easy rgba(...) usage */
+  --color-bg: 15, 23, 42; /* #0f172a */
+  --color-white: 255, 255, 255;
+  --color-white-230: 230, 230, 230;
+  --color-cyan: 6, 182, 212; /* approximate cyan used in accents */
+  /* Accent palette (RGB tuples) */
+  --accent-cyan: 56, 189, 248; /* #38bdf8 */
+  --accent-purple: 168, 85, 247; /* #a855f7 */
+  --muted: 203, 213, 225; /* #cbd5e1 */
+  /* Semantic colors (RGB tuples) */
+  --text-primary: 255, 255, 255; /* white for dark */
+  --text-secondary: 148, 163, 184; /* slate-400 */
+  --panel-rgb: 255, 255, 255; /* panels use white on dark */
+  --panel-border-rgb: 255, 255, 255;
+  /* Typewriter gradient (dark theme) */
+  --typewriter-grad-start: 255, 255, 255; /* white */
+  --typewriter-grad-mid: 226, 232, 240;  /* slate-200 */
+  --typewriter-grad-end: 148, 163, 184;  /* slate-400 */
+  --typewriter-shadow: 0 0 0 rgba(0,0,0,0); /* none on dark */
+}
+
+/* Light theme overrides — toggle by setting document.documentElement.dataset.theme = 'light' */
+[data-theme="light"] {
+  --color-bg: 250, 250, 251; /* very light gray */
+  --color-white: 15, 23, 42; /* invert text color for light */
+  --color-white-230: 80, 85, 92;
+  --color-cyan: 6, 182, 212;
+  --accent-cyan: 6, 182, 212;
+  --accent-purple: 168, 85, 247;
+  --muted: 75, 85, 99;
+  color-scheme: light;
+  /* semantic overrides for light theme */
+  --text-primary: 15, 23, 42; /* dark text */
+  --text-secondary: 75, 85, 99; /* muted dark */
+  --panel-rgb: 255, 255, 255; /* panels remain light */
+  --panel-border-rgb: 15, 23, 42; /* subtle dark borders */
+  /* Typewriter gradient (light theme - richer/darker) */
+  --typewriter-grad-start: 30, 64, 175;  /* indigo-700 */
+  --typewriter-grad-mid: 2, 132, 199;    /* sky-600 */
+  --typewriter-grad-end: 6, 182, 212;    /* cyan-500 */
+  --typewriter-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+
+/* Semantic utility classes that follow theme variables */
+.text-primary { color: rgb(var(--text-primary)) !important; }
+.text-secondary { color: rgb(var(--text-secondary)) !important; }
+.text-muted { color: rgba(var(--text-secondary), 0.85) !important; }
+
+/* Panel backgrounds / borders (use small opacities for glass look) */
+.bg-panel-5 { background: rgba(var(--panel-rgb), 0.05) !important; }
+.bg-panel-10 { background: rgba(var(--panel-rgb), 0.10) !important; }
+.border-panel-10 { border-color: rgba(var(--panel-border-rgb), 0.10) !important; }
+.border-panel-20 { border-color: rgba(var(--panel-border-rgb), 0.20) !important; }
+
+/* Additional panel opacities used across the UI */
+.bg-panel-20 { background: rgba(var(--panel-rgb), 0.20) !important; }
+.bg-panel-30 { background: rgba(var(--panel-rgb), 0.30) !important; }
+.border-panel-5 { border-color: rgba(var(--panel-border-rgb), 0.05) !important; }
+
+/* High-opacity panel (used for light presentation panels) */
+.bg-panel-95 { background: rgba(var(--panel-rgb), 0.95) !important; }
+
+/* Accent caret for typewriter */
+.typewriter-caret { background: rgb(var(--accent-cyan)); }
+
+/* Global layout / responsiveness helpers */
+*,*::before,*::after{box-sizing:border-box}
+img,video,canvas,iframe{max-width:100%;height:auto;display:block}
+html,body,#root{height:100%}
+
+/* Consistent horizontal padding helper — used across pages */
+:root{--site-h-padding:0.75rem}
+.site-padding{padding-left:var(--site-h-padding);padding-right:var(--site-h-padding)}
+
+/* Prevent text overflow */
+.prevent-overflow{word-break:break-word;overflow-wrap:anywhere}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(var(--color-bg), 1);
+  color: rgb(var(--color-white));
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(var(--color-bg), 1);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-white), 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--color-white), 0.3);
+}
+
+/* Glass Utilities */
+.glass-panel {
+  background: rgba(var(--color-white), 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(var(--color-white), 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(var(--color-white), 0.1);
+  border: 1px solid rgba(var(--color-white), 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, rgb(var(--color-white)), rgb(var(--muted)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-accent {
+  background: linear-gradient(to right, rgb(var(--accent-cyan)), rgb(var(--accent-purple)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Theme-aware typewriter gradient */
+.typewriter-gradient {
+  background: linear-gradient(90deg,
+    rgb(var(--typewriter-grad-start)),
+    rgb(var(--typewriter-grad-mid)),
+    rgb(var(--typewriter-grad-end))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.typewriter-shadow {
+  text-shadow: var(--typewriter-shadow);
+}
+
+/* Header background utilities using the centralized palette */
+.bg-header { background-color: rgba(var(--color-bg), 1); }
+.bg-header-95 { background-color: rgba(var(--color-bg), 0.95); }
+.bg-header-80 { background-color: rgba(var(--color-bg), 0.8); }
+
+/* Gradient helper using centralized bg color */
+.gradient-from-header-to-transparent { background: linear-gradient(to top, rgba(var(--color-bg), 1), transparent); }
+
+/* Light-theme overrides for some Tailwind utilities that assume a dark background */
+[data-theme="light"] .text-white { color: rgb(var(--color-white-230) / var(--tw-text-opacity, 1)) !important; }
+[data-theme="light"] .text-slate-300 { color: rgb(var(--muted) / var(--tw-text-opacity, 1)) !important; }
+[data-theme="light"] .bg-white\/5 { background-color: rgba(var(--panel-rgb), 0.05) !important; }
+[data-theme="light"] .bg-white\/10 { background-color: rgba(var(--panel-rgb), 0.10) !important; }
+[data-theme="light"] .bg-white { background-color: rgb(var(--panel-rgb) / var(--tw-bg-opacity, 1)) !important; }
+[data-theme="light"] .border-white\/10 { border-color: rgba(var(--panel-border-rgb), 0.10) !important; }
+[data-theme="light"] .border-white\/20 { border-color: rgba(var(--panel-border-rgb), 0.20) !important; }
+[data-theme="light"] .hover\:bg-white:hover { background-color: rgb(var(--panel-rgb) / var(--tw-bg-opacity, 1)) !important; }
+
+/* Ensure small-screen layout doesn't overflow and keeps readable spacing */
+@media (max-width: 480px) {
+  :root{--site-h-padding:0.5rem}
+  .site-padding{padding-left:var(--site-h-padding);padding-right:var(--site-h-padding)}
+  .prevent-overflow{word-break:break-word;overflow-wrap:anywhere}
+  .w-72{width:100%}
+  .w-80{width:100%}
+  /* Collapse absolute positioned floating panels to normal flow on small screens */
+  .absolute{position:static !important; left:auto !important; right:auto !important; top:auto !important; bottom:auto !important}
+}
+
+/* Fix: ensure native <select> dropdown options are readable in both themes
+   Many browsers use native UI for select dropdowns; applying explicit
+   colors for select/option and optgroup helps avoid white-on-white issues. */
+select, select option, select optgroup {
+  color: rgb(var(--text-primary));
+  background: rgba(var(--panel-rgb), 0.04);
+}
+
+/* Light theme: white background and dark text */
+[data-theme="light"] select,
+[data-theme="light"] select option,
+[data-theme="light"] select optgroup {
+  color: rgb(var(--text-primary));
+  background: rgb(var(--panel-rgb));
+}
+
+/* Dark (default) theme: use the page background for dropdowns so white text stays readable */
+:where(:root):not([data-theme="light"]) select,
+:where(:root):not([data-theme="light"]) select option,
+:where(:root):not([data-theme="light"]) select optgroup {
+  color: rgb(var(--text-primary));
+  background: rgb(var(--color-bg));
+}
+
+/* Ensure options inherit the select background where browsers allow it */
+select option, select optgroup {
+  color: inherit;
+  background: inherit;
+}
+
+/* Improve contrast for focused/hovered options where supported */
+select:focus, select:hover {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(var(--accent-cyan), 0.08);
+}
+

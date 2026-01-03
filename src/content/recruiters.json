@@ -1,0 +1,382 @@
+{
+  "seo": {
+    "title": "Careers & Recruiting - InsightExus",
+    "description": "Join InsightExus. We're hiring talented engineers, designers, and architects to build transformative enterprise solutions. Explore open positions and learn about our culture.",
+    "keywords": [
+      "careers",
+      "jobs",
+      "hiring",
+      "engineering jobs",
+      "software engineering",
+      "join our team",
+      "remote jobs"
+    ],
+    "canonicalUrl": "https://insightexus.com/recruiters",
+    "openGraph": {
+      "title": "Careers - InsightExus",
+      "description": "Join our team of 200+ engineers building enterprise software solutions.",
+      "image": "/og-images/recruiters/og-recruiters.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Careers - InsightExus",
+      "description": "Join our talented team.",
+      "image": "/twitter-images/recruiters/og-recruiters.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "Join the InsightExus Team",
+    "subheadline": "Help us build transformative enterprise software solutions. We're hiring across engineering, design, and more.",
+    "cta": {
+      "text": "Explore Open Positions",
+      "href": "#open-positions"
+    }
+  },
+  "culture": {
+    "visibility": true,
+    "headline": "Our Culture & Values",
+    "description": "We believe great software comes from great people working in a supportive, innovative environment.",
+    "highlights": [
+      {
+        "title": "Mission-Driven",
+        "description": "We're solving real problems for customers in fintech, healthcare, e-commerce, and SaaS. Your work makes a measurable impact."
+      },
+      {
+        "title": "Remote-First",
+        "description": "Work from anywhere. We have team members across 25+ countries. Full flexibility and async-friendly culture."
+      },
+      {
+        "title": "Learning & Growth",
+        "description": "$5K/year learning budget per employee. Paid conference attendance, certification support, and mentorship from senior engineers."
+      },
+      {
+        "title": "Work-Life Balance",
+        "description": "We respect your time. Flexible hours, unlimited PTO, generous parental leave, and wellness benefits."
+      },
+      {
+        "title": "Inclusive & Diverse",
+        "description": "We actively build a diverse team and foster an inclusive culture. We celebrate our differences and perspectives."
+      },
+      {
+        "title": "Competitive Compensation",
+        "description": "Market-competitive salaries, equity packages, comprehensive health insurance, 401(k) matching, and performance bonuses."
+      }
+    ]
+  },
+  "team": {
+    "visibility": true,
+    "headline": "Meet Your Potential Team",
+    "description": "200+ talented people across engineering, design, product, and operations",
+    "stats": [
+      {
+        "number": "200+",
+        "label": "Team Members"
+      },
+      {
+        "number": "25+",
+        "label": "Countries Represented"
+      },
+      {
+        "number": "98%",
+        "label": "Employee Retention"
+      },
+      {
+        "number": "4.8",
+        "label": "Glassdoor Rating"
+      }
+    ],
+    "departments": [
+      {
+        "name": "Engineering",
+        "description": "Full-stack engineers, backend specialists, frontend experts, DevOps engineers, and QA specialists"
+      },
+      {
+        "name": "Design",
+        "description": "Product designers, UX researchers, and design systems specialists"
+      },
+      {
+        "name": "Product & Leadership",
+        "description": "Product managers, project managers, and engineering leaders"
+      },
+      {
+        "name": "Operations",
+        "description": "Recruiting, People ops, Finance, and Business development"
+      }
+    ]
+  },
+  "benefits": {
+    "visibility": true,
+    "headline": "Benefits & Perks",
+    "categories": [
+      {
+        "category": "Health & Wellness",
+        "items": [
+          "Comprehensive health, dental, vision insurance",
+          "Mental health and wellness coverage",
+          "Gym membership stipend",
+          "Annual health screening"
+        ]
+      },
+      {
+        "category": "Time Off",
+        "items": [
+          "Unlimited PTO",
+          "16 weeks parental leave",
+          "Paid sabbaticals (after 5 years)",
+          "Volunteer time off"
+        ]
+      },
+      {
+        "category": "Financial",
+        "items": [
+          "Market-competitive salaries",
+          "Equity package (options or grants)",
+          "401(k) matching (up to 6%)",
+          "Annual performance bonus (10-20%)"
+        ]
+      },
+      {
+        "category": "Learning & Development",
+        "items": [
+          "$5K/year learning budget",
+          "Paid conference attendance",
+          "Certification support",
+          "Internal knowledge-sharing sessions"
+        ]
+      },
+      {
+        "category": "Lifestyle",
+        "items": [
+          "Remote work flexibility",
+          "Flexible hours",
+          "Home office equipment stipend ($1K)",
+          "Annual offsites and team events"
+        ]
+      }
+    ]
+  },
+  "openPositions": {
+    "visibility": true,
+    "headline": "Open Positions",
+    "description": "We're actively hiring for these roles. Apply now or refer a friend!",
+    "positions": [
+      {
+        "visibility": true,
+        "id": "senior-fullstack-engineer",
+        "title": "Senior Full-Stack Engineer",
+        "department": "Engineering",
+        "location": "Remote",
+        "level": "Senior (5+ years)",
+        "type": "Full-time",
+        "description": "Build scalable web applications using React, Next.js, and Node.js. Lead architectural decisions and mentor junior engineers.",
+        "requirements": [
+          "5+ years full-stack web development",
+          "Expert in React/Next.js and Node.js",
+          "Strong system design skills",
+          "Experience with microservices and distributed systems",
+          "Leadership and mentoring experience"
+        ],
+        "responsibilities": [
+          "Design and develop full-stack features",
+          "Lead code reviews and architecture discussions",
+          "Mentor junior and mid-level engineers",
+          "Collaborate with product and design teams"
+        ],
+        "compensation": "$180K - $240K + equity",
+        "applyUrl": "https://apply.insightexus.com/positions/senior-fullstack-engineer"
+      },
+      {
+        "visibility": true,
+        "id": "senior-backend-engineer",
+        "title": "Senior Backend Engineer",
+        "department": "Engineering",
+        "location": "Remote",
+        "level": "Senior (5+ years)",
+        "type": "Full-time",
+        "description": "Design and implement scalable backend systems. Work on microservices, databases, and cloud infrastructure.",
+        "requirements": [
+          "5+ years backend development experience",
+          "Expert in Node.js, Python, or Go",
+          "Deep knowledge of databases (PostgreSQL, MongoDB, Redis)",
+          "Experience with Kubernetes and container orchestration",
+          "Understanding of security best practices"
+        ],
+        "responsibilities": [
+          "Design scalable backend architecture",
+          "Implement performant APIs and services",
+          "Optimize database queries and infrastructure",
+          "Ensure security and compliance requirements"
+        ],
+        "compensation": "$170K - $230K + equity",
+        "applyUrl": "https://apply.insightexus.com/positions/senior-backend-engineer"
+      },
+      {
+        "visibility": true,
+        "id": "frontend-engineer",
+        "title": "Frontend Engineer (React/Next.js)",
+        "department": "Engineering",
+        "location": "Remote",
+        "level": "Mid-Level (3+ years)",
+        "type": "Full-time",
+        "description": "Build beautiful, performant user interfaces using React and Next.js. Focus on accessibility and user experience.",
+        "requirements": [
+          "3+ years React development experience",
+          "Strong JavaScript/TypeScript skills",
+          "Experience with Next.js or similar frameworks",
+          "Understanding of CSS and responsive design",
+          "Familiarity with web performance optimization"
+        ],
+        "responsibilities": [
+          "Build responsive, accessible UI components",
+          "Implement features from design specifications",
+          "Optimize application performance",
+          "Collaborate with designers and backend teams"
+        ],
+        "compensation": "$120K - $160K + equity",
+        "applyUrl": "https://apply.insightexus.com/positions/frontend-engineer"
+      },
+      {
+        "visibility": true,
+        "id": "devops-engineer",
+        "title": "DevOps & Infrastructure Engineer",
+        "department": "Engineering",
+        "location": "Remote",
+        "level": "Mid-Level (4+ years)",
+        "type": "Full-time",
+        "description": "Build and maintain scalable cloud infrastructure. Work with Kubernetes, CI/CD, and monitoring systems.",
+        "requirements": [
+          "4+ years DevOps/infrastructure experience",
+          "Expert in Kubernetes and container technologies",
+          "Strong AWS knowledge",
+          "Experience with CI/CD tools (GitHub Actions, GitLab CI)",
+          "Infrastructure as Code (Terraform, CloudFormation)"
+        ],
+        "responsibilities": [
+          "Design and maintain cloud infrastructure",
+          "Implement CI/CD pipelines",
+          "Monitor systems and optimize performance",
+          "Ensure security and compliance"
+        ],
+        "compensation": "$140K - $190K + equity",
+        "applyUrl": "https://apply.insightexus.com/positions/devops-engineer"
+      },
+      {
+        "visibility": true,
+        "id": "qa-engineer",
+        "title": "Quality Assurance Engineer",
+        "department": "Engineering",
+        "location": "Remote",
+        "level": "Mid-Level (3+ years)",
+        "type": "Full-time",
+        "description": "Ensure quality through testing, automation, and process improvement. Build robust testing frameworks.",
+        "requirements": [
+          "3+ years QA experience",
+          "Expertise in test automation frameworks",
+          "Strong JavaScript or Python for test scripting",
+          "Understanding of CI/CD and testing best practices",
+          "Experience with Selenium, Jest, or similar tools"
+        ],
+        "responsibilities": [
+          "Design and execute test plans",
+          "Build automated test suites",
+          "Identify and document bugs",
+          "Collaborate on quality improvements"
+        ],
+        "compensation": "$100K - $140K + equity",
+        "applyUrl": "https://apply.insightexus.com/positions/qa-engineer"
+      },
+      {
+        "visibility": true,
+        "id": "product-designer",
+        "title": "Product Designer",
+        "department": "Design",
+        "location": "Remote",
+        "level": "Mid-Level (4+ years)",
+        "type": "Full-time",
+        "description": "Design user-centered products that solve real problems. Lead design from discovery to launch.",
+        "requirements": [
+          "4+ years product design experience",
+          "Proficiency in Figma or similar design tools",
+          "Strong portfolio demonstrating design process",
+          "Understanding of user research and usability testing",
+          "Experience designing for enterprise or SaaS products"
+        ],
+        "responsibilities": [
+          "Lead design process from discovery to delivery",
+          "Conduct user research and testing",
+          "Create wireframes, prototypes, and design specs",
+          "Collaborate with engineering and product teams"
+        ],
+        "compensation": "$110K - $150K + equity",
+        "applyUrl": "https://apply.insightexus.com/positions/product-designer"
+      }
+    ],
+    "applyInstructions": "Visit our careers portal to apply. Include your resume, portfolio (for design roles), and GitHub profile (for engineering roles)."
+  },
+  "referral": {
+    "visibility": true,
+    "headline": "Know Someone Great? Refer Them!",
+    "description": "We reward referrals. If you know someone who'd be a great fit, refer them and earn up to $3,000 if they're hired.",
+    "referralBonus": "$1,000 - $3,000 per successful hire",
+    "cta": {
+      "text": "Refer a Candidate",
+      "href": "mailto:referrals@insightexus.com"
+    }
+  },
+  "interview": {
+    "visibility": true,
+    "headline": "Our Interview Process",
+    "description": "Fair, transparent, and focused on your strengths",
+    "stages": [
+      {
+        "stage": 1,
+        "title": "Phone Screen",
+        "duration": "30 minutes",
+        "description": "Quick conversation about your background, interests, and the role"
+      },
+      {
+        "stage": 2,
+        "title": "Technical Assessment",
+        "duration": "1-2 hours",
+        "description": "Hands-on coding exercise or design challenge relevant to the role"
+      },
+      {
+        "stage": 3,
+        "title": "Team Interviews",
+        "duration": "2-3 hours",
+        "description": "Meet with engineering leads, team members, and hiring managers"
+      },
+      {
+        "stage": 4,
+        "title": "Offer & Negotiation",
+        "duration": "N/A",
+        "description": "Discuss offer details, compensation, and next steps"
+      }
+    ]
+  },
+  "commitment": {
+    "visibility": true,
+    "headline": "Our Commitment to Hiring",
+    "items": [
+      "We provide equal opportunity to all qualified candidates regardless of race, color, religion, sex, national origin, age, disability, or other protected status.",
+      "We provide accommodation for candidates with disabilities during the interview process.",
+      "We celebrate diversity and believe it strengthens our team and our products.",
+      "We're committed to building a culture where everyone feels welcomed and can do their best work."
+    ]
+  },
+  "cta": {
+    "visibility": true,
+    "headline": "Ready to Join Us?",
+    "description": "Explore open positions and apply today.",
+    "primaryCta": {
+      "text": "View Open Positions",
+      "href": "#open-positions"
+    },
+    "secondaryCta": {
+      "text": "Learn About Our Culture",
+      "href": "#culture"
+    }
+  }
+}

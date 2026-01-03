@@ -1,0 +1,237 @@
+{
+  "seo": {
+    "title": "FAQ - InsightExus Digital Transformation Solutions",
+    "description": "Frequently asked questions about our enterprise software solutions, processes, pricing, and support. Find answers to common questions.",
+    "keywords": [
+      "faq",
+      "frequently asked questions",
+      "enterprise software",
+      "digital transformation",
+      "support"
+    ],
+    "canonicalUrl": "https://insightexus.com/faq",
+    "openGraph": {
+      "title": "FAQ - InsightExus",
+      "description": "Answers to common questions about our solutions and services.",
+      "image": "/og-images/faq/og-faq.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "FAQ - InsightExus",
+      "description": "Find answers to your questions.",
+      "image": "/twitter-images/faq/og-faq.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "Frequently Asked Questions",
+    "subheadline": "Answers to common questions about our services, processes, and support"
+  },
+  "categories": [
+    {
+      "visibility": true,
+      "category": "Services & Solutions",
+      "icon": "🎯",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "What services does InsightExus offer?",
+          "answer": "We offer comprehensive digital transformation services including web development, mobile app development, system architecture, DevOps/cloud solutions, and consulting. Our services are tailored to fintech, e-commerce, healthcare, and SaaS industries."
+        },
+        {
+          "visibility": true,
+          "question": "Do you specialize in specific industries?",
+          "answer": "Yes, we have deep expertise in four key industries: Fintech (payment systems, lending, trading), E-Commerce (marketplaces, retail platforms), Healthcare (HIPAA-compliant systems, telehealth), and SaaS (multi-tenant platforms). This specialization allows us to deliver faster, more compliant, and higher-quality solutions."
+        },
+        {
+          "visibility": true,
+          "question": "Can you handle legacy system modernization?",
+          "answer": "Absolutely. We specialize in modernizing legacy systems. Our approach includes architecture assessment, incremental migration, parallel running when needed, and comprehensive testing to minimize risk."
+        },
+        {
+          "visibility": true,
+          "question": "What technology stack do you use?",
+          "answer": "We use modern, proven technologies: React/Next.js for frontend, Node.js/Python for backend, PostgreSQL/MongoDB for databases, Redis for caching, AWS/GCP for cloud infrastructure, and Kubernetes for orchestration. We tailor the stack to your specific needs."
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Process & Timeline",
+      "icon": "⏱️",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "How long does a typical project take?",
+          "answer": "Project timelines vary based on scope. MVP/Prototypes: 6-8 weeks. Growth Products: 10-16 weeks. Enterprise Solutions: 16+ weeks. We provide detailed timelines after the discovery phase."
+        },
+        {
+          "visibility": true,
+          "question": "What is your development methodology?",
+          "answer": "We use Agile methodology with 2-week sprints. This allows for regular client feedback, iterative development, and flexibility to adapt to changing requirements. We maintain transparency through weekly updates and demos."
+        },
+        {
+          "visibility": true,
+          "question": "How do you handle scope changes during the project?",
+          "answer": "We welcome scope refinements. Changes are evaluated in terms of impact on timeline and budget, then transparently communicated to you. We use agile approaches to incorporate priority changes without derailing the project."
+        },
+        {
+          "visibility": true,
+          "question": "What's your on-time delivery record?",
+          "answer": "We maintain a 96% on-time delivery rate. When timelines shift, we communicate early and transparently, providing revised estimates and adjusted plans."
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Pricing & Investment",
+      "icon": "💰",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "How do you price projects?",
+          "answer": "We offer flexible pricing models: Fixed-price projects (for well-defined scope), Time & Material (for exploratory work), and Retainer-based (for ongoing support). We discuss the best fit after understanding your project."
+        },
+        {
+          "visibility": true,
+          "question": "What's the typical budget range?",
+          "answer": "MVP/Prototypes: $25K–$50K. Growth Products: $50K–$150K. Enterprise Solutions: $150K+. Budget varies based on complexity, team size, and timeline. We work with you to optimize value within your budget."
+        },
+        {
+          "visibility": true,
+          "question": "Is there a minimum project size?",
+          "answer": "Yes, our minimum engagement is typically $25K. For smaller projects or consulting, we can discuss custom arrangements."
+        },
+        {
+          "visibility": true,
+          "question": "What's the ROI on digital transformation projects?",
+          "answer": "ROI varies by project, but typical benefits include: 30–60% efficiency gains, faster time-to-market, 3–5x ROI within 3 years, reduced operational costs, and improved customer satisfaction. We discuss expected ROI during the discovery phase."
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Team & Engagement",
+      "icon": "👥",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "Who will work on my project?",
+          "answer": "We assign a dedicated team including a project manager, lead architect, frontend engineer(s), backend engineer(s), and QA specialist. Key team members are committed to your project throughout its lifecycle."
+        },
+        {
+          "visibility": true,
+          "question": "Can I meet the team before engaging?",
+          "answer": "Yes. We include an initial consultation where you'll meet the proposed project lead and architect. This helps ensure cultural fit and sets expectations."
+        },
+        {
+          "visibility": true,
+          "question": "What's your team's experience level?",
+          "answer": "Our team averages 10+ years of experience. All engineers have shipped production software and many have worked at top tech companies. We prioritize senior engineers on all projects."
+        },
+        {
+          "visibility": true,
+          "question": "Do you offer team augmentation / hiring?",
+          "answer": "Yes. We can provide dedicated developers to augment your in-house team. This works well for long-term support, maintenance, or scaling a project."
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Security & Compliance",
+      "icon": "🔒",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "Is your work secure and compliant?",
+          "answer": "Yes. We're SOC 2 Type II certified, ISO 27001 compliant, and GDPR/HIPAA-ready. We implement security best practices from the start: encryption, secure APIs, regular security audits, and compliance monitoring."
+        },
+        {
+          "visibility": true,
+          "question": "Do you perform security audits and penetration testing?",
+          "answer": "Yes. We include security assessments in all projects. For high-security applications, we conduct third-party penetration testing before launch."
+        },
+        {
+          "visibility": true,
+          "question": "What's your data retention and privacy policy?",
+          "answer": "We're GDPR and CCPA compliant. Your data is never shared with third parties. We delete development/test data securely. Read our full privacy policy on our website."
+        },
+        {
+          "visibility": true,
+          "question": "Can you meet HIPAA or GDPR requirements?",
+          "answer": "Yes. We have dedicated expertise in both. For HIPAA, we build on AWS HIPAA-eligible services with BAAs. For GDPR, we implement consent management, data portability, and DPAs."
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Support & Maintenance",
+      "icon": "🤝",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "Do you provide post-launch support?",
+          "answer": "Yes. We include 60–90 days of warranty support post-launch. After that, we offer maintenance packages ranging from $5K–$30K/month depending on scope."
+        },
+        {
+          "visibility": true,
+          "question": "What's your typical SLA?",
+          "answer": "P1 (Critical): 4-hour response, 24-hour resolution. P2 (High): Next business day response. P3 (Medium): 5 business days. Custom SLAs available for enterprise clients."
+        },
+        {
+          "visibility": true,
+          "question": "Can you help with knowledge transfer and training?",
+          "answer": "Yes. We provide comprehensive training, documentation, and video tutorials. Your team receives full source code, architecture diagrams, deployment guides, and hands-on workshops."
+        },
+        {
+          "visibility": true,
+          "question": "Do you provide 24/7 support?",
+          "answer": "We offer 24/7 monitoring for critical systems. Full 24/7 support staff is available for enterprise contracts. Standard support is business-hours (9 AM–6 PM in your timezone)."
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "category": "Working With InsightExus",
+      "icon": "💼",
+      "faqs": [
+        {
+          "visibility": true,
+          "question": "What's the first step to working with you?",
+          "answer": "Start with a free discovery call (30 minutes). We discuss your goals, challenges, and timeline. If it's a good fit, we propose a detailed discovery phase (1–2 weeks) to understand your needs deeply."
+        },
+        {
+          "visibility": true,
+          "question": "Do you require a long-term contract?",
+          "answer": "For project engagements, we typically require 50% upfront payment and 50% on completion. For ongoing support, we offer monthly retainers. Contract terms are flexible and negotiable."
+        },
+        {
+          "visibility": true,
+          "question": "What if I'm not satisfied with the work?",
+          "answer": "We stand behind our work with a 60–90 day warranty. If issues arise, we fix them at no additional cost. We also maintain a 98% client satisfaction rate; if you're unhappy early on, we work to resolve concerns or discuss other options."
+        },
+        {
+          "visibility": true,
+          "question": "Can you integrate with my existing systems?",
+          "answer": "Yes. We specialize in integrations. Whether it's legacy systems, third-party APIs, databases, or payment gateways, we build robust, secure integrations."
+        },
+        {
+          "visibility": true,
+          "question": "Do I own the source code?",
+          "answer": "Yes, absolutely. You receive full ownership of all source code, architecture documents, and IP upon project completion. We also provide the option to self-host or deploy to your AWS account."
+        }
+      ]
+    }
+  ],
+  "stillHaveQuestions": {
+    "visibility": true,
+    "headline": "Still Have Questions?",
+    "description": "Can't find what you're looking for? We're here to help.",
+    "cta": {
+      "text": "Contact Us",
+      "href": "/contact"
+    },
+    "alternativeContact": "Or email us at hello@insightexus.com"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "seo": {
+    "title": "Portfolio & Project Gallery - InsightExus",
+    "description": "Browse our portfolio of enterprise software projects and digital transformation case studies across fintech, e-commerce, healthcare, and SaaS.",
+    "keywords": [
+      "portfolio",
+      "projects",
+      "case studies",
+      "work samples",
+      "enterprise software"
+    ],
+    "canonicalUrl": "https://insightexus.com/portfolio",
+    "openGraph": {
+      "title": "Portfolio - InsightExus",
+      "description": "Our best work in enterprise software development.",
+      "image": "/og-images/portfolio/og-portfolio.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Portfolio - InsightExus",
+      "description": "Explore our enterprise software projects.",
+      "image": "/twitter-images/portfolio/og-portfolio.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "Our Portfolio of Excellence",
+    "subheadline": "50+ transformational projects across fintech, e-commerce, healthcare, and SaaS"
+  },
+  "filters": {
+    "visibility": true,
+    "enableSearch": true,
+    "enableCategoryFilter": true,
+    "enableIndustryFilter": true,
+    "enableTechFilter": true,
+    "categories": [
+      {
+        "slug": "web-development",
+        "name": "Web Development"
+      },
+      {
+        "slug": "mobile-development",
+        "name": "Mobile Development"
+      },
+      {
+        "slug": "architecture",
+        "name": "Architecture & Consulting"
+      },
+      {
+        "slug": "devops",
+        "name": "DevOps & Cloud"
+      }
+    ],
+    "industries": [
+      {
+        "slug": "fintech",
+        "name": "Fintech"
+      },
+      {
+        "slug": "ecommerce",
+        "name": "E-Commerce"
+      },
+      {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      {
+        "slug": "saas",
+        "name": "SaaS"
+      }
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  "galleryLayout": {
+    "type": "grid",
+    "columns": 3,
+    "itemsPerPage": 12,
+    "enablePagination": true,
+    "enableLoadMore": true
+  },
+  "stats": {
+    "visibility": true,
+    "headline": "Portfolio Overview",
+    "items": [
+      {
+        "number": "50+",
+        "label": "Projects Delivered"
+      },
+      {
+        "number": "$500M+",
+        "label": "Client Value Generated"
+      },
+      {
+        "number": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "98%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
+  "featuredProjects": {
+    "visibility": true,
+    "headline": "Featured Projects",
+    "description": "Our most impactful and transformational engagements"
+  },
+  "byIndustry": {
+    "visibility": true,
+    "headline": "Projects by Industry",
+    "fintech": {
+      "count": "15+",
+      "description": "Payment systems, trading platforms, lending marketplaces"
+    },
+    "ecommerce": {
+      "count": "12+",
+      "description": "Marketplaces, retail platforms, conversion optimization"
+    },
+    "healthcare": {
+      "count": "10+",
+      "description": "HIPAA-compliant systems, telehealth, health data analytics"
+    },
+    "saas": {
+      "count": "13+",
+      "description": "Multi-tenant platforms, analytics, workflow automation"
+    }
+  },
+  "caseStudyLink": {
+    "visibility": true,
+    "headline": "In-Depth Case Studies",
+    "description": "Explore detailed breakdowns of selected projects with metrics, challenges, and solutions",
+    "cta": {
+      "text": "View All Case Studies",
+      "href": "/projects"
+    }
+  },
+  "cta": {
+    "visibility": true,
+    "headline": "Ready to Build Your Success Story?",
+    "description": "Let's discuss how we can help transform your business.",
+    "primaryCta": {
+      "text": "Schedule a Consultation",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "text": "View Case Studies",
+      "href": "/projects"
+    }
+  }
+}

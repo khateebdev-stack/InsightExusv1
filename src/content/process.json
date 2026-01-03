@@ -1,0 +1,69 @@
+{
+  "process": {
+    "visibility": true,
+    "headline": "How We Work",
+    "subheadline": "Agile, transparent, and collaborative development methodology"
+  },
+  "steps": [
+    {
+      "visibility": true,
+      "step": 1,
+      "title": "Discovery & Planning",
+      "duration": "1-2 weeks",
+      "description": "We dive deep into understanding your business goals, user needs, and technical requirements. We conduct stakeholder interviews, competitive analysis, and create a detailed project roadmap.",
+      "icon": "Layers",
+      "deliverables": [
+        "Project scope document",
+        "Technology recommendations",
+        "Timeline and budget",
+        "Success metrics"
+      ],
+      "highlights": "Requirements gathering, Architecture planning, Resource allocation"
+    },
+    {
+      "visibility": true,
+      "step": 2,
+      "title": "Design & Prototyping",
+      "duration": "2-3 weeks",
+      "description": "Our design team creates user-centered wireframes, high-fidelity mockups, and interactive prototypes. We test concepts with real users and iterate based on feedback.",
+      "icon": "Code",
+      "deliverables": [
+        "Design system",
+        "UI/UX mockups",
+        "Interactive prototype",
+        "User feedback"
+      ],
+      "highlights": "Design system creation, User testing, Iterative refinement"
+    },
+    {
+      "visibility": true,
+      "step": 3,
+      "title": "Development & Integration",
+      "duration": "4-12 weeks",
+      "description": "Our engineers build the solution using agile sprint cycles. We integrate APIs, set up databases, implement real-time features, and ensure code quality with automated testing.",
+      "icon": "Cpu",
+      "deliverables": [
+        "Production code",
+        "API documentation",
+        "Automated tests",
+        "CI/CD pipeline"
+      ],
+      "highlights": "2-week sprints, Daily standups, Continuous testing"
+    },
+    {
+      "visibility": true,
+      "step": 4,
+      "title": "Launch & Optimization",
+      "duration": "1-2 weeks",
+      "description": "We deploy to production, monitor performance, and optimize based on real-world usage. Ongoing support ensures smooth operation and quick resolution of any issues.",
+      "icon": "Zap",
+      "deliverables": [
+        "Production deployment",
+        "Monitoring setup",
+        "Performance report",
+        "Support plan"
+      ],
+      "highlights": "Zero-downtime deployment, Real-time monitoring, Continuous improvement"
+    }
+  ]
+}

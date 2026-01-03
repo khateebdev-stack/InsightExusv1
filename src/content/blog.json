@@ -1,0 +1,244 @@
+{
+  "seo": {
+    "title": "Blog - Enterprise Software & Digital Transformation Insights",
+    "description": "Read insights and articles on digital transformation, enterprise software development, and technology trends from InsightExus.",
+    "keywords": [
+      "blog",
+      "insights",
+      "digital transformation",
+      "software development",
+      "technology",
+      "best practices",
+      "tutorials"
+    ],
+    "canonicalUrl": "https://insightexus.com/blog",
+    "openGraph": {
+      "title": "Blog - InsightExus",
+      "description": "Insights on digital transformation and enterprise software.",
+      "image": "/og-images/blog/og-blog.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Blog - InsightExus",
+      "description": "Read our latest insights and articles.",
+      "image": "/twitter-images/blog/og-blog.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "Insights on Digital Transformation",
+    "subheadline": "Expert articles, case studies, and thought leadership from the InsightExus team"
+  },
+  "posts": [
+    {
+      "visibility": true,
+      "slug": "legacy-modernization-strategies",
+      "title": "5 Strategies for Successful Legacy System Modernization",
+      "excerpt": "Learn the proven approach we use to modernize outdated systems with minimal risk and maximum value.",
+      "description": "Modernizing legacy systems is a complex challenge. In this article, we share 5 strategies we've refined through 15+ years and 40+ legacy modernization projects.",
+      "author": "Sarah Chen",
+      "authorRole": "CTO, InsightExus",
+      "authorImage": "/images/authors/sarah-chen.jpg",
+      "publishDate": "2024-01-15",
+      "updatedDate": "2024-01-20",
+      "category": "Architecture",
+      "tags": [
+        "legacy-systems",
+        "modernization",
+        "architecture",
+        "best-practices"
+      ],
+      "image": "/images/blog/legacy-modernization.jpg",
+      "readingTime": "8 min read",
+      "featured": true,
+      "content": "Full blog post content would go here...",
+      "seo": {
+        "title": "Legacy System Modernization: 5 Proven Strategies | InsightExus",
+        "description": "Learn the proven strategies for modernizing legacy systems with minimal risk. Based on 40+ successful modernization projects.",
+        "keywords": [
+          "legacy modernization",
+          "system modernization",
+          "refactoring",
+          "microservices"
+        ]
+      }
+    },
+    {
+      "visibility": true,
+      "slug": "microservices-architecture-guide",
+      "title": "The Complete Guide to Microservices Architecture",
+      "excerpt": "A comprehensive guide to building scalable microservices systems with best practices and patterns.",
+      "description": "Microservices architecture can be powerful but also complex. This guide covers patterns, trade-offs, and lessons learned from our largest microservices deployments.",
+      "author": "Michael Rodriguez",
+      "authorRole": "Lead Architect, InsightExus",
+      "authorImage": "/images/authors/michael-rodriguez.jpg",
+      "publishDate": "2024-01-10",
+      "updatedDate": "2024-01-18",
+      "category": "Architecture",
+      "tags": [
+        "microservices",
+        "architecture",
+        "scalability",
+        "kubernetes"
+      ],
+      "image": "/images/blog/microservices-guide.jpg",
+      "readingTime": "12 min read",
+      "featured": true,
+      "content": "Full blog post content would go here...",
+      "seo": {
+        "title": "Microservices Architecture Guide - Patterns & Best Practices",
+        "description": "Complete guide to microservices architecture including patterns, deployment, monitoring, and lessons learned.",
+        "keywords": [
+          "microservices",
+          "architecture patterns",
+          "distributed systems",
+          "scalability"
+        ]
+      }
+    },
+    {
+      "visibility": true,
+      "slug": "react-nextjs-performance-optimization",
+      "title": "Next.js Performance Optimization: From 4s to 0.8s Load Times",
+      "excerpt": "Real-world techniques to optimize Next.js applications and achieve Lighthouse scores above 90.",
+      "description": "Learn the specific optimization techniques we used to reduce PayFlow's load time from 4.2s to 0.8s—a real-world case study.",
+      "author": "Jennifer Park",
+      "authorRole": "Senior Frontend Engineer, InsightExus",
+      "authorImage": "/images/authors/jennifer-park.jpg",
+      "publishDate": "2024-01-05",
+      "updatedDate": "2024-01-17",
+      "category": "Frontend",
+      "tags": [
+        "react",
+        "nextjs",
+        "performance",
+        "optimization",
+        "web-vitals"
+      ],
+      "image": "/images/blog/nextjs-performance.jpg",
+      "readingTime": "10 min read",
+      "featured": true,
+      "content": "Full blog post content would go here...",
+      "seo": {
+        "title": "Next.js Performance Optimization - Achieve 90+ Lighthouse Scores",
+        "description": "Practical techniques to optimize Next.js apps. Real case study reducing load time 80%. Image optimization, code splitting, caching strategies.",
+        "keywords": [
+          "nextjs performance",
+          "react optimization",
+          "web vitals",
+          "lighthouse",
+          "page speed"
+        ]
+      }
+    },
+    {
+      "visibility": true,
+      "slug": "hipaa-compliance-guide",
+      "title": "Building HIPAA-Compliant Healthcare Applications",
+      "excerpt": "A technical guide to building healthcare applications that meet HIPAA requirements.",
+      "description": "HIPAA compliance isn't just legal—it's essential for user trust. Learn the technical requirements and best practices.",
+      "author": "Dr. Kumar",
+      "authorRole": "Healthcare Tech Lead, InsightExus",
+      "authorImage": "/images/authors/kumar.jpg",
+      "publishDate": "2023-12-28",
+      "updatedDate": "2024-01-10",
+      "category": "Security & Compliance",
+      "tags": [
+        "hipaa",
+        "healthcare",
+        "security",
+        "compliance",
+        "privacy"
+      ],
+      "image": "/images/blog/hipaa-compliance.jpg",
+      "readingTime": "9 min read",
+      "featured": false,
+      "content": "Full blog post content would go here...",
+      "seo": {
+        "title": "HIPAA Compliance Guide for Healthcare Applications",
+        "description": "Technical guide to HIPAA compliance. Covers encryption, audit logging, access controls, data residency, and AWS HIPAA services.",
+        "keywords": [
+          "hipaa compliance",
+          "healthcare security",
+          "data privacy",
+          "aws hipaa",
+          "encryption"
+        ]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "description": "System design and technical architecture insights"
+    },
+    {
+      "slug": "frontend",
+      "name": "Frontend Development",
+      "description": "React, Next.js, and JavaScript best practices"
+    },
+    {
+      "slug": "backend",
+      "name": "Backend Development",
+      "description": "Node.js, Python, and server-side engineering"
+    },
+    {
+      "slug": "devops",
+      "name": "DevOps & Cloud",
+      "description": "Kubernetes, AWS, deployment, and infrastructure"
+    },
+    {
+      "slug": "security",
+      "name": "Security & Compliance",
+      "description": "Security best practices and regulatory compliance"
+    },
+    {
+      "slug": "case-studies",
+      "name": "Case Studies",
+      "description": "Real-world project examples and lessons learned"
+    }
+  ],
+  "tags": [
+    "architecture",
+    "microservices",
+    "react",
+    "nextjs",
+    "node.js",
+    "kubernetes",
+    "aws",
+    "security",
+    "hipaa",
+    "gdpr",
+    "performance",
+    "optimization",
+    "devops",
+    "ci-cd"
+  ],
+  "newsletter": {
+    "visibility": true,
+    "headline": "Get New Posts in Your Inbox",
+    "description": "Subscribe to our newsletter for weekly insights on digital transformation and enterprise software.",
+    "placeholder": "your@email.com",
+    "buttonText": "Subscribe"
+  },
+  "relatedResources": {
+    "visibility": true,
+    "headline": "Related Resources",
+    "items": [
+      {
+        "title": "View All Case Studies",
+        "href": "/projects"
+      },
+      {
+        "title": "Browse Our Services",
+        "href": "/services"
+      },
+      {
+        "title": "FAQ",
+        "href": "/faq"
+      }
+    ]
+  }
+}

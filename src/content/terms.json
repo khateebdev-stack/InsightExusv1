@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Terms of Service - InsightExus",
+    "description": "Review the terms and conditions for using InsightExus products and services.",
+    "canonicalUrl": "https://insightexus.com/terms",
+    "openGraph": {
+      "title": "Terms of Service - InsightExus",
+      "description": "Your agreement for using our products and services.",
+      "image": "/og-images/legal/terms.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Terms of Service - InsightExus",
+      "description": "Your agreement for using our products and services.",
+      "image": "/twitter-images/legal/terms.png"
+    }
+  },
+  "hero": {
+    "headline": "Terms of Service",
+    "subheadline": "The rules and commitments that govern our relationship with you.",
+    "updatedOn": "2026-01-03"
+  },
+  "sections": [
+    {
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using our site or services, you agree to these Terms. If you do not agree, do not use our services."
+    },
+    {
+      "title": "Use of Services",
+      "items": [
+        "Provide accurate information",
+        "Do not misuse or disrupt the services",
+        "Comply with applicable laws",
+        "Respect intellectual property rights"
+      ]
+    },
+    {
+      "title": "Accounts",
+      "body": "You are responsible for maintaining account confidentiality and all activities under your account."
+    },
+    {
+      "title": "Intellectual Property",
+      "body": "All content, trademarks, and materials remain the property of InsightExus or its licensors. No rights are transferred except as expressly granted."
+    },
+    {
+      "title": "Third-Party Services",
+      "body": "We may integrate third-party services. Their terms and privacy practices apply when you use them."
+    },
+    {
+      "title": "Payments & Billing",
+      "body": "Where applicable, fees, invoicing terms, and taxes are defined in service agreements or order forms."
+    },
+    {
+      "title": "Confidentiality",
+      "body": "Both parties agree to protect each other's confidential information and use it only for agreed purposes."
+    },
+    {
+      "title": "Warranties & Disclaimers",
+      "body": "Services are provided 'as is' without warranties unless explicitly stated in a written agreement."
+    },
+    {
+      "title": "Limitation of Liability",
+      "body": "To the maximum extent permitted by law, InsightExus is not liable for indirect, incidental, or consequential damages."
+    },
+    {
+      "title": "Indemnity",
+      "body": "You agree to indemnify InsightExus against claims arising from your misuse of the services or violation of these Terms."
+    },
+    {
+      "title": "Termination",
+      "body": "We may suspend or terminate access for violations of these Terms or as allowed under applicable agreements."
+    },
+    {
+      "title": "Governing Law",
+      "body": "These Terms are governed by the laws of the State of California, USA, without regard to conflict of law principles."
+    },
+    {
+      "title": "Changes to Terms",
+      "body": "We may update these Terms. Material changes will be communicated, and the 'Updated On' date will reflect the latest version."
+    },
+    {
+      "title": "Contact",
+      "body": "For questions about these Terms, email legal@insightexus.com or write to: InsightExus, 123 Tech Street, San Francisco, CA 94105, USA."
+    }
+  ]
+}

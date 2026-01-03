@@ -1,0 +1,236 @@
+{
+  "seo": {
+    "title": "Industry Solutions - Enterprise Digital Transformation | InsightExus",
+    "description": "Specialized software solutions tailored to fintech, e-commerce, healthcare, and SaaS industries. Industry-specific expertise and proven methodologies.",
+    "keywords": [
+      "fintech solutions",
+      "e-commerce platforms",
+      "healthcare technology",
+      "saas solutions",
+      "industry solutions",
+      "digital transformation",
+      "enterprise software",
+      "industry expertise"
+    ],
+    "canonicalUrl": "https://insightexus.com/solutions",
+    "openGraph": {
+      "title": "Industry-Specific Solutions | InsightExus",
+      "description": "Tailored software solutions for fintech, e-commerce, healthcare, and SaaS.",
+      "image": "/og-images/solutions/og-solutions.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Industry Solutions - InsightExus",
+      "description": "Specialized expertise across key sectors.",
+      "image": "/twitter-images/solutions/og-solutions.png"
+    }
+  },
+  "hero": {
+    "visibility": true,
+    "headline": "Industry-Specific Solutions",
+    "subheadline": "Tailored expertise for fintech, e-commerce, healthcare, and SaaS transformations",
+    "cta": {
+      "text": "Explore a Solution",
+      "href": "#solutions"
+    }
+  },
+  "solutions": [
+    {
+      "visibility": true,
+      "slug": "fintech",
+      "icon": "💰",
+      "title": "Financial Services & Fintech",
+      "subtitle": "Secure, compliant financial technology solutions",
+      "description": "We specialize in building secure, compliant financial platforms that handle billions in transactions. Our expertise spans payment systems, trading platforms, lending marketplaces, and blockchain solutions.",
+      "image": "/images/solutions/fintech.jpg",
+      "challenges": [
+        "Legacy system modernization and integration with new technologies",
+        "Regulatory compliance (PCI-DSS, SOX, GDPR, CCPA)",
+        "Real-time transaction processing and fraud detection",
+        "Data security and encryption at scale"
+      ],
+      "solutions": [
+        "Microservices architecture for scalability and fault tolerance",
+        "Real-time processing with event-driven systems",
+        "Advanced fraud detection with machine learning",
+        "Secure APIs and OAuth 2.0 authentication"
+      ],
+      "caseStudies": [
+        {
+          "slug": "payflow-legacy-modernization",
+          "title": "PayFlow - Legacy Modernization",
+          "result": "10+/week deployment frequency, 80% faster load times"
+        }
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS",
+        "Kubernetes",
+        "gRPC",
+        "Kafka"
+      ]
+    },
+    {
+      "visibility": true,
+      "slug": "ecommerce",
+      "icon": "🛍️",
+      "title": "E-Commerce & Retail",
+      "subtitle": "High-performance, scalable online marketplaces",
+      "description": "From marketplace platforms to omnichannel retail solutions, we build e-commerce systems that scale to millions of transactions. Conversion-focused design, personalization, and seamless payment integration.",
+      "image": "/images/solutions/ecommerce.jpg",
+      "challenges": [
+        "High traffic handling during peak seasons",
+        "Inventory management across channels",
+        "Personalization at scale",
+        "Payment and fulfillment integration"
+      ],
+      "solutions": [
+        "CDN and caching strategies for sub-second response times",
+        "Real-time inventory synchronization",
+        "Recommendation engine with machine learning",
+        "Multi-gateway payment processing"
+      ],
+      "caseStudies": [],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "Elasticsearch",
+        "MongoDB",
+        "AWS",
+        "Stripe/PayPal"
+      ]
+    },
+    {
+      "visibility": true,
+      "slug": "healthcare",
+      "icon": "🏥",
+      "title": "Healthcare & Life Sciences",
+      "subtitle": "HIPAA-compliant healthcare technology solutions",
+      "description": "Building HIPAA-compliant patient management systems, telehealth platforms, and health data analytics solutions. Security and data privacy are paramount.",
+      "image": "/images/solutions/healthcare.jpg",
+      "challenges": [
+        "HIPAA compliance and data privacy regulations",
+        "Patient data security and encryption",
+        "Interoperability with existing EHR systems",
+        "Real-time telehealth and monitoring"
+      ],
+      "solutions": [
+        "End-to-end encryption and secure data transmission",
+        "HL7/FHIR standard compliance",
+        "Audit logging and compliance monitoring",
+        "HIPAA-aligned infrastructure on AWS/Azure"
+      ],
+      "caseStudies": [],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "AWS HIPAA",
+        "WebRTC for telehealth"
+      ]
+    },
+    {
+      "visibility": true,
+      "slug": "saas",
+      "icon": "☁️",
+      "title": "SaaS & B2B Platforms",
+      "subtitle": "Scalable, multi-tenant SaaS solutions",
+      "description": "We build multi-tenant SaaS platforms with advanced analytics, role-based access, and integrations. From MVP to enterprise scale, we handle every stage of SaaS growth.",
+      "image": "/images/solutions/saas.jpg",
+      "challenges": [
+        "Multi-tenancy and data isolation",
+        "Billing and subscription management",
+        "API rate limiting and fair usage",
+        "Scalability and performance as customers grow"
+      ],
+      "solutions": [
+        "Multi-tenant architecture with row-level security",
+        "Stripe/Paddle integration for billing",
+        "Advanced analytics and usage tracking",
+        "Auto-scaling infrastructure"
+      ],
+      "caseStudies": [],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Stripe",
+        "Segment/Mixpanel"
+      ]
+    }
+  ],
+  "industries": {
+    "visibility": true,
+    "headline": "Industry Expertise",
+    "description": "Proven track record across key sectors",
+    "stats": [
+      {
+        "industry": "Fintech",
+        "projects": "15+",
+        "clients": "12",
+        "revenue": "$180M+"
+      },
+      {
+        "industry": "E-Commerce",
+        "projects": "12+",
+        "clients": "8",
+        "revenue": "$145M+"
+      },
+      {
+        "industry": "Healthcare",
+        "projects": "10+",
+        "clients": "7",
+        "revenue": "$98M+"
+      },
+      {
+        "industry": "SaaS",
+        "projects": "13+",
+        "clients": "10",
+        "revenue": "$125M+"
+      }
+    ]
+  },
+  "whyIndustryFocus": {
+    "visibility": true,
+    "headline": "Why Industry Specialization Matters",
+    "description": "Deeper expertise, faster delivery, and better results",
+    "points": [
+      {
+        "title": "Regulatory Knowledge",
+        "description": "We understand compliance requirements specific to your industry and build it in from day one."
+      },
+      {
+        "title": "Best Practices",
+        "description": "We've learned what works and what doesn't through dozens of projects in your space."
+      },
+      {
+        "title": "Faster Delivery",
+        "description": "Existing patterns, templates, and integrations reduce development time and risk."
+      },
+      {
+        "title": "Better UX",
+        "description": "We understand your users' workflows and build intuitive, industry-specific interfaces."
+      }
+    ]
+  },
+  "cta": {
+    "visibility": true,
+    "headline": "Let's Discuss Your Industry Needs",
+    "description": "Schedule a consultation with our industry experts.",
+    "primaryCta": {
+      "text": "Contact Us",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "text": "View Case Studies",
+      "href": "/projects"
+    }
+  }
+}

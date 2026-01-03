@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Privacy Policy - InsightExus",
+    "description": "Learn how InsightExus collects, uses, stores, and protects your data.",
+    "canonicalUrl": "https://insightexus.com/privacy-policy",
+    "openGraph": {
+      "title": "Privacy Policy - InsightExus",
+      "description": "How we handle your data with care and compliance.",
+      "image": "/og-images/legal/privacy.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Privacy Policy - InsightExus",
+      "description": "How we handle your data with care and compliance.",
+      "image": "/twitter-images/legal/privacy.png"
+    }
+  },
+  "hero": {
+    "headline": "Privacy Policy",
+    "subheadline": "How we collect, use, store, and protect your information.",
+    "updatedOn": "2026-01-03"
+  },
+  "sections": [
+    {
+      "title": "Introduction",
+      "body": "We respect your privacy and are committed to protecting your personal data. This policy explains what we collect, why we collect it, and how we safeguard it."
+    },
+    {
+      "title": "What We Collect",
+      "items": [
+        "Contact details (name, email, phone, company)",
+        "Usage data (pages visited, interactions, device info)",
+        "Form submissions and uploaded files",
+        "Cookies and similar technologies"
+      ]
+    },
+    {
+      "title": "How We Use Data",
+      "items": [
+        "To respond to inquiries and provide services",
+        "To improve site performance and user experience",
+        "To send service updates and relevant content (with consent)",
+        "To secure our platform and prevent abuse"
+      ]
+    },
+    {
+      "title": "Legal Bases",
+      "items": [
+        "Performance of a contract",
+        "Legitimate interests (product improvement, security)",
+        "Consent (marketing, cookies where required)",
+        "Compliance with legal obligations"
+      ]
+    },
+    {
+      "title": "Data Sharing",
+      "body": "We do not sell your data. We may share data with trusted processors (hosting, analytics, email delivery) under strict agreements and only as needed."
+    },
+    {
+      "title": "Data Retention",
+      "body": "We retain personal data only as long as necessary for the purposes described or to comply with legal requirements."
+    },
+    {
+      "title": "Your Rights",
+      "items": [
+        "Access, correct, or delete your data",
+        "Object or restrict certain processing",
+        "Withdraw consent where applicable",
+        "Portability where legally applicable"
+      ],
+      "contact": "To exercise rights, email: privacy@insightexus.com"
+    },
+    {
+      "title": "Security",
+      "body": "We use technical and organizational safeguards (encryption in transit, least-privilege access, monitoring) to protect your data."
+    },
+    {
+      "title": "Cookies",
+      "body": "We use cookies for essential functionality, analytics, and improving user experience. Manage preferences via the cookie banner or browser settings."
+    },
+    {
+      "title": "International Transfers",
+      "body": "When transferring data internationally, we use appropriate safeguards such as Standard Contractual Clauses where required."
+    },
+    {
+      "title": "Children",
+      "body": "Our services are not directed to children under 16. We do not knowingly collect data from children."
+    },
+    {
+      "title": "Changes",
+      "body": "We may update this policy. Material changes will be communicated, and the 'Updated On' date will reflect the latest version."
+    },
+    {
+      "title": "Contact",
+      "body": "For privacy questions, email privacy@insightexus.com or write to: InsightExus, 123 Tech Street, San Francisco, CA 94105, USA."
+    }
+  ]
+}
