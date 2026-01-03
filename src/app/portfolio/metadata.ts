@@ -1,6 +1,6 @@
 import portfolioData from '@/content/portfolio.json';
 
-export default function generateMetadata() {
+export function generateMetadata() {
   const seo = portfolioData.seo;
   return {
     title: seo.title,
