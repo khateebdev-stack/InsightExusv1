@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Next.js build output
+.next
+out
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -27,3 +31,4 @@ dist-ssr
 *.txt
 # except unrelated txt files if any, but user requested all renamed md -> txt to be ignored
 !robots.txt
+prompts.md
