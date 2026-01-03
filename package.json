@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -26,12 +26,11 @@
     "@typescript-eslint/eslint-plugin": "^8.51.0",
     "@typescript-eslint/parser": "^8.51.0",
     "autoprefixer": "latest",
-    "eslint": "^9.39.2",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.12",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "globals": "^17.0.0",
     "postcss": "latest",
     "tailwindcss": "3.4.17",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.51.0"
+    "typescript": "^5.5.4"
   }
 }
