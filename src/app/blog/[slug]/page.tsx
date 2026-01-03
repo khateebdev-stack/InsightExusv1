@@ -1,10 +1,9 @@
 
-import Image from 'next/image';
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, Calendar, User, Clock, Tag, Share2 } from 'lucide-react';
+import { ArrowLeft, Calendar, User, Clock, Tag } from 'lucide-react';
 import blogData from '@/content/blog.json';
-import { Button } from '@/components/ui/Button';
 
 interface BlogPostSEO {
     title?: string;

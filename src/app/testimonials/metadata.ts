@@ -1,6 +1,6 @@
 import testimonialsData from '@/content/testimonials.json';
 
-export default function generateMetadata() {
+export function generateMetadata() {
   const seo = testimonialsData.seo;
   return {
     title: seo.title,
