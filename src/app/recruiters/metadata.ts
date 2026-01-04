@@ -1,6 +1,6 @@
 import recruitersData from '@/content/recruiters.json';
 
-export default function generateMetadata() {
+export function generateMetadata() {
   const seo = recruitersData.seo;
   return {
     title: seo.title,

@@ -1,6 +1,6 @@
 import solutionsData from '@/content/solutions.json';
 
-export default function generateMetadata() {
+export function generateMetadata() {
   const seo = solutionsData.seo;
   return {
     title: seo.title,

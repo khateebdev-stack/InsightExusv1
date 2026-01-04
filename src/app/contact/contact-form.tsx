@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Check, Loader2, AlertCircle, Upload, ChevronDown } from 'lucide-react';
+import { ArrowRight, Check, AlertCircle, Upload } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { useToast } from '@/components/ui/ToastContext';
 
@@ -109,15 +109,7 @@ export function ContactForm({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 {fields.map((field, index) => {
                     // Logic for column span
-                    const isFullWidth =
-                        field.type === 'textarea' ||
-                        field.name === 'message' ||
-                        field.name === 'subject' ||
-                        field.name === 'company' ||
-                        field.type === 'radio' ||
-                        field.type === 'checkbox' ||
-                        field.type === 'file' ||
-                        field.name === 'email';
+
 
                     const isHalfWidth = field.name.toLowerCase().includes('name') && !field.name.toLowerCase().includes('company');
 
