@@ -1,0 +1,31 @@
+{
+    "seo": {
+        "title": "InsightExus | Engineering Scalable Digital Systems",
+        "description": "Expert software engineering services specializing in web development, system architecture, DevOps, cloud infrastructure, and AI/ML integration. Transform your digital infrastructure with proven solutions.",
+        "keywords": [
+            "software engineering",
+            "web development",
+            "system architecture",
+            "devops",
+            "cloud infrastructure",
+            "AI integration",
+            "InsightExus"
+        ],
+        "canonicalUrl": "https://insightexus.com",
+        "robots": "index, follow",
+        "openGraph": {
+            "title": "InsightExus | Engineering Scalable Digital Systems",
+            "description": "Expert software engineering services specializing in web development, system architecture, DevOps, cloud infrastructure, and AI/ML integration.",
+            "image": "/og-images/home/og-home.png",
+            "siteName": "InsightExus",
+            "type": "website"
+        },
+        "twitter": {
+            "card": "summary_large_image",
+            "title": "InsightExus | Engineering Scalable Digital Systems",
+            "description": "Expert software engineering services specializing in web development, system architecture, DevOps, cloud infrastructure, and AI/ML integration.",
+            "image": "/twitter-images/home/og-home.png",
+            "creator": "@insightexus"
+        }
+    }
+}
