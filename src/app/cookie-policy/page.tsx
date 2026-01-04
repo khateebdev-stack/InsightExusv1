@@ -30,9 +30,9 @@ export default function CookiePolicyPage() {
                         <section key={idx} className="bg-panel-5 border border-panel-10 rounded-2xl p-6 md:p-8">
                             <h2 className="text-2xl font-bold text-white mb-4">{section.title}</h2>
 
-                            {section.content && (
+                            {(section as any).body && (
                                 <p className="text-slate-300 leading-relaxed mb-4">
-                                    {section.content}
+                                    {(section as any).body}
                                 </p>
                             )}
 
