@@ -14,7 +14,7 @@ export default function AboutPage() {
       {hero.visibility && (
         <section className="relative pt-32 pb-20 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-[rgba(var(--color-bg),0.35)] via-[rgba(var(--color-bg),0.85)] to-[rgba(var(--color-bg),1)]" />
-
+          
           <div className="relative z-10 w-full max-w-7xl mx-auto px-8">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -94,7 +94,7 @@ export default function AboutPage() {
                 Principles that define who we are and how we serve our clients
               </p>
             </motion.div>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {values.items.filter((item: any) => item.visibility).map((item: any, idx: number) => (
                 <motion.div
@@ -137,11 +137,11 @@ export default function AboutPage() {
                 {history.description}
               </p>
             </motion.div>
-
+            
             <div className="relative">
               {/* Timeline vertical line */}
               <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-500/50 via-blue-500/30 to-cyan-500/50" />
-
+              
               <div className="space-y-12">
                 {history.milestones.filter((item: any) => item.visibility).map((item: any, idx: number) => (
                   <motion.div
@@ -162,12 +162,12 @@ export default function AboutPage() {
                           </div>
                         </div>
                       </div>
-
+                      
                       {/* Content card */}
                       <div className={`${idx % 2 === 0 ? 'pl-12' : 'pr-12 md:col-start-1 md:row-start-1'}`}>
                         <div className="group relative p-8 rounded-2xl bg-gradient-to-br from-panel-10 to-panel-5 border border-panel-20 hover:border-cyan-500/40 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
                           <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-cyan-500 to-blue-500 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
+                          
                           <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-cyan-400 transition-colors">
                             {item.title}
                           </h3>
@@ -182,13 +182,13 @@ export default function AboutPage() {
                     <div className="md:hidden">
                       <div className="relative pl-8 border-l-2 border-cyan-500/30">
                         <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-cyan-500 ring-4 ring-[rgba(var(--color-bg),1)]" />
-
+                        
                         <div className="mb-3">
                           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-bold bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 text-cyan-400">
                             {item.year}
                           </span>
                         </div>
-
+                        
                         <div className="p-6 rounded-xl bg-gradient-to-br from-panel-10 to-panel-5 border border-panel-20">
                           <h3 className="text-xl font-bold text-primary mb-2">
                             {item.title}
@@ -298,7 +298,7 @@ export default function AboutPage() {
                 {expertise.headline}
               </h2>
             </motion.div>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {expertise.areas.map((area: any, idx: number) => (
                 <motion.div
@@ -345,13 +345,13 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                <Link href={cta.primaryCta.href as any}>
+                <Link href={cta.primaryCta.href}>
                   <Button size="lg">
                     {cta.primaryCta.text}
                   </Button>
                 </Link>
                 {cta.secondaryCta && (
-                  <Link href={cta.secondaryCta.href as any}>
+                  <Link href={cta.secondaryCta.href}>
                     <Button variant="secondary" size="lg">
                       {cta.secondaryCta.text}
                     </Button>
