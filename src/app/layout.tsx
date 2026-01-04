@@ -91,6 +91,11 @@ export const metadata: Metadata = {
         availableLanguage: ['en']
       }
     })
+  },
+  icons: {
+    icon: '/logo2.png',
+    shortcut: '/logo2.png',
+    apple: '/logo2.png',
   }
 };
 

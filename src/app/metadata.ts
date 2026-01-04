@@ -1,6 +1,6 @@
 import homeData from '@/content/home.json';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://insightexus.com';
+
 
 export default function generateMetadata() {
   const seo = homeData.seo;
@@ -23,6 +23,11 @@ export default function generateMetadata() {
       description: seo.twitter.description,
       images: [seo.twitter.image],
       creator: seo.twitter.creator
+    },
+    icons: {
+      icon: '/logo2.png',
+      shortcut: '/logo2.png',
+      apple: '/logo2.png'
     }
   };
 }
