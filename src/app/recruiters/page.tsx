@@ -14,7 +14,7 @@ export default function RecruitersPage() {
       {hero.visibility && (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-900/30 to-black" />
-          
+
           <div className="container relative z-10 mx-auto px-4 py-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,7 @@ export default function RecruitersPage() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 {hero.headline}
               </h1>
-              
+
               <p className="text-lg md:text-xl text-gray-300">
                 {hero.subheadline}
               </p>
@@ -47,7 +47,7 @@ export default function RecruitersPage() {
             >
               {culture.headline}
             </motion.h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {culture.highlights.map((highlight: any, idx: number) => (
                 <motion.div
@@ -84,7 +84,7 @@ export default function RecruitersPage() {
             >
               {benefits.headline}
             </motion.h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               {benefits.categories.map((category: any, idx: number) => (
                 <motion.div
@@ -137,7 +137,7 @@ export default function RecruitersPage() {
                 {openPositions.description}
               </motion.p>
             </motion.div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {openPositions.positions.filter((job: any) => job.visibility).map((job: any, idx: number) => (
                 <motion.div
@@ -211,7 +211,7 @@ export default function RecruitersPage() {
                 {interview.description}
               </motion.p>
             </motion.div>
-            
+
             <div className="max-w-3xl mx-auto">
               {interview.stages.map((stage: any, idx: number) => (
                 <motion.div
@@ -230,7 +230,7 @@ export default function RecruitersPage() {
                       <div className="w-1 h-24 bg-blue-500/30 mt-2" />
                     )}
                   </div>
-                  
+
                   <div className="pb-8 flex-grow">
                     <h3 className="text-lg font-bold text-white mb-1">
                       {stage.title}
@@ -267,13 +267,13 @@ export default function RecruitersPage() {
                 {cta.description}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-                <Link href={cta.primaryCta.href}>
+                <Link href={cta.primaryCta.href as any}>
                   <Button size="lg">
                     {cta.primaryCta.text}
                   </Button>
                 </Link>
                 {cta.secondaryCta && (
-                  <Link href={cta.secondaryCta.href}>
+                  <Link href={cta.secondaryCta.href as any}>
                     <Button variant="secondary" size="lg">
                       {cta.secondaryCta.text}
                     </Button>

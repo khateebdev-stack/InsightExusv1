@@ -98,9 +98,9 @@ export default function HomePage() {
                 <>
                   {hero.buttons.primary.visible && (
                     <Link href={hero.buttons.primary.link as any} className="w-full sm:w-auto">
-                      <Button 
-                        size="md" 
-                        rightIcon={PrimaryIcon ? <PrimaryIcon size={16} /> : undefined} 
+                      <Button
+                        size="md"
+                        rightIcon={PrimaryIcon ? <PrimaryIcon size={16} /> : undefined}
                         className="w-full sm:w-auto"
                       >
                         {hero.buttons.primary.label}
@@ -264,10 +264,10 @@ export default function HomePage() {
                   transition={{ duration: 0.6, delay: idx * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <Link href={`/services/${service.slug}`}>
+                  <Link href={`/services/${service.slug}` as any}>
                     <div className="group relative h-full p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl bg-gradient-to-br from-panel-10 to-panel-5 border border-panel-20 md:hover:border-cyan-500/50 transition-all duration-300 md:hover:shadow-xl md:hover:shadow-cyan-500/10 cursor-pointer">
                       <div className="absolute top-0 left-0 w-1 h-0 md:group-hover:h-full bg-gradient-to-b from-cyan-500 to-blue-500 rounded-l-2xl transition-all duration-300" />
-                      
+
                       <div className="mb-4">
                         {Icon && (
                           <div className={`inline-block p-3 rounded-lg bg-cyan-500/10 border border-cyan-500/20 md:group-hover:bg-cyan-500/20 md:group-hover:border-cyan-500/40 transition-all ${service.iconColor}`}>
@@ -379,7 +379,7 @@ export default function HomePage() {
                       </h3>
                     </div>
                   </div>
-                  
+
                   <p className="text-sm sm:text-base text-secondary mb-4 sm:mb-6 leading-relaxed">
                     {benefit.description}
                   </p>
@@ -426,7 +426,7 @@ export default function HomePage() {
                 transition={{ duration: 0.6, delay: idx * 0.12 }}
                 viewport={{ once: true }}
               >
-                <Link href={`/projects/${project.slug}`}>
+                <Link href={`/projects/${project.slug}` as any}>
                   <div className="group relative rounded-lg sm:rounded-2xl overflow-hidden border border-panel-20 hover:border-cyan-500/40 transition-all duration-300">
                     {/* Gradient Background */}
                     <div className="absolute inset-0 bg-gradient-to-br from-panel-10 via-panel-5 to-panel-10 opacity-60" />
@@ -533,7 +533,7 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mt-10 md:mt-12"
           >
-            <Link href="/projects">
+            <Link href={"/projects" as any}>
               <Button size="lg" variant="glass">
                 View All Projects
               </Button>
@@ -794,7 +794,7 @@ export default function HomePage() {
                   {(() => {
                     const featured = testimonialsData.testimonials.filter((t: any) => t.visibility && t.featured);
                     const testimonial = featured[activeTestimonial];
-                    
+
                     return (
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-start">
                         {/* Left: Quote and Author */}
@@ -852,11 +852,10 @@ export default function HomePage() {
                   <button
                     key={idx}
                     onClick={() => setActiveTestimonial(idx)}
-                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                      idx === activeTestimonial
+                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${idx === activeTestimonial
                         ? 'bg-cyan-400 w-6 sm:w-8'
                         : 'bg-panel-20 hover:bg-panel-30'
-                    }`}
+                      }`}
                     aria-label={`Go to testimonial ${idx + 1}`}
                   />
                 ))}

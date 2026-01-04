@@ -56,7 +56,7 @@ export default function PortfolioGalleryPage() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.05 }}
             >
-              <Link href={`/projects/${project.slug}`} className="block h-full">
+              <Link href={`/projects/${project.slug}` as any} className="block h-full">
                 <div className="relative h-full rounded-2xl overflow-hidden group cursor-pointer bg-gradient-to-br from-panel-5 to-panel-10 border border-panel-10 hover:border-primary/50 transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-purple-500/5" />
 
@@ -86,7 +86,7 @@ export default function PortfolioGalleryPage() {
                           const isPerfChange = value.includes('→');
                           const displayValue = isPerfChange ? value.split('→')[1].trim() : value;
                           return (
-                            <span 
+                            <span
                               key={key}
                               className="text-xs bg-primary/30 text-cyan-300 px-2 py-1 rounded"
                             >
@@ -132,7 +132,7 @@ export default function PortfolioGalleryPage() {
                     {industryProjects.map(p => (
                       <Link
                         key={p.slug}
-                        href={`/projects/${p.slug}`}
+                        href={`/projects/${p.slug}` as any}
                         className="text-xs px-3 py-1 rounded-full bg-panel-5 hover:bg-primary/30 text-slate-300 hover:text-primary transition-all border border-panel-10 hover:border-primary/50"
                       >
                         {p.title}
@@ -146,7 +146,7 @@ export default function PortfolioGalleryPage() {
         </div>
       </div>
 
-      <motion.div 
+      <motion.div
         className="grid md:grid-cols-3 gap-8 mb-20"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -177,13 +177,13 @@ export default function PortfolioGalleryPage() {
           Interested in what we can build together?
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <Link 
+          <Link
             href="/projects"
             className="px-8 py-3 rounded-lg bg-primary/20 hover:bg-primary/30 text-primary font-semibold transition-all border border-primary/50"
           >
             View All Projects
           </Link>
-          <Link 
+          <Link
             href="/contact"
             className="px-8 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-primary hover:from-cyan-600 hover:to-primary text-white font-semibold transition-all"
           >

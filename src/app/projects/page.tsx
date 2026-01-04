@@ -64,8 +64,8 @@ export default function ProjectsPage() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <Link href={`/projects/${project.slug}`} className="block h-full">
-                <GlassCard 
+              <Link href={`/projects/${project.slug}` as any} className="block h-full">
+                <GlassCard
                   className="p-0 flex flex-col h-full overflow-hidden group cursor-pointer"
                   hoverEffect
                   delay={index * 0.1}
