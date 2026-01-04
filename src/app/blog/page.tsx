@@ -79,7 +79,7 @@ export default function BlogPage() {
                     ))}
                   </div>
 
-                  <Link href={`/blog/${post.slug}`}>
+                  <Link href={`/blog/${post.slug}` as any}>
                     <h3 className="text-xl font-bold text-primary mb-2 group-hover:text-[rgb(var(--accent-cyan))] transition">
                       {post.title}
                     </h3>

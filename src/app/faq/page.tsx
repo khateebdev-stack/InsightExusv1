@@ -238,7 +238,7 @@ export default function FAQPage() {
 
                             <div className="flex flex-col gap-3">
                                 <Link
-                                    href={stillHaveQuestions.cta.href}
+                                    href={stillHaveQuestions.cta.href as any}
                                     className="w-full py-3 rounded-xl bg-[rgb(var(--accent-cyan))] text-white font-bold text-sm"
                                 >
                                     {stillHaveQuestions.cta.text}

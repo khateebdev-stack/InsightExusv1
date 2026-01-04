@@ -21,7 +21,7 @@ interface Project {
 
 export default function CaseStudiesPage() {
   const projects = (projectsData.projects || projectsData) as unknown as Project[];
-  
+
   return (
     <div className="pt-32 pb-12 site-padding max-w-7xl mx-auto">
       <div className="text-center mb-20">
@@ -128,7 +128,7 @@ export default function CaseStudiesPage() {
                 </div>
 
                 <Link
-                  href={`/projects/${project.slug}`}
+                  href={`/projects/${project.slug}` as any}
                   className="inline-flex items-center gap-2 text-cyan-400 hover:text-primary transition-colors group"
                 >
                   View Full Project
