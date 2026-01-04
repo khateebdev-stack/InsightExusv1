@@ -1,6 +1,6 @@
 import React from 'react';
 import { Zap, Layers, Code, LucideIcon } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { GlassCard } from '../ui/GlassCard';
 import { ArrowRight } from 'lucide-react';
 
@@ -74,7 +74,7 @@ export function ValuePropositionGrid({
                   {item.description}
                 </p>
                 <Link
-                  to={item.link}
+                  href={item.link as any}
                   className="text-cyan-400 text-sm font-medium flex items-center hover:text-cyan-300 transition-colors"
                 >
                   Learn more <ArrowRight size={14} className="ml-1" />

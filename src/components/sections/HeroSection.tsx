@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Layers, Cpu, Shield, Zap } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { GlassCard } from '../ui/GlassCard';
 import { TypewriterText } from '../ui/TypewriterText';
-import { Link } from 'react-router-dom';
 
 export interface HeroSectionProps {
   badge?: string;
@@ -83,7 +83,7 @@ export function HeroSection({
             className="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4"
           >
             {ctaButtons.map((btn, i) => (
-              <Link key={i} to={btn.link} className="w-full sm:w-auto">
+              <Link key={i} href={btn.link as any} className="w-full sm:w-auto">
                 <Button
                   size="md"
                   variant={btn.variant as any}

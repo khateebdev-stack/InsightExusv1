@@ -21,7 +21,7 @@ interface SocialShareProps {
 export function SocialShare({
   url,
   title,
-  description = '',
+  description: _description = '',
   buttons = {},
   customMessage
 }: SocialShareProps) {

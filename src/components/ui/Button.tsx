@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, HTMLMotionProps } from 'framer-motion';
 import { Loader2 } from 'lucide-react';
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends HTMLMotionProps<"button"> {
   variant?: 'primary' | 'secondary' | 'glass' | 'outline';
   size?: 'sm' | 'md' | 'lg';
   isLoading?: boolean;
@@ -37,9 +37,9 @@ export function Button({
   }} whileTap={{
     scale: disabled || isLoading ? 1 : 0.98
   }} className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`} disabled={disabled || isLoading} {...props}>
-      {isLoading && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
-      {!isLoading && leftIcon && <span className="mr-2">{leftIcon}</span>}
-      {children}
-      {!isLoading && rightIcon && <span className="ml-2">{rightIcon}</span>}
-    </motion.button>;
+    {isLoading && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
+    {!isLoading && leftIcon && <span className="mr-2">{leftIcon}</span>}
+    {children as any}
+    {!isLoading && rightIcon && <span className="ml-2">{rightIcon}</span>}
+  </motion.button>;
 }

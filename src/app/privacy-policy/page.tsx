@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
 
                 {/* Content */}
                 <div className="space-y-12">
-                    {sections.map((section, idx) => (
+                    {sections.map((section: any, idx) => (
                         <section key={idx} className="bg-panel-5 border border-panel-10 rounded-2xl p-6 md:p-8">
                             <h2 className="text-2xl font-bold text-white mb-4">{section.title}</h2>
 
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
 
                             {section.items && (
                                 <ul className="list-disc pl-5 space-y-2 text-slate-300">
-                                    {section.items.map((item, i) => (
+                                    {section.items.map((item: string, i: number) => (
                                         <li key={i}>{item}</li>
                                     ))}
                                 </ul>

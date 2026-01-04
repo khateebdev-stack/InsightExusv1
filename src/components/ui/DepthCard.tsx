@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 interface DepthCardProps {
-  children: ReactNode;
+  children: React.ReactNode;
   className?: string;
   delay?: number;
   onClick?: () => void;
@@ -37,6 +37,6 @@ export function DepthCard({
         ${onClick ? 'cursor-pointer' : ''}
         ${className}
       `}>
-      {children}
-    </motion.div>;
+    {children}
+  </motion.div>;
 }

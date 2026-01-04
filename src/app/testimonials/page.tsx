@@ -52,7 +52,7 @@ export default function TestimonialsPage() {
               >
                 {/* Stars */}
                 <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating || 5)].map((_, i) => (
+                  {[...Array(Math.round(testimonial.rating || 5))].map((_, i) => (
                     <span key={i} className="text-yellow-400">⭐</span>
                   ))}
                 </div>

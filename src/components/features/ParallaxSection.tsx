@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 interface ParallaxSectionProps {
-  children: ReactNode;
+  children: React.ReactNode;
   className?: string;
   speed?: number; // 0 to 1, where 1 is fastest
   direction?: 'up' | 'down';
@@ -22,10 +22,10 @@ export function ParallaxSection({
   const yRange = direction === 'up' ? [100 * speed, -100 * speed] : [-100 * speed, 100 * speed];
   const y = useTransform(scrollYProgress, [0, 1], yRange);
   return <div ref={ref} className={`relative overflow-hidden ${className}`}>
-      <motion.div style={{
+    <motion.div style={{
       y
     }} className="w-full h-full">
-        {children}
-      </motion.div>
-    </div>;
+      {children}
+    </motion.div>
+  </div>;
 }

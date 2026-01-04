@@ -5,7 +5,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://insightexus.com';
   const services = (servicesData as any).services || [];
 
-  const keywords = Array.from(new Set(services.flatMap((s: any) => s.seo?.keywords || []))).slice(0, 30);
+  const keywords = Array.from(new Set(services.flatMap((s: any) => s.seo?.keywords || []))).slice(0, 30) as string[];
 
   const ogImage = services[0]?.seo?.openGraph?.image || '/og-images/services/services-og.png';
 
