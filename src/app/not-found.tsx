@@ -28,14 +28,14 @@ export default function NotFound() {
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     {content.hero.ctaPrimary && (
-                        <Link href={content.hero.ctaPrimary.href}>
+                        <Link href={content.hero.ctaPrimary.href as any}>
                             <Button size="lg" className="w-full sm:w-auto">
                                 {content.hero.ctaPrimary.text}
                             </Button>
                         </Link>
                     )}
                     {content.hero.ctaSecondary && (
-                        <Link href={content.hero.ctaSecondary.href}>
+                        <Link href={content.hero.ctaSecondary.href as any}>
                             <Button variant="outline" size="lg" className="w-full sm:w-auto">
                                 {content.hero.ctaSecondary.text}
                             </Button>
@@ -52,7 +52,7 @@ export default function NotFound() {
                             {content.suggestions.links.map((link, idx) => (
                                 <Link
                                     key={idx}
-                                    href={link.href}
+                                    href={link.href as any}
                                     className="text-[rgb(var(--accent-cyan))] hover:text-[rgb(var(--accent-cyan))]/80 transition-colors text-sm"
                                 >
                                     {link.text}

@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button';
 import testimonialsData from '@/content/testimonials.json';
 
 export default function TestimonialsPage() {
-  const { hero, testimonials, stats, caseStudySection, cta } = testimonialsData;
+  const { hero, testimonials, stats, caseLinkSection, cta } = testimonialsData;
 
   return (
     <main className="w-full">
@@ -14,7 +14,7 @@ export default function TestimonialsPage() {
       {hero.visibility && (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-900/30 to-black" />
-          
+
           <div className="container relative z-10 mx-auto px-4 py-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,7 @@ export default function TestimonialsPage() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 {hero.headline}
               </h1>
-              
+
               <p className="text-lg md:text-xl text-gray-300">
                 {hero.subheadline}
               </p>
@@ -45,11 +45,10 @@ export default function TestimonialsPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: idx * 0.1 }}
                 viewport={{ once: true }}
-                className={`p-6 rounded-lg border transition ${
-                  testimonial.featured
-                    ? 'bg-blue-500/10 border-blue-500/50 md:col-span-2 lg:col-span-3'
-                    : 'bg-gray-800 border-gray-700'
-                }`}
+                className={`p-6 rounded-lg border transition ${testimonial.featured
+                  ? 'bg-blue-500/10 border-blue-500/50 md:col-span-2 lg:col-span-3'
+                  : 'bg-gray-800 border-gray-700'
+                  }`}
               >
                 {/* Stars */}
                 <div className="flex gap-1 mb-4">
@@ -118,7 +117,7 @@ export default function TestimonialsPage() {
       )}
 
       {/* Case Study Section */}
-      {caseStudySection.visibility && (
+      {caseLinkSection.visibility && (
         <section className="py-16 md:py-24 bg-black">
           <div className="container mx-auto px-4">
             <motion.div
@@ -129,14 +128,14 @@ export default function TestimonialsPage() {
               className="max-w-3xl mx-auto text-center"
             >
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                {caseStudySection.headline}
+                {caseLinkSection.headline}
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                {caseStudySection.description}
+                {caseLinkSection.description}
               </p>
-              <Link href={caseStudySection.cta.href}>
+              <Link href={caseLinkSection.cta.href as any}>
                 <Button size="lg">
-                  {caseStudySection.cta.text}
+                  {caseLinkSection.cta.text}
                 </Button>
               </Link>
             </motion.div>
@@ -159,18 +158,18 @@ export default function TestimonialsPage() {
                 {cta.headline}
               </h2>
               <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-                {cta.subheadline}
+                {cta.description}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-                <Link href={cta.buttons[0].href}>
+                <Link href={cta.primaryCta.href as any}>
                   <Button size="lg">
-                    {cta.buttons[0].text}
+                    {cta.primaryCta.text}
                   </Button>
                 </Link>
-                {cta.buttons[1] && (
-                  <Link href={cta.buttons[1].href}>
+                {cta.secondaryCta && (
+                  <Link href={cta.secondaryCta.href as any}>
                     <Button variant="secondary" size="lg">
-                      {cta.buttons[1].text}
+                      {cta.secondaryCta.text}
                     </Button>
                   </Link>
                 )}
